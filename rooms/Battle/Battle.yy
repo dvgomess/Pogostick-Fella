@@ -25,6 +25,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"PlayerHealthSlider","path":"objects/PlayerHealthSlider/PlayerHealthSlider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"inst_530049EF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"EnemyHealthSlider","path":"objects/EnemyHealthSlider/EnemyHealthSlider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":32.0,"resourceVersion":"1.0","name":"inst_6A3012D7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ButtonSelectedController","path":"objects/ButtonSelectedController/ButtonSelectedController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_491A4B2F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"BattleText","path":"objects/BattleText/BattleText.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_560093D4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Background","path":"sprites/Background/Background.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":5.0,"scaleY":4.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_6F47BE8","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -42,6 +43,7 @@
     {"name":"inst_530049EF","path":"rooms/Battle/Battle.yy",},
     {"name":"inst_6A3012D7","path":"rooms/Battle/Battle.yy",},
     {"name":"inst_491A4B2F","path":"rooms/Battle/Battle.yy",},
+    {"name":"inst_560093D4","path":"rooms/Battle/Battle.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -9,6 +9,7 @@
     {"id":{"name":"mainchar","path":"sprites/mainchar/mainchar.yy",},"order":0,},
     {"id":{"name":"HealthSliderBlue","path":"sprites/HealthSliderBlue/HealthSliderBlue.yy",},"order":5,},
     {"id":{"name":"oPlayerVisualsOOB","path":"objects/oPlayerVisualsOOB/oPlayerVisualsOOB.yy",},"order":1,},
+    {"id":{"name":"_220206__gameaudio__beep_space_button","path":"sounds/_220206__gameaudio__beep_space_button/_220206__gameaudio__beep_space_button.yy",},"order":0,},
     {"id":{"name":"HealthSliderRed","path":"sprites/HealthSliderRed/HealthSliderRed.yy",},"order":6,},
     {"id":{"name":"studentdesk","path":"sprites/studentdesk/studentdesk.yy",},"order":1,},
     {"id":{"name":"sFloorTile","path":"sprites/sFloorTile/sFloorTile.yy",},"order":11,},
@@ -25,11 +26,13 @@
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":0,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
     {"id":{"name":"oBattleStart","path":"objects/oBattleStart/oBattleStart.yy",},"order":0,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"fan1","path":"sprites/fan1/fan1.yy",},"order":4,},
     {"id":{"name":"emo","path":"sprites/emo/emo.yy",},"order":6,},
     {"id":{"name":"oPunch","path":"objects/oPunch/oPunch.yy",},"order":0,},
     {"id":{"name":"sHealEnemyPH","path":"sprites/sHealEnemyPH/sHealEnemyPH.yy",},"order":6,},
     {"id":{"name":"BraceButton","path":"sprites/BraceButton/BraceButton.yy",},"order":3,},
+    {"id":{"name":"BattleText","path":"objects/BattleText/BattleText.yy",},"order":5,},
     {"id":{"name":"ButtonSelectedController","path":"objects/ButtonSelectedController/ButtonSelectedController.yy",},"order":4,},
     {"id":{"name":"sBonkButtonPH","path":"sprites/sBonkButtonPH/sBonkButtonPH.yy",},"order":1,},
     {"id":{"name":"sEnemyHealthMeterSlider","path":"sprites/sEnemyHealthMeterSlider/sEnemyHealthMeterSlider.yy",},"order":5,},
@@ -90,7 +93,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"GDCFP1.ttf","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.6.595",
   },
