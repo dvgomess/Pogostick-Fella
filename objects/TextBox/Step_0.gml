@@ -49,3 +49,21 @@ if(global.BattleStep == 3)
 	sprite_index = TextBoxBackground;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 66313007
+/// @DnDArgument : "var" "global.BattleStep"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "4"
+if(global.BattleStep >= 4)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B2FBDC5
+	/// @DnDParent : 66313007
+	/// @DnDArgument : "spriteind" "TextBoxBackground"
+	/// @DnDSaveInfo : "spriteind" "TextBoxBackground"
+	sprite_index = TextBoxBackground;
+	image_index = 0;
+}

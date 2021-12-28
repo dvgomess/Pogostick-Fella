@@ -15,6 +15,40 @@ z = (random_range(-1, 1));
 x += 0;
 y += z;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7FA19FD1
+/// @DnDArgument : "var" "global.Victory"
+if(global.Victory == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 2FC4A963
+	/// @DnDParent : 7FA19FD1
+	/// @DnDArgument : "imageind" "1"
+	/// @DnDArgument : "spriteind" "sVictory"
+	/// @DnDSaveInfo : "spriteind" "sVictory"
+	sprite_index = sVictory;
+	image_index = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 10FEC46B
+/// @DnDArgument : "var" "global.Victory"
+/// @DnDArgument : "value" "1"
+if(global.Victory == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 596DF6BC
+	/// @DnDParent : 10FEC46B
+	/// @DnDArgument : "spriteind" "sVictory"
+	/// @DnDSaveInfo : "spriteind" "sVictory"
+	sprite_index = sVictory;
+	image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 75F80143

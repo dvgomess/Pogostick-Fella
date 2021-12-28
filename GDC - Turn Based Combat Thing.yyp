@@ -10,7 +10,7 @@
     {"id":{"name":"HealthSliderBlue","path":"sprites/HealthSliderBlue/HealthSliderBlue.yy",},"order":5,},
     {"id":{"name":"oPlayerVisualsOOB","path":"objects/oPlayerVisualsOOB/oPlayerVisualsOOB.yy",},"order":1,},
     {"id":{"name":"_220206__gameaudio__beep_space_button","path":"sounds/_220206__gameaudio__beep_space_button/_220206__gameaudio__beep_space_button.yy",},"order":0,},
-    {"id":{"name":"oBattleStepController","path":"objects/oBattleStepController/oBattleStepController.yy",},"order":3,},
+    {"id":{"name":"oBattleEndDetection","path":"objects/oBattleEndDetection/oBattleEndDetection.yy",},"order":3,},
     {"id":{"name":"HealthSliderRed","path":"sprites/HealthSliderRed/HealthSliderRed.yy",},"order":6,},
     {"id":{"name":"studentdesk","path":"sprites/studentdesk/studentdesk.yy",},"order":1,},
     {"id":{"name":"sFloorTile","path":"sprites/sFloorTile/sFloorTile.yy",},"order":11,},
@@ -101,7 +101,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"GDCFP1.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "GDC - Turn Based Combat Thing",
