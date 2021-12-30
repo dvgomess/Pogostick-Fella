@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "shadyfella",
-    "path": "sprites/shadyfella/shadyfella.yy",
+    "name": "sEnemyStyle1",
+    "path": "sprites/sEnemyStyle1/sEnemyStyle1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Overworld",
-    "path": "folders/Objects/Overworld.yy",
+    "name": "EditingEnemyStyle",
+    "path": "folders/Objects/GodModeStuff/EditingEnemyStyle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBattleStart",
+  "name": "EnemyStyleOption1",
   "tags": [],
   "resourceType": "GMObject",
 }

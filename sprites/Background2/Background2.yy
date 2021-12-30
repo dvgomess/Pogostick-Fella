@@ -44,7 +44,7 @@
     "spriteId": {"name":"Background2","path":"sprites/Background2/Background2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 4.0,
+    "playbackSpeed": 2.816667,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
