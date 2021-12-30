@@ -93,3 +93,54 @@ if(global.BackgroundColor == 6)
 	image_blend = $FFE5E5E5 & $ffffff;
 	image_alpha = ($FFE5E5E5 >> 24) / $ff;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A043196
+/// @DnDArgument : "var" "global.BackgroundStyle"
+/// @DnDArgument : "value" "1"
+if(global.BackgroundStyle == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 1816A33D
+	/// @DnDParent : 3A043196
+	/// @DnDArgument : "spriteind" "Background1"
+	/// @DnDSaveInfo : "spriteind" "Background1"
+	sprite_index = Background1;
+	image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2600ECF1
+/// @DnDArgument : "var" "global.BackgroundStyle"
+/// @DnDArgument : "value" "2"
+if(global.BackgroundStyle == 2)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 48FF88A6
+	/// @DnDParent : 2600ECF1
+	/// @DnDArgument : "spriteind" "Background2"
+	/// @DnDSaveInfo : "spriteind" "Background2"
+	sprite_index = Background2;
+	image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 10C495E5
+/// @DnDArgument : "var" "global.BackgroundStyle"
+/// @DnDArgument : "value" "3"
+if(global.BackgroundStyle == 3)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 20E8A3F2
+	/// @DnDParent : 10C495E5
+	/// @DnDArgument : "spriteind" "Background3"
+	/// @DnDSaveInfo : "spriteind" "Background3"
+	sprite_index = Background3;
+	image_index = 0;
+}

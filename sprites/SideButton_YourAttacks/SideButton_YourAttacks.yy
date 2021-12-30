@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GodmodeStuff",
-    "path": "folders/Sprites/GodmodeStuff.yy",
+    "name": "SideButtons",
+    "path": "folders/Sprites/GodmodeStuff/SideButtons.yy",
   },
   "resourceVersion": "1.0",
   "name": "SideButton_YourAttacks",

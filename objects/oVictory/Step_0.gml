@@ -57,9 +57,11 @@ var l75F80143_0;
 l75F80143_0 = keyboard_check(ord("R"));
 if (l75F80143_0)
 {
-	/// @DnDAction : YoYo Games.Game.Restart_Game
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 573BA66F
+	/// @DnDHash : 067FAC9C
 	/// @DnDParent : 75F80143
-	game_restart();
+	/// @DnDArgument : "room" "Home"
+	/// @DnDSaveInfo : "room" "Home"
+	room_goto(Home);
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Background",
-    "path": "sprites/Background/Background.yy",
+    "name": "Background1",
+    "path": "sprites/Background1/Background1.yy",
   },
   "solid": false,
   "visible": true,

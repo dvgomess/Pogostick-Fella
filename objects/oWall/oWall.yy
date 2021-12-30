@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWall_",
+    "path": "objects/oWall_/oWall_.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

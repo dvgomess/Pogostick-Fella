@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "mainchar",
-    "path": "sprites/mainchar/mainchar.yy",
+    "name": "sStyleOption2",
+    "path": "sprites/sStyleOption2/sStyleOption2.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Overworld",
-    "path": "folders/Objects/Overworld.yy",
+    "name": "EditingBGstyle",
+    "path": "folders/Objects/GodModeStuff/EditingBGstyle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerVisualsOOB",
+  "name": "StyleOption2",
   "tags": [],
   "resourceType": "GMObject",
 }
