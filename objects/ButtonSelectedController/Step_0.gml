@@ -97,9 +97,8 @@ if(global.BattleStep == 1)
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 /// @DnDVersion : 1
 /// @DnDHash : 6B3BF0CD
-/// @DnDArgument : "key" "ord("J")"
 var l6B3BF0CD_0;
-l6B3BF0CD_0 = keyboard_check_released(ord("J"));
+l6B3BF0CD_0 = keyboard_check_released(vk_space);
 if (l6B3BF0CD_0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
