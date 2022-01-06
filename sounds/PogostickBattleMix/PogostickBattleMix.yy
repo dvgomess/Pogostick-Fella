@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Enemy_Fight_me_VibeCheckDraft1.mp3",
-  "duration": 141.897064,
+  "soundFile": "PogostickBattleMix.ogg",
+  "duration": 68.16558,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy_Fight_me_VibeCheckDraft1",
+  "name": "PogostickBattleMix",
   "tags": [],
   "resourceType": "GMSound",
 }

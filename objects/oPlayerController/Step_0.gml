@@ -42,10 +42,10 @@ if (l2AC44CDB_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 3B88461A
 				/// @DnDParent : 169015D9
-				/// @DnDArgument : "y" "-(varSpeed)*(.8)"
+				/// @DnDArgument : "y" "-(varSpeed)*(.75)"
 				/// @DnDArgument : "y_relative" "1"
 				
-				y += -(varSpeed)*(.8);
+				y += -(varSpeed)*(.75);
 			}
 		}
 	
@@ -72,10 +72,10 @@ if (l2AC44CDB_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 401C7CEE
 				/// @DnDParent : 7906B2AA
-				/// @DnDArgument : "y" "-(varSpeed)*(.8)"
+				/// @DnDArgument : "y" "-(varSpeed)*(.75)"
 				/// @DnDArgument : "y_relative" "1"
 				
-				y += -(varSpeed)*(.8);
+				y += -(varSpeed)*(.75);
 			}
 		}
 	
@@ -250,9 +250,9 @@ if (l3D650513_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 0C909327
 				/// @DnDParent : 41ADEC6D
-				/// @DnDArgument : "x" "-(varSpeed)*(.8)"
+				/// @DnDArgument : "x" "-(varSpeed)*(.75)"
 				/// @DnDArgument : "x_relative" "1"
-				x += -(varSpeed)*(.8);
+				x += -(varSpeed)*(.75);
 			}
 		}
 	
@@ -279,9 +279,9 @@ if (l3D650513_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 4ED964A9
 				/// @DnDParent : 6D7CC227
-				/// @DnDArgument : "x" "-(varSpeed)*(.8)"
+				/// @DnDArgument : "x" "-(varSpeed)*(.75)"
 				/// @DnDArgument : "x_relative" "1"
-				x += -(varSpeed)*(.8);
+				x += -(varSpeed)*(.75);
 			}
 		}
 	}
@@ -392,10 +392,10 @@ if (l7DB9F92C_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 2DE8D24A
 				/// @DnDParent : 45FFCCDB
-				/// @DnDArgument : "y" "varSpeed*(.8)"
+				/// @DnDArgument : "y" "varSpeed*(.75)"
 				/// @DnDArgument : "y_relative" "1"
 				
-				y += varSpeed*(.8);
+				y += varSpeed*(.75);
 			}
 		}
 	
@@ -422,10 +422,10 @@ if (l7DB9F92C_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 41909FF5
 				/// @DnDParent : 4E4987BF
-				/// @DnDArgument : "y" "varSpeed*(.8)"
+				/// @DnDArgument : "y" "varSpeed*(.75)"
 				/// @DnDArgument : "y_relative" "1"
 				
-				y += varSpeed*(.8);
+				y += varSpeed*(.75);
 			}
 		}
 	}
@@ -541,9 +541,9 @@ if (l6989B44D_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 315B2877
 				/// @DnDParent : 027CA31E
-				/// @DnDArgument : "x" "varSpeed*(.8)"
+				/// @DnDArgument : "x" "varSpeed*(.75)"
 				/// @DnDArgument : "x_relative" "1"
-				x += varSpeed*(.8);
+				x += varSpeed*(.75);
 			}
 		}
 	
@@ -570,9 +570,9 @@ if (l6989B44D_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 52C9A317
 				/// @DnDParent : 2C5283AF
-				/// @DnDArgument : "x" "varSpeed*(.8)"
+				/// @DnDArgument : "x" "varSpeed*(.75)"
 				/// @DnDArgument : "x_relative" "1"
-				x += varSpeed*(.8);
+				x += varSpeed*(.75);
 			}
 		}
 	}
