@@ -9,9 +9,9 @@ if(global.BattleStep == 6)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DAFF4CC
 	/// @DnDParent : 4696AF02
-	/// @DnDArgument : "soundid" "PogostickBattleMix"
-	/// @DnDSaveInfo : "soundid" "PogostickBattleMix"
-	audio_stop_sound(PogostickBattleMix);
+	/// @DnDArgument : "soundid" "PogostickBattleMix2"
+	/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
+	audio_stop_sound(PogostickBattleMix2);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

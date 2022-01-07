@@ -63,9 +63,23 @@ global.EnemyEVA = 1;
 global.EditingPlayerStatsSelectedButton = 1;
 global.EditingEnemyStatsSelectedButton = 1;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 24AD7176
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "300"
+/// @DnDArgument : "expr_1" "280"
+/// @DnDArgument : "expr_2" "School_1_0"
+/// @DnDArgument : "var" "global.PlayerXposition"
+/// @DnDArgument : "var_1" "global.PlayerYposition"
+/// @DnDArgument : "var_2" "global.CurrentRoom"
+global.PlayerXposition = 300;
+global.PlayerYposition = 280;
+global.CurrentRoom = School_1_0;
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 0ACFB833
-/// @DnDArgument : "room" "Home"
-/// @DnDSaveInfo : "room" "Home"
-room_goto(Home);
+/// @DnDArgument : "room" "School_1_0"
+/// @DnDSaveInfo : "room" "School_1_0"
+room_goto(School_1_0);

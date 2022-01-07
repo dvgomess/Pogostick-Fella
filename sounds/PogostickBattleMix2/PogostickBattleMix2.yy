@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "PogostickBattleMix.ogg",
+  "soundFile": "PogostickBattleMix2.ogg",
   "duration": 68.16558,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PogostickBattleMix",
+  "name": "PogostickBattleMix2",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -86,11 +86,71 @@ if (l2174CEA6_0)
 	/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
 	audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
 
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 188D3EC3
+	/// @DnDHash : 4960F8B5
 	/// @DnDParent : 2174CEA6
-	/// @DnDArgument : "room" "Home"
-	/// @DnDSaveInfo : "room" "Home"
-	room_goto(Home);
+	/// @DnDArgument : "var" "global.CurrentRoom"
+	/// @DnDArgument : "value" "School_1_0"
+	if(global.CurrentRoom == School_1_0)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 6855E51F
+		/// @DnDParent : 4960F8B5
+		/// @DnDArgument : "room" "School_1_0"
+		/// @DnDSaveInfo : "room" "School_1_0"
+		room_goto(School_1_0);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7DCFFA13
+	/// @DnDParent : 2174CEA6
+	/// @DnDArgument : "var" "global.CurrentRoom"
+	/// @DnDArgument : "value" "School_1_1"
+	if(global.CurrentRoom == School_1_1)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 79BEC5F6
+		/// @DnDParent : 7DCFFA13
+		/// @DnDArgument : "room" "School_1_1"
+		/// @DnDSaveInfo : "room" "School_1_1"
+		room_goto(School_1_1);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 42808BB5
+	/// @DnDParent : 2174CEA6
+	/// @DnDArgument : "var" "global.CurrentRoom"
+	/// @DnDArgument : "value" "School_1_2"
+	if(global.CurrentRoom == School_1_2)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 3CADFF91
+		/// @DnDParent : 42808BB5
+		/// @DnDArgument : "room" "School_1_2"
+		/// @DnDSaveInfo : "room" "School_1_2"
+		room_goto(School_1_2);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2765C121
+	/// @DnDParent : 2174CEA6
+	/// @DnDArgument : "var" "global.CurrentRoom"
+	/// @DnDArgument : "value" "School_1_3"
+	if(global.CurrentRoom == School_1_3)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 024A37EF
+		/// @DnDParent : 2765C121
+		/// @DnDArgument : "room" "School_1_3"
+		/// @DnDSaveInfo : "room" "School_1_3"
+		room_goto(School_1_3);
+	}
 }
