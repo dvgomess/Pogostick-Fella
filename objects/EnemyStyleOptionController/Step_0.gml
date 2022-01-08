@@ -56,4 +56,30 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDArgument : "var" "global.EnemyStyle"
 		global.EnemyStyle = 2;
 	}
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B0E09C0
+	/// @DnDParent : 26E1014E
+	/// @DnDArgument : "key" "ord("3")"
+	var l7B0E09C0_0;
+	l7B0E09C0_0 = keyboard_check_pressed(ord("3"));
+	if (l7B0E09C0_0)
+	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F1C4692
+		/// @DnDParent : 7B0E09C0
+		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
+		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5D419BC3
+		/// @DnDParent : 7B0E09C0
+		/// @DnDArgument : "expr" "3"
+		/// @DnDArgument : "var" "global.EnemyStyle"
+		global.EnemyStyle = 3;
+	}
 }

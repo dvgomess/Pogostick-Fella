@@ -31,3 +31,20 @@ if(global.EnemyStyle == 2)
 	sprite_index = sBattleDummy;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4ECA42A9
+/// @DnDArgument : "var" "global.EnemyStyle"
+/// @DnDArgument : "value" "3"
+if(global.EnemyStyle == 3)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 2C931E9B
+	/// @DnDParent : 4ECA42A9
+	/// @DnDArgument : "spriteind" "staringclubenthusiast"
+	/// @DnDSaveInfo : "spriteind" "staringclubenthusiast"
+	sprite_index = staringclubenthusiast;
+	image_index = 0;
+}
