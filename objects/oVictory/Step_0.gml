@@ -61,7 +61,7 @@ if (l75F80143_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 067FAC9C
 	/// @DnDParent : 75F80143
-	/// @DnDArgument : "room" "Home"
-	/// @DnDSaveInfo : "room" "Home"
-	room_goto(Home);
+	/// @DnDArgument : "room" "Home0"
+	/// @DnDSaveInfo : "room" "Home0"
+	room_goto(Home0);
 }

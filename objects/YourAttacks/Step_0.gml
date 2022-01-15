@@ -10,9 +10,9 @@ if(global.GodmodeSelectedButton == 5)
 	/// @DnDHash : 0255C447
 	/// @DnDParent : 72285B93
 	/// @DnDArgument : "imageind" "1"
-	/// @DnDArgument : "spriteind" "SideButton_YourAttacks"
-	/// @DnDSaveInfo : "spriteind" "SideButton_YourAttacks"
-	sprite_index = SideButton_YourAttacks;
+	/// @DnDArgument : "spriteind" "SideButton_Position"
+	/// @DnDSaveInfo : "spriteind" "SideButton_Position"
+	sprite_index = SideButton_Position;
 	image_index = 1;
 }
 
@@ -28,8 +28,8 @@ if(!(global.GodmodeSelectedButton == 5))
 	/// @DnDVersion : 1
 	/// @DnDHash : 6898457D
 	/// @DnDParent : 21AB2141
-	/// @DnDArgument : "spriteind" "SideButton_YourAttacks"
-	/// @DnDSaveInfo : "spriteind" "SideButton_YourAttacks"
-	sprite_index = SideButton_YourAttacks;
+	/// @DnDArgument : "spriteind" "SideButton_Position"
+	/// @DnDSaveInfo : "spriteind" "SideButton_Position"
+	sprite_index = SideButton_Position;
 	image_index = 0;
 }

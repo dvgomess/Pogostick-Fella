@@ -86,6 +86,14 @@ if (l2174CEA6_0)
 	/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
 	audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
 
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 4D928997
+	/// @DnDParent : 2174CEA6
+	/// @DnDArgument : "room" "TransitionScreen"
+	/// @DnDSaveInfo : "room" "TransitionScreen"
+	room_goto(TransitionScreen);
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 4960F8B5

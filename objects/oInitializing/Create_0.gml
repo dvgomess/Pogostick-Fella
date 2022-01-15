@@ -55,13 +55,16 @@ global.EnemyEVA = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6A268E50
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "global.EditingPlayerStatsSelectedButton"
 /// @DnDArgument : "var_1" "global.EditingEnemyStatsSelectedButton"
+/// @DnDArgument : "var_2" "global.EditingPlayerPositionSelectedButton"
 global.EditingPlayerStatsSelectedButton = 1;
 global.EditingEnemyStatsSelectedButton = 1;
+global.EditingPlayerPositionSelectedButton = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -76,6 +79,13 @@ global.EditingEnemyStatsSelectedButton = 1;
 global.PlayerXposition = 300;
 global.PlayerYposition = 280;
 global.CurrentRoom = School_1_0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 55E49D85
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.CanPlayerMoveRn"
+global.CanPlayerMoveRn = 1;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

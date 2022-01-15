@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SideButton_YourAttacks",
-    "path": "sprites/SideButton_YourAttacks/SideButton_YourAttacks.yy",
+    "name": "SideButton_Position",
+    "path": "sprites/SideButton_Position/SideButton_Position.yy",
   },
   "solid": false,
   "visible": true,
