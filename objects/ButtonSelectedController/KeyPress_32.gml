@@ -299,6 +299,13 @@ if(global.BattleStep == 6)
 	/// @DnDArgument : "value" "1"
 	if(CanEnd == 1)
 	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 17371375
+		/// @DnDParent : 19C7E780
+		/// @DnDArgument : "var" "global.InBattle"
+		global.InBattle = 0;
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 11812B13
@@ -331,6 +338,40 @@ if(global.BattleStep == 6)
 			/// @DnDArgument : "room" "School_1_1"
 			/// @DnDSaveInfo : "room" "School_1_1"
 			room_goto(School_1_1);
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 29F808DD
+		/// @DnDParent : 19C7E780
+		/// @DnDArgument : "var" "global.CurrentRoom"
+		/// @DnDArgument : "value" "School_1_2"
+		if(global.CurrentRoom == School_1_2)
+		{
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDVersion : 1
+			/// @DnDHash : 491C4EB8
+			/// @DnDParent : 29F808DD
+			/// @DnDArgument : "room" "School_1_2"
+			/// @DnDSaveInfo : "room" "School_1_2"
+			room_goto(School_1_2);
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6B68D821
+		/// @DnDParent : 19C7E780
+		/// @DnDArgument : "var" "global.CurrentRoom"
+		/// @DnDArgument : "value" "School_1_3"
+		if(global.CurrentRoom == School_1_3)
+		{
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDVersion : 1
+			/// @DnDHash : 24877391
+			/// @DnDParent : 6B68D821
+			/// @DnDArgument : "room" "School_1_3"
+			/// @DnDSaveInfo : "room" "School_1_3"
+			room_goto(School_1_3);
 		}
 	}
 }

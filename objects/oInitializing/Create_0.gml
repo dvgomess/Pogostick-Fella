@@ -83,9 +83,14 @@ global.CurrentRoom = School_1_0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 55E49D85
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.CanPlayerMoveRn"
+/// @DnDArgument : "var_1" "global.MusicPlayerValue"
+/// @DnDArgument : "var_2" "global.InBattle"
 global.CanPlayerMoveRn = 1;
+global.MusicPlayerValue = 0;
+global.InBattle = 0;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

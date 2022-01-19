@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GDCsprites",
-    "path": "folders/Sprites/GDCsprites.yy",
+    "name": "OverworldSprites",
+    "path": "folders/Sprites/OverworldSprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "emo",

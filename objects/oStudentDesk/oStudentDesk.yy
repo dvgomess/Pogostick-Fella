@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Overworld",
-    "path": "folders/Objects/Overworld.yy",
+    "name": "Furniture",
+    "path": "folders/Objects/Overworld/Furniture.yy",
   },
   "resourceVersion": "1.0",
   "name": "oStudentDesk",

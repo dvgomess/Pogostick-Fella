@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Items",
-    "path": "folders/Sprites/Items.yy",
+    "name": "Weapons&items",
+    "path": "folders/Sprites/Weapons&items.yy",
   },
   "resourceVersion": "1.0",
   "name": "skateboardwknife",

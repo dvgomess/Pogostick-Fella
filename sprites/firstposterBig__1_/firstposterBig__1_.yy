@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Posters",
-    "path": "folders/Sprites/GDCsprites/Posters.yy",
+    "path": "folders/Sprites/OverworldSprites/Posters.yy",
   },
   "resourceVersion": "1.0",
   "name": "firstposterBig__1_",

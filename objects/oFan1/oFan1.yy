@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Overworld",
-    "path": "folders/Objects/Overworld.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/Overworld/NPCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "oFan1",
