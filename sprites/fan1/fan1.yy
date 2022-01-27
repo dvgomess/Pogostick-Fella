@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OverworldSprites",
-    "path": "folders/Sprites/OverworldSprites.yy",
+    "name": "NPCs",
+    "path": "folders/Sprites/OverworldSprites/NPCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "fan1",

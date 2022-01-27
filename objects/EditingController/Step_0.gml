@@ -73,9 +73,9 @@ if (l1444BB78_0)
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 2174CEA6
-/// @DnDArgument : "key" "ord("Q")"
+/// @DnDArgument : "key" "ord("Z")"
 var l2174CEA6_0;
-l2174CEA6_0 = keyboard_check_pressed(ord("Q"));
+l2174CEA6_0 = keyboard_check_pressed(ord("Z"));
 if (l2174CEA6_0)
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "DumbDumbRun",
-    "path": "sprites/DumbDumbRun/DumbDumbRun.yy",
+    "name": "DumbDumbRunOldVersion",
+    "path": "sprites/DumbDumbRunOldVersion/DumbDumbRunOldVersion.yy",
   },
   "solid": true,
   "visible": true,

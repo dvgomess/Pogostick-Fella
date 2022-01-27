@@ -92,6 +92,24 @@ global.CanPlayerMoveRn = 1;
 global.MusicPlayerValue = 0;
 global.InBattle = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 08C08C89
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "var" "global.InventoryColumn"
+/// @DnDArgument : "var_1" "global.InventoryRow"
+/// @DnDArgument : "var_2" "global.InventoryOpen"
+global.InventoryColumn = 1;
+global.InventoryRow = 1;
+global.InventoryOpen = 0;
+
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 11543918
+randomize();
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 0ACFB833

@@ -48,3 +48,37 @@ if(global.EnemyStyle == 3)
 	sprite_index = staringclubenthusiast;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4F5A342B
+/// @DnDArgument : "var" "global.EnemyStyle"
+/// @DnDArgument : "value" "4"
+if(global.EnemyStyle == 4)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 1047966E
+	/// @DnDParent : 4F5A342B
+	/// @DnDArgument : "spriteind" "drippykid"
+	/// @DnDSaveInfo : "spriteind" "drippykid"
+	sprite_index = drippykid;
+	image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 03B8661B
+/// @DnDArgument : "var" "global.EnemyStyle"
+/// @DnDArgument : "value" "5"
+if(global.EnemyStyle == 5)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B5B4DA7
+	/// @DnDParent : 03B8661B
+	/// @DnDArgument : "spriteind" "principal"
+	/// @DnDSaveInfo : "spriteind" "principal"
+	sprite_index = principal;
+	image_index = 0;
+}
