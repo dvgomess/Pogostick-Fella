@@ -95,14 +95,11 @@ global.InBattle = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 08C08C89
-/// @DnDInput : 3
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "var" "global.InventoryColumn"
-/// @DnDArgument : "var_1" "global.InventoryRow"
-/// @DnDArgument : "var_2" "global.InventoryOpen"
-global.InventoryColumn = 1;
-global.InventoryRow = 1;
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "11"
+/// @DnDArgument : "var" "global.InventoryCursorButton"
+/// @DnDArgument : "var_1" "global.InventoryOpen"
+global.InventoryCursorButton = 11;
 global.InventoryOpen = 0;
 
 /// @DnDAction : YoYo Games.Random.Randomize

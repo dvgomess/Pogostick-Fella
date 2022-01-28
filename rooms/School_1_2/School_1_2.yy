@@ -54,6 +54,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oPrincipalThrone","path":"objects/oPrincipalThrone/oPrincipalThrone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":160.0,"resourceVersion":"1.0","name":"inst_5122E905","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oEmoKid","path":"objects/oEmoKid/oEmoKid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":160.0,"resourceVersion":"1.0","name":"inst_2D120AB1_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"InventoryDisplay","path":"objects/InventoryDisplay/InventoryDisplay.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":96.0,"resourceVersion":"1.0","name":"inst_6FB02FCA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"InventoryCursorController","path":"objects/InventoryCursorController/InventoryCursorController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":128.0,"resourceVersion":"1.0","name":"inst_52455E7F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"BackgroundAssets","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"SchoolInteriorSet","path":"tilesets/SchoolInteriorSet/SchoolInteriorSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":29,"SerialiseHeight":18,"TileSerialiseData":[
@@ -136,6 +137,7 @@
     {"name":"inst_3D7A6CDB","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_5122E905","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_6FB02FCA","path":"rooms/School_1_2/School_1_2.yy",},
+    {"name":"inst_52455E7F","path":"rooms/School_1_2/School_1_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

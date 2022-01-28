@@ -139,4 +139,14 @@ if(global.InventoryOpen == 1)
 		/// @DnDSaveInfo : "sprite" "InventoryItemOutline"
 		draw_sprite(InventoryItemOutline, 0, (151*(i)) + 451, 581);
 	}
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 054E08D4
+	/// @DnDParent : 2DC46304
+	/// @DnDArgument : "x" "150"
+	/// @DnDArgument : "y" "600"
+	/// @DnDArgument : "caption" ""cursor position: ""
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	draw_text(150, 600, string("cursor position: ") + string(global.InventoryCursorButton));
 }
