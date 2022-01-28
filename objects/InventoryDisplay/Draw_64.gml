@@ -11,6 +11,18 @@ if(global.InventoryOpen == 1)
 	/// @DnDParent : 2DC46304
 	/// @DnDArgument : "x" "755"
 	/// @DnDArgument : "y" "341"
+	/// @DnDArgument : "alpha" ".6"
+	/// @DnDArgument : "sprite" "DarkenBackground"
+	/// @DnDArgument : "col" "$FFCCCCCC"
+	/// @DnDSaveInfo : "sprite" "DarkenBackground"
+	draw_sprite_ext(DarkenBackground, 0, 755, 341, 1, 1, 0, $FFCCCCCC & $ffffff, .6);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 26F5BDA2
+	/// @DnDParent : 2DC46304
+	/// @DnDArgument : "x" "755"
+	/// @DnDArgument : "y" "341"
 	/// @DnDArgument : "sprite" "InventoryBase"
 	/// @DnDArgument : "col" "$FFCCCCCC"
 	/// @DnDSaveInfo : "sprite" "InventoryBase"

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sCollisionTile_",
-    "path": "sprites/sCollisionTile_/sCollisionTile_.yy",
+    "name": "sLoadingZoneTile",
+    "path": "sprites/sLoadingZoneTile/sLoadingZoneTile.yy",
   },
   "solid": false,
   "visible": true,

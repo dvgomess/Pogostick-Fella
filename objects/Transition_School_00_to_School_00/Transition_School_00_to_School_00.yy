@@ -30,7 +30,7 @@
     "path": "folders/Objects/Overworld/Transitions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Transition_School_13_to_School_10",
+  "name": "Transition_School_00_to_School_00",
   "tags": [],
   "resourceType": "GMObject",
 }
