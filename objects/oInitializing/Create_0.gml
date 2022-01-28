@@ -102,6 +102,12 @@ global.InBattle = 0;
 global.InventoryCursorButton = 11;
 global.InventoryOpen = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1A79BE9A
+/// @DnDArgument : "var" "global.SkipRoomTransition"
+global.SkipRoomTransition = 0;
+
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 11543918
