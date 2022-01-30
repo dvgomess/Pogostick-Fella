@@ -105,8 +105,15 @@ global.InventoryOpen = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1A79BE9A
+/// @DnDInput : 3
+/// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "global.SkipRoomTransition"
+/// @DnDArgument : "var_1" "global.HotbarSelected"
+/// @DnDArgument : "var_2" "global.HotbarAlpha"
 global.SkipRoomTransition = 0;
+global.HotbarSelected = 1;
+global.HotbarAlpha = 1;
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1

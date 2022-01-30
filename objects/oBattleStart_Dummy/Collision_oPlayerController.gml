@@ -2,5 +2,4 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5D75C9FC
 /// @DnDArgument : "room" "BattleNewNew"
-/// @DnDSaveInfo : "room" "BattleNewNew"
 room_goto(BattleNewNew);
