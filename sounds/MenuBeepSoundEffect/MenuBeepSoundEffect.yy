@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "_220206__gameaudio__beep_space_button.mp3",
+  "soundFile": "MenuBeepSoundEffect.mp3",
   "duration": 0.4963,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_220206__gameaudio__beep_space_button",
+  "name": "MenuBeepSoundEffect",
   "tags": [],
   "resourceType": "GMSound",
 }
