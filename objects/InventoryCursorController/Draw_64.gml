@@ -18,12 +18,12 @@ if(global.InventoryOpen == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 28C04CB3
 		/// @DnDParent : 04808640
-		/// @DnDArgument : "x" "(151*(global.InventoryCursorButton mod 10)) + 148"
+		/// @DnDArgument : "x" "(151*(global.InventoryCursorButton mod 10)) + 149"
 		/// @DnDArgument : "y" "160*(global.InventoryCursorButton div 10) - 59"
 		/// @DnDArgument : "sprite" "InventoryItemOutline"
 		/// @DnDArgument : "frame" "1"
 		/// @DnDSaveInfo : "sprite" "InventoryItemOutline"
-		draw_sprite_ext(InventoryItemOutline, 1, (151*(global.InventoryCursorButton mod 10)) + 148, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, $FFFFFF & $ffffff, 1);
+		draw_sprite_ext(InventoryItemOutline, 1, (151*(global.InventoryCursorButton mod 10)) + 149, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, $FFFFFF & $ffffff, 1);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

@@ -115,6 +115,20 @@ global.SkipRoomTransition = 0;
 global.HotbarSelected = 1;
 global.HotbarAlpha = 1;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 65CB28C3
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "bandaid"
+/// @DnDArgument : "expr_1" "bat"
+/// @DnDArgument : "expr_2" "kitchenKnife"
+/// @DnDArgument : "var" "global.HotbarSlot1"
+/// @DnDArgument : "var_1" "global.HotbarSlot2"
+/// @DnDArgument : "var_2" "global.HotbarSlot3"
+global.HotbarSlot1 = bandaid;
+global.HotbarSlot2 = bat;
+global.HotbarSlot3 = kitchenKnife;
+
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 11543918

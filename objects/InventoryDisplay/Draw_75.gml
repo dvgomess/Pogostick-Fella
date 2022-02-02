@@ -44,4 +44,14 @@ if(global.InventoryOpen == 1)
 	/// @DnDArgument : "sprite" "bandaid"
 	/// @DnDSaveInfo : "sprite" "bandaid"
 	draw_sprite(bandaid, 0, (151*(2)) + 451, 101);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B5A7BE1
+	/// @DnDParent : 2528B0BE
+	/// @DnDArgument : "x" "(151*(4)) + 451"
+	/// @DnDArgument : "y" "101"
+	/// @DnDArgument : "sprite" "gift"
+	/// @DnDSaveInfo : "sprite" "gift"
+	draw_sprite(gift, 0, (151*(4)) + 451, 101);
 }
