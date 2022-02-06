@@ -55,7 +55,6 @@
     {"id":{"name":"School_1_0","path":"rooms/School_1_0/School_1_0.yy",},"order":0,},
     {"id":{"name":"SideButton_EnemyStats","path":"sprites/SideButton_EnemyStats/SideButton_EnemyStats.yy",},"order":3,},
     {"id":{"name":"BackgroundColor","path":"objects/BackgroundColor/BackgroundColor.yy",},"order":0,},
-    {"id":{"name":"OverworldRoomTemplate","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},"order":7,},
     {"id":{"name":"LockerDouble","path":"sprites/LockerDouble/LockerDouble.yy",},"order":13,},
     {"id":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},"order":8,},
     {"id":{"name":"InventoryCursorController","path":"objects/InventoryCursorController/InventoryCursorController.yy",},"order":1,},
@@ -246,7 +245,6 @@
     {"roomId":{"name":"School_1_1","path":"rooms/School_1_1/School_1_1.yy",},},
     {"roomId":{"name":"School_1_2","path":"rooms/School_1_2/School_1_2.yy",},},
     {"roomId":{"name":"School_1_3","path":"rooms/School_1_3/School_1_3.yy",},},
-    {"roomId":{"name":"OverworldRoomTemplate","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},},
     {"roomId":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},},
   ],
   "Folders": [
