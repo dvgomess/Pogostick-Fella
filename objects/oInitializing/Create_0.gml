@@ -118,16 +118,27 @@ global.HotbarAlpha = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65CB28C3
-/// @DnDInput : 3
+/// @DnDInput : 4
 /// @DnDArgument : "expr" "bandaid"
 /// @DnDArgument : "expr_1" "bat"
 /// @DnDArgument : "expr_2" "kitchenKnife"
+/// @DnDArgument : "expr_3" "$FFFFD35B"
 /// @DnDArgument : "var" "global.HotbarSlot1"
 /// @DnDArgument : "var_1" "global.HotbarSlot2"
 /// @DnDArgument : "var_2" "global.HotbarSlot3"
+/// @DnDArgument : "var_3" "global.InventoryDrawColor"
 global.HotbarSlot1 = bandaid;
 global.HotbarSlot2 = bat;
 global.HotbarSlot3 = kitchenKnife;
+global.InventoryDrawColor = $FFFFD35B;
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 04BFC2B5
+/// @DnDArgument : "color" "$FFFFD35B"
+draw_set_colour($FFFFD35B & $ffffff);
+var l04BFC2B5_0=($FFFFD35B >> 24);
+draw_set_alpha(l04BFC2B5_0 / $ff);
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
