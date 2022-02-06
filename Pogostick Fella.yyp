@@ -56,7 +56,6 @@
     {"id":{"name":"SideButton_EnemyStats","path":"sprites/SideButton_EnemyStats/SideButton_EnemyStats.yy",},"order":3,},
     {"id":{"name":"BackgroundColor","path":"objects/BackgroundColor/BackgroundColor.yy",},"order":0,},
     {"id":{"name":"LockerDouble","path":"sprites/LockerDouble/LockerDouble.yy",},"order":13,},
-    {"id":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},"order":8,},
     {"id":{"name":"InventoryCursorController","path":"objects/InventoryCursorController/InventoryCursorController.yy",},"order":1,},
     {"id":{"name":"sCollisionTile_","path":"sprites/sCollisionTile_/sCollisionTile_.yy",},"order":10,},
     {"id":{"name":"_002","path":"sprites/_002/_002.yy",},"order":8,},
@@ -245,7 +244,11 @@
     {"roomId":{"name":"School_1_1","path":"rooms/School_1_1/School_1_1.yy",},},
     {"roomId":{"name":"School_1_2","path":"rooms/School_1_2/School_1_2.yy",},},
     {"roomId":{"name":"School_1_3","path":"rooms/School_1_3/School_1_3.yy",},},
+<<<<<<< HEAD
     {"roomId":{"name":"MainLevel","path":"rooms/MainLevel/MainLevel.yy",},},
+=======
+    {"roomId":{"name":"OverworldRoomTemplate","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},},
+>>>>>>> parent of 8c463c4 (Started main level)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
