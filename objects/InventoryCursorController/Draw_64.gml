@@ -18,12 +18,13 @@ if(global.InventoryOpen == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 28C04CB3
 		/// @DnDParent : 04808640
-		/// @DnDArgument : "x" "(151*(global.InventoryCursorButton mod 10)) + 149"
-		/// @DnDArgument : "y" "160*(global.InventoryCursorButton div 10) - 59"
+		/// @DnDArgument : "x" "(144*(global.InventoryCursorButton mod 10)) + 178"
+		/// @DnDArgument : "y" "144*(global.InventoryCursorButton div 10) - 18"
 		/// @DnDArgument : "sprite" "InventoryItemOutline"
 		/// @DnDArgument : "frame" "1"
+		/// @DnDArgument : "col" "global.InventoryDrawColor"
 		/// @DnDSaveInfo : "sprite" "InventoryItemOutline"
-		draw_sprite_ext(InventoryItemOutline, 1, (151*(global.InventoryCursorButton mod 10)) + 149, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, $FFFFFF & $ffffff, 1);
+		draw_sprite_ext(InventoryItemOutline, 1, (144*(global.InventoryCursorButton mod 10)) + 178, 144*(global.InventoryCursorButton div 10) - 18, 1, 1, 0, global.InventoryDrawColor & $ffffff, 1);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -46,12 +47,12 @@ if(global.InventoryOpen == 1)
 			/// @DnDVersion : 1
 			/// @DnDHash : 2C9236CF
 			/// @DnDParent : 439313C0
-			/// @DnDArgument : "x" "(151*(global.InventoryCursorButton mod 10)) + 49"
+			/// @DnDArgument : "x" "(149*(global.InventoryCursorButton mod 10)) + 50"
 			/// @DnDArgument : "y" "160*(global.InventoryCursorButton div 10) - 59"
 			/// @DnDArgument : "sprite" "InventoryLeftsideTab1"
-			/// @DnDArgument : "frame" "1"
+			/// @DnDArgument : "col" "global.InventoryDrawColor"
 			/// @DnDSaveInfo : "sprite" "InventoryLeftsideTab1"
-			draw_sprite_ext(InventoryLeftsideTab1, 1, (151*(global.InventoryCursorButton mod 10)) + 49, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, $FFFFFF & $ffffff, 1);
+			draw_sprite_ext(InventoryLeftsideTab1, 0, (149*(global.InventoryCursorButton mod 10)) + 50, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, global.InventoryDrawColor & $ffffff, 1);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -67,12 +68,12 @@ if(global.InventoryOpen == 1)
 			/// @DnDVersion : 1
 			/// @DnDHash : 5A2FEB46
 			/// @DnDParent : 233FE4EC
-			/// @DnDArgument : "x" "(151*(global.InventoryCursorButton mod 10)) + 49"
+			/// @DnDArgument : "x" "(149*(global.InventoryCursorButton mod 10)) + 50"
 			/// @DnDArgument : "y" "160*(global.InventoryCursorButton div 10) - 59"
 			/// @DnDArgument : "sprite" "InventoryLeftsideTab2"
-			/// @DnDArgument : "frame" "1"
+			/// @DnDArgument : "col" "global.InventoryDrawColor"
 			/// @DnDSaveInfo : "sprite" "InventoryLeftsideTab2"
-			draw_sprite_ext(InventoryLeftsideTab2, 1, (151*(global.InventoryCursorButton mod 10)) + 49, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, $FFFFFF & $ffffff, 1);
+			draw_sprite_ext(InventoryLeftsideTab2, 0, (149*(global.InventoryCursorButton mod 10)) + 50, 160*(global.InventoryCursorButton div 10) - 59, 1, 1, 0, global.InventoryDrawColor & $ffffff, 1);
 		}
 	}
 }
