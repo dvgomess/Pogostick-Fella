@@ -24,45 +24,53 @@ if (l3709CFD9_0)
 		/// @DnDArgument : "var" "InDialogue"
 		if(InDialogue == 0)
 		{
-			/// @DnDAction : YoYo Games.Drawing.Set_Color
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 18D6685B
+			/// @DnDHash : 6E28A7F9
 			/// @DnDParent : 6B39B8D1
-			/// @DnDArgument : "color" "$FF000000"
-			draw_set_colour($FF000000 & $ffffff);
-			var l18D6685B_0=($FF000000 >> 24);
-			draw_set_alpha(l18D6685B_0 / $ff);
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 51E698E1
-			/// @DnDInput : 4
-			/// @DnDParent : 6B39B8D1
-			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "expr_2" "1"
-			/// @DnDArgument : "var" "InDialogue"
-			/// @DnDArgument : "var_1" "global.CanPlayerMoveRn"
-			/// @DnDArgument : "var_2" "LineCount"
-			/// @DnDArgument : "var_3" "DrawTextScroll"
-			InDialogue = 1;
-			global.CanPlayerMoveRn = 0;
-			LineCount = 1;
-			DrawTextScroll = 0;
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 54049E60
-			/// @DnDInput : 3
-			/// @DnDParent : 6B39B8D1
-			/// @DnDArgument : "expr" """"
-			/// @DnDArgument : "expr_1" """"
-			/// @DnDArgument : "expr_2" ""go away.                  \nnow.""
-			/// @DnDArgument : "var" "Line1"
-			/// @DnDArgument : "var_1" "Line2"
-			/// @DnDArgument : "var_2" "Line3"
-			Line1 = "";
-			Line2 = "";
-			Line3 = "go away.                  \nnow.";
+			/// @DnDArgument : "var" "global.InventoryOpen"
+			if(global.InventoryOpen == 0)
+			{
+				/// @DnDAction : YoYo Games.Drawing.Set_Color
+				/// @DnDVersion : 1
+				/// @DnDHash : 18D6685B
+				/// @DnDParent : 6E28A7F9
+				/// @DnDArgument : "color" "$FF000000"
+				draw_set_colour($FF000000 & $ffffff);
+				var l18D6685B_0=($FF000000 >> 24);
+				draw_set_alpha(l18D6685B_0 / $ff);
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 51E698E1
+				/// @DnDInput : 4
+				/// @DnDParent : 6E28A7F9
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "expr_2" "1"
+				/// @DnDArgument : "var" "InDialogue"
+				/// @DnDArgument : "var_1" "global.CanPlayerMoveRn"
+				/// @DnDArgument : "var_2" "LineCount"
+				/// @DnDArgument : "var_3" "DrawTextScroll"
+				InDialogue = 1;
+				global.CanPlayerMoveRn = 0;
+				LineCount = 1;
+				DrawTextScroll = 0;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 54049E60
+				/// @DnDInput : 3
+				/// @DnDParent : 6E28A7F9
+				/// @DnDArgument : "expr" """"
+				/// @DnDArgument : "expr_1" """"
+				/// @DnDArgument : "expr_2" ""go away.                  \nnow.""
+				/// @DnDArgument : "var" "Line1"
+				/// @DnDArgument : "var_1" "Line2"
+				/// @DnDArgument : "var_2" "Line3"
+				Line1 = "";
+				Line2 = "";
+				Line3 = "go away.                  \nnow.";
+			}
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
