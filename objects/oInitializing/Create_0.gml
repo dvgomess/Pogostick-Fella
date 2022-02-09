@@ -119,9 +119,9 @@ global.HotbarAlpha = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 65CB28C3
 /// @DnDInput : 5
-/// @DnDArgument : "expr" "bandaid"
+/// @DnDArgument : "expr" "skateboard"
 /// @DnDArgument : "expr_1" "bat"
-/// @DnDArgument : "expr_2" "kitchenKnife"
+/// @DnDArgument : "expr_2" "gift"
 /// @DnDArgument : "expr_3" "$FFFFD35B"
 /// @DnDArgument : "expr_4" ".5"
 /// @DnDArgument : "var" "global.HotbarSlot1"
@@ -129,9 +129,9 @@ global.HotbarAlpha = 1;
 /// @DnDArgument : "var_2" "global.HotbarSlot3"
 /// @DnDArgument : "var_3" "global.InventoryDrawColor"
 /// @DnDArgument : "var_4" "global.TextScrollSpeed"
-global.HotbarSlot1 = bandaid;
+global.HotbarSlot1 = skateboard;
 global.HotbarSlot2 = bat;
-global.HotbarSlot3 = kitchenKnife;
+global.HotbarSlot3 = gift;
 global.InventoryDrawColor = $FFFFD35B;
 global.TextScrollSpeed = .5;
 
