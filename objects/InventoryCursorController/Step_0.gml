@@ -169,9 +169,9 @@ if(global.InventoryOpen == 1)
 		/// @DnDArgument : "expr" "$FFFFCF35"
 		/// @DnDArgument : "expr_1" "1"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
-		/// @DnDArgument : "var_1" "InventoryLeftTabSelected"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
 		global.InventoryDrawColor = $FFFFCF35;
-		InventoryLeftTabSelected = 1;
+		global.InventoryLeftTabSelected = 1;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -190,9 +190,9 @@ if(global.InventoryOpen == 1)
 		/// @DnDArgument : "expr" "$FF0AF2FF"
 		/// @DnDArgument : "expr_1" "2"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
-		/// @DnDArgument : "var_1" "InventoryLeftTabSelected"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
 		global.InventoryDrawColor = $FF0AF2FF;
-		InventoryLeftTabSelected = 2;
+		global.InventoryLeftTabSelected = 2;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -211,9 +211,9 @@ if(global.InventoryOpen == 1)
 		/// @DnDArgument : "expr" "$FFCC4CFF"
 		/// @DnDArgument : "expr_1" "3"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
-		/// @DnDArgument : "var_1" "InventoryLeftTabSelected"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
 		global.InventoryDrawColor = $FFCC4CFF;
-		InventoryLeftTabSelected = 3;
+		global.InventoryLeftTabSelected = 3;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -232,8 +232,8 @@ if(global.InventoryOpen == 1)
 		/// @DnDArgument : "expr" "$FF666666"
 		/// @DnDArgument : "expr_1" "4"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
-		/// @DnDArgument : "var_1" "InventoryLeftTabSelected"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
 		global.InventoryDrawColor = $FF666666;
-		InventoryLeftTabSelected = 4;
+		global.InventoryLeftTabSelected = 4;
 	}
 }

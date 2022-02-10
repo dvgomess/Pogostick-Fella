@@ -81,9 +81,9 @@ if(global.InventoryOpen == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1C6DB059
 	/// @DnDParent : 67615197
-	/// @DnDArgument : "var" "InventoryLeftTabSelected"
+	/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
 	/// @DnDArgument : "value" "1"
-	if(InventoryLeftTabSelected == 1)
+	if(global.InventoryLeftTabSelected == 1)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
@@ -101,9 +101,9 @@ if(global.InventoryOpen == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 54AEC722
 	/// @DnDParent : 67615197
-	/// @DnDArgument : "var" "InventoryLeftTabSelected"
+	/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
 	/// @DnDArgument : "value" "2"
-	if(InventoryLeftTabSelected == 2)
+	if(global.InventoryLeftTabSelected == 2)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
@@ -121,9 +121,9 @@ if(global.InventoryOpen == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 64D73B96
 	/// @DnDParent : 67615197
-	/// @DnDArgument : "var" "InventoryLeftTabSelected"
+	/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
 	/// @DnDArgument : "value" "3"
-	if(InventoryLeftTabSelected == 3)
+	if(global.InventoryLeftTabSelected == 3)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
@@ -141,9 +141,9 @@ if(global.InventoryOpen == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6174D388
 	/// @DnDParent : 67615197
-	/// @DnDArgument : "var" "InventoryLeftTabSelected"
+	/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
 	/// @DnDArgument : "value" "4"
-	if(InventoryLeftTabSelected == 4)
+	if(global.InventoryLeftTabSelected == 4)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
