@@ -166,11 +166,11 @@ if(global.InventoryOpen == 1)
 		/// @DnDHash : 116AD6F7
 		/// @DnDInput : 2
 		/// @DnDParent : 60AC7511
-		/// @DnDArgument : "expr" "$FFFFCF35"
+		/// @DnDArgument : "expr" "$FFFFE07F"
 		/// @DnDArgument : "expr_1" "1"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
 		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
-		global.InventoryDrawColor = $FFFFCF35;
+		global.InventoryDrawColor = $FFFFE07F;
 		global.InventoryLeftTabSelected = 1;
 	}
 
@@ -187,11 +187,11 @@ if(global.InventoryOpen == 1)
 		/// @DnDHash : 29FEC3AE
 		/// @DnDInput : 2
 		/// @DnDParent : 44034C56
-		/// @DnDArgument : "expr" "$FF0AF2FF"
+		/// @DnDArgument : "expr" "$FF7FFFDB"
 		/// @DnDArgument : "expr_1" "2"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
 		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
-		global.InventoryDrawColor = $FF0AF2FF;
+		global.InventoryDrawColor = $FF7FFFDB;
 		global.InventoryLeftTabSelected = 2;
 	}
 
@@ -208,11 +208,11 @@ if(global.InventoryOpen == 1)
 		/// @DnDHash : 5E43B2C2
 		/// @DnDInput : 2
 		/// @DnDParent : 5BC51B70
-		/// @DnDArgument : "expr" "$FFCC4CFF"
+		/// @DnDArgument : "expr" "$FFFF99E8"
 		/// @DnDArgument : "expr_1" "3"
 		/// @DnDArgument : "var" "global.InventoryDrawColor"
 		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
-		global.InventoryDrawColor = $FFCC4CFF;
+		global.InventoryDrawColor = $FFFF99E8;
 		global.InventoryLeftTabSelected = 3;
 	}
 

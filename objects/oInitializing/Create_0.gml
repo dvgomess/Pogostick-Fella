@@ -135,6 +135,13 @@ global.HotbarSlot3 = gift;
 global.InventoryDrawColor = $FFFFD35B;
 global.TextScrollSpeed = .5;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 657CF1A2
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
+global.InventoryLeftTabSelected = 1;
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 04BFC2B5
