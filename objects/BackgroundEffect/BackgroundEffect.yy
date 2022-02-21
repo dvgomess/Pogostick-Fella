@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "InBattle",
-    "path": "folders/Objects/InBattle.yy",
+    "name": "NewBattleObjects",
+    "path": "folders/Objects/InBattle/NewBattleObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "BackgroundEffect",

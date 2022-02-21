@@ -2,35 +2,38 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3A582ADF
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr" "Background1"
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "1"
+/// @DnDArgument : "expr_2" "shadyfella"
 /// @DnDArgument : "var" "global.BackgroundColor"
 /// @DnDArgument : "var_1" "global.BackgroundStyle"
 /// @DnDArgument : "var_2" "global.EnemyStyle"
-global.BackgroundColor = 1;
+global.BackgroundColor = Background1;
 global.BackgroundStyle = 1;
-global.EnemyStyle = 1;
+global.EnemyStyle = shadyfella;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3740AA8C
-/// @DnDInput : 5
-/// @DnDArgument : "expr" "1"
+/// @DnDInput : 6
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "expr_3" "1"
 /// @DnDArgument : "expr_4" "1"
+/// @DnDArgument : "expr_5" "10"
 /// @DnDArgument : "var" "global.PlayerHP"
 /// @DnDArgument : "var_1" "global.PlayerATK"
 /// @DnDArgument : "var_2" "global.PlayerCritChance"
 /// @DnDArgument : "var_3" "global.PlayerDEF"
 /// @DnDArgument : "var_4" "global.PlayerEVA"
-global.PlayerHP = 1;
+/// @DnDArgument : "var_5" "global.PlayerMaxHP"
+global.PlayerHP = 10;
 global.PlayerATK = 1;
 global.PlayerCritChance = 1;
 global.PlayerDEF = 1;
 global.PlayerEVA = 1;
+global.PlayerMaxHP = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

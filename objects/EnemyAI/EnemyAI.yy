@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "InBattle",
-    "path": "folders/Objects/InBattle.yy",
+    "name": "OldBattleObjects",
+    "path": "folders/Objects/InBattle/OldBattleObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyAI",

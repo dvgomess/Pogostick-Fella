@@ -26,9 +26,9 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDVersion : 1
 		/// @DnDHash : 79741591
 		/// @DnDParent : 65B47CC2
-		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr" "shadyfella"
 		/// @DnDArgument : "var" "global.EnemyStyle"
-		global.EnemyStyle = 1;
+		global.EnemyStyle = shadyfella;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -52,9 +52,9 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1E21728F
 		/// @DnDParent : 07699D22
-		/// @DnDArgument : "expr" "2"
+		/// @DnDArgument : "expr" "sBattleDummy"
 		/// @DnDArgument : "var" "global.EnemyStyle"
-		global.EnemyStyle = 2;
+		global.EnemyStyle = sBattleDummy;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -78,9 +78,9 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5D419BC3
 		/// @DnDParent : 7B0E09C0
-		/// @DnDArgument : "expr" "3"
+		/// @DnDArgument : "expr" "staringclubenthusiast"
 		/// @DnDArgument : "var" "global.EnemyStyle"
-		global.EnemyStyle = 3;
+		global.EnemyStyle = staringclubenthusiast;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -104,9 +104,9 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDVersion : 1
 		/// @DnDHash : 4AC824D2
 		/// @DnDParent : 74AABD3A
-		/// @DnDArgument : "expr" "4"
+		/// @DnDArgument : "expr" "drippykid"
 		/// @DnDArgument : "var" "global.EnemyStyle"
-		global.EnemyStyle = 4;
+		global.EnemyStyle = drippykid;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -130,8 +130,8 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1815AB93
 		/// @DnDParent : 1BD98A08
-		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "expr" "principal"
 		/// @DnDArgument : "var" "global.EnemyStyle"
-		global.EnemyStyle = 5;
+		global.EnemyStyle = principal;
 	}
 }
