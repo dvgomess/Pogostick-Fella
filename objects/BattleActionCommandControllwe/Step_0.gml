@@ -112,9 +112,9 @@ if(global.BattleStep == 4)
 			/// @DnDVersion : 1
 			/// @DnDHash : 08CA3D85
 			/// @DnDParent : 1D44CBC9
-			/// @DnDArgument : "expr" "(12-abs((180- (BatSliderPosition))/16) div 1)/10"
+			/// @DnDArgument : "expr" "(10-abs((180- (BatSliderPosition))/24) div 1)/10"
 			/// @DnDArgument : "var" "global.DamageMultiplier"
-			global.DamageMultiplier = (12-abs((180- (BatSliderPosition))/16) div 1)/10;
+			global.DamageMultiplier = (10-abs((180- (BatSliderPosition))/24) div 1)/10;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1

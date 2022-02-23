@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 493FACDC
-/// @DnDInput : 10
+/// @DnDInput : 11
 /// @DnDArgument : "expr" ""You are challenged by Drippy \nFella""
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "drippykid"
@@ -32,6 +32,7 @@ global.PlayerYposition = 476;
 global.EnemyHealthColor = $FF574CFF;
 global.EnemyHP = 10;
 global.EnemyMaxHP = 10;
+variable = 0;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
