@@ -26,13 +26,13 @@ global.EnemyStyle = shadyfella;
 /// @DnDArgument : "var_1" "global.PlayerATK"
 /// @DnDArgument : "var_2" "global.PlayerCritChance"
 /// @DnDArgument : "var_3" "global.PlayerDEF"
-/// @DnDArgument : "var_4" "global.PlayerEVA"
+/// @DnDArgument : "var_4" "global.PlayerLuck"
 /// @DnDArgument : "var_5" "global.PlayerMaxHP"
 global.PlayerHP = 10;
 global.PlayerATK = 1;
 global.PlayerCritChance = 1;
 global.PlayerDEF = 1;
-global.PlayerEVA = 1;
+global.PlayerLuck = 1;
 global.PlayerMaxHP = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
@@ -148,9 +148,8 @@ global.InventoryLeftTabSelected = 1;
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 04BFC2B5
-/// @DnDArgument : "color" "$FFFFD35B"
-draw_set_colour($FFFFD35B & $ffffff);
-var l04BFC2B5_0=($FFFFD35B >> 24);
+draw_set_colour($FFFFFFFF & $ffffff);
+var l04BFC2B5_0=($FFFFFFFF >> 24);
 draw_set_alpha(l04BFC2B5_0 / $ff);
 
 /// @DnDAction : YoYo Games.Random.Randomize

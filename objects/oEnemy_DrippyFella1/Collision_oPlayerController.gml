@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 493FACDC
-/// @DnDInput : 11
+/// @DnDInput : 12
 /// @DnDArgument : "expr" ""You are challenged by Drippy \nFella""
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "drippykid"
@@ -10,8 +10,10 @@
 /// @DnDArgument : "expr_5" "700"
 /// @DnDArgument : "expr_6" "476"
 /// @DnDArgument : "expr_7" "$FF574CFF"
-/// @DnDArgument : "expr_8" "10"
-/// @DnDArgument : "expr_9" "10"
+/// @DnDArgument : "expr_8" "100"
+/// @DnDArgument : "expr_9" "100"
+/// @DnDArgument : "expr_10" "5"
+/// @DnDArgument : "expr_11" "5"
 /// @DnDArgument : "var" "global.EnemyName"
 /// @DnDArgument : "var_1" "global.InBattle"
 /// @DnDArgument : "var_2" "global.EnemyStyle"
@@ -22,6 +24,8 @@
 /// @DnDArgument : "var_7" "global.EnemyHealthColor"
 /// @DnDArgument : "var_8" "global.EnemyHP"
 /// @DnDArgument : "var_9" "global.EnemyMaxHP"
+/// @DnDArgument : "var_10" "global.EnemyLuck"
+/// @DnDArgument : "var_11" "global.EnemyATK"
 global.EnemyName = "You are challenged by Drippy \nFella";
 global.InBattle = 1;
 global.EnemyStyle = drippykid;
@@ -30,9 +34,10 @@ global.BackgroundColor = $FF0026B2;
 global.PlayerXposition = 700;
 global.PlayerYposition = 476;
 global.EnemyHealthColor = $FF574CFF;
-global.EnemyHP = 10;
-global.EnemyMaxHP = 10;
-variable = 0;
+global.EnemyHP = 100;
+global.EnemyMaxHP = 100;
+global.EnemyLuck = 5;
+global.EnemyATK = 5;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

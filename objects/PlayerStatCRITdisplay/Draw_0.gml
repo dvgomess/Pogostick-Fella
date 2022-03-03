@@ -11,6 +11,6 @@ if(global.GodmodeSelectedButton == 3)
 	/// @DnDParent : 60A7C19F
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" "global.PlayerCritChance"
-	draw_text(x + 0, y + 0, string(global.PlayerCritChance) + "");
+	/// @DnDArgument : "caption" "global.PlayerLuck"
+	draw_text(x + 0, y + 0, string(global.PlayerLuck) + "");
 }

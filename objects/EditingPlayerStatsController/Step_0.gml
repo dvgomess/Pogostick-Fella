@@ -142,8 +142,8 @@ if(global.GodmodeSelectedButton == 3)
 			/// @DnDParent : 3EB795D0
 			/// @DnDArgument : "expr" "1"
 			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "global.PlayerCritChance"
-			global.PlayerCritChance += 1;
+			/// @DnDArgument : "var" "global.PlayerLuck"
+			global.PlayerLuck += 1;
 		}
 	}
 
@@ -206,8 +206,8 @@ if(global.GodmodeSelectedButton == 3)
 			/// @DnDParent : 221504DA
 			/// @DnDArgument : "expr" "-1"
 			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "global.PlayerCritChance"
-			global.PlayerCritChance += -1;
+			/// @DnDArgument : "var" "global.PlayerLuck"
+			global.PlayerLuck += -1;
 		}
 	}
 }
