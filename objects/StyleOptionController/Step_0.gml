@@ -26,9 +26,9 @@ if(global.GodmodeSelectedButton == 2)
 		/// @DnDVersion : 1
 		/// @DnDHash : 79741591
 		/// @DnDParent : 65B47CC2
-		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr" "Background1"
 		/// @DnDArgument : "var" "global.BackgroundStyle"
-		global.BackgroundStyle = 1;
+		global.BackgroundStyle = Background1;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -52,9 +52,9 @@ if(global.GodmodeSelectedButton == 2)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1E21728F
 		/// @DnDParent : 07699D22
-		/// @DnDArgument : "expr" "2"
+		/// @DnDArgument : "expr" "Background2"
 		/// @DnDArgument : "var" "global.BackgroundStyle"
-		global.BackgroundStyle = 2;
+		global.BackgroundStyle = Background2;
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -78,8 +78,8 @@ if(global.GodmodeSelectedButton == 2)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1595F5FE
 		/// @DnDParent : 34B6CF70
-		/// @DnDArgument : "expr" "3"
+		/// @DnDArgument : "expr" "Background3"
 		/// @DnDArgument : "var" "global.BackgroundStyle"
-		global.BackgroundStyle = 3;
+		global.BackgroundStyle = Background3;
 	}
 }

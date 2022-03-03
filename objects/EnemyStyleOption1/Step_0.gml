@@ -10,8 +10,8 @@ if(global.GodmodeSelectedButton == 7)
 	/// @DnDHash : 669E87F2
 	/// @DnDParent : 4AB83F4B
 	/// @DnDArgument : "var" "global.EnemyStyle"
-	/// @DnDArgument : "value" "1"
-	if(global.EnemyStyle == 1)
+	/// @DnDArgument : "value" "shadyfella"
+	if(global.EnemyStyle == shadyfella)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -30,8 +30,8 @@ if(global.GodmodeSelectedButton == 7)
 	/// @DnDParent : 4AB83F4B
 	/// @DnDArgument : "var" "global.EnemyStyle"
 	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "1"
-	if(!(global.EnemyStyle == 1))
+	/// @DnDArgument : "value" "shadyfella"
+	if(!(global.EnemyStyle == shadyfella))
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "StrongAttackButton",
-    "path": "sprites/StrongAttackButton/StrongAttackButton.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Buttons",
-    "path": "folders/Objects/InBattle/Buttons.yy",
+    "path": "folders/Objects/InBattle/OldBattleObjects/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "oKick",

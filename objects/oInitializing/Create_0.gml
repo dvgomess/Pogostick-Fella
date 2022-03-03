@@ -2,35 +2,38 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3A582ADF
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr" "Background1"
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "1"
+/// @DnDArgument : "expr_2" "shadyfella"
 /// @DnDArgument : "var" "global.BackgroundColor"
 /// @DnDArgument : "var_1" "global.BackgroundStyle"
 /// @DnDArgument : "var_2" "global.EnemyStyle"
-global.BackgroundColor = 1;
+global.BackgroundColor = Background1;
 global.BackgroundStyle = 1;
-global.EnemyStyle = 1;
+global.EnemyStyle = shadyfella;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3740AA8C
-/// @DnDInput : 5
-/// @DnDArgument : "expr" "1"
+/// @DnDInput : 6
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "expr_3" "1"
 /// @DnDArgument : "expr_4" "1"
+/// @DnDArgument : "expr_5" "10"
 /// @DnDArgument : "var" "global.PlayerHP"
 /// @DnDArgument : "var_1" "global.PlayerATK"
 /// @DnDArgument : "var_2" "global.PlayerCritChance"
 /// @DnDArgument : "var_3" "global.PlayerDEF"
-/// @DnDArgument : "var_4" "global.PlayerEVA"
-global.PlayerHP = 1;
+/// @DnDArgument : "var_4" "global.PlayerLuck"
+/// @DnDArgument : "var_5" "global.PlayerMaxHP"
+global.PlayerHP = 10;
 global.PlayerATK = 1;
 global.PlayerCritChance = 1;
 global.PlayerDEF = 1;
-global.PlayerEVA = 1;
+global.PlayerLuck = 1;
+global.PlayerMaxHP = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -118,26 +121,35 @@ global.HotbarAlpha = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65CB28C3
-/// @DnDInput : 4
-/// @DnDArgument : "expr" "bandaid"
+/// @DnDInput : 5
+/// @DnDArgument : "expr" "skateboard"
 /// @DnDArgument : "expr_1" "bat"
-/// @DnDArgument : "expr_2" "kitchenKnife"
+/// @DnDArgument : "expr_2" "gift"
 /// @DnDArgument : "expr_3" "$FFFFD35B"
+/// @DnDArgument : "expr_4" ".5"
 /// @DnDArgument : "var" "global.HotbarSlot1"
 /// @DnDArgument : "var_1" "global.HotbarSlot2"
 /// @DnDArgument : "var_2" "global.HotbarSlot3"
 /// @DnDArgument : "var_3" "global.InventoryDrawColor"
-global.HotbarSlot1 = bandaid;
+/// @DnDArgument : "var_4" "global.TextScrollSpeed"
+global.HotbarSlot1 = skateboard;
 global.HotbarSlot2 = bat;
-global.HotbarSlot3 = kitchenKnife;
+global.HotbarSlot3 = gift;
 global.InventoryDrawColor = $FFFFD35B;
+global.TextScrollSpeed = .5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 657CF1A2
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.InventoryLeftTabSelected"
+global.InventoryLeftTabSelected = 1;
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 04BFC2B5
-/// @DnDArgument : "color" "$FFFFD35B"
-draw_set_colour($FFFFD35B & $ffffff);
-var l04BFC2B5_0=($FFFFD35B >> 24);
+draw_set_colour($FFFFFFFF & $ffffff);
+var l04BFC2B5_0=($FFFFFFFF >> 24);
 draw_set_alpha(l04BFC2B5_0 / $ff);
 
 /// @DnDAction : YoYo Games.Random.Randomize

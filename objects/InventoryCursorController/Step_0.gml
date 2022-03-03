@@ -152,4 +152,88 @@ if(global.InventoryOpen == 1)
 			global.InventoryCursorButton += 1;
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 60AC7511
+	/// @DnDParent : 22B284B3
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	/// @DnDArgument : "value" "11"
+	if(global.InventoryCursorButton == 11)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 116AD6F7
+		/// @DnDInput : 2
+		/// @DnDParent : 60AC7511
+		/// @DnDArgument : "expr" "$FFFFE07F"
+		/// @DnDArgument : "expr_1" "1"
+		/// @DnDArgument : "var" "global.InventoryDrawColor"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
+		global.InventoryDrawColor = $FFFFE07F;
+		global.InventoryLeftTabSelected = 1;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 44034C56
+	/// @DnDParent : 22B284B3
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	/// @DnDArgument : "value" "21"
+	if(global.InventoryCursorButton == 21)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 29FEC3AE
+		/// @DnDInput : 2
+		/// @DnDParent : 44034C56
+		/// @DnDArgument : "expr" "$FF7FFFDB"
+		/// @DnDArgument : "expr_1" "2"
+		/// @DnDArgument : "var" "global.InventoryDrawColor"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
+		global.InventoryDrawColor = $FF7FFFDB;
+		global.InventoryLeftTabSelected = 2;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BC51B70
+	/// @DnDParent : 22B284B3
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	/// @DnDArgument : "value" "31"
+	if(global.InventoryCursorButton == 31)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5E43B2C2
+		/// @DnDInput : 2
+		/// @DnDParent : 5BC51B70
+		/// @DnDArgument : "expr" "$FFFF99E8"
+		/// @DnDArgument : "expr_1" "3"
+		/// @DnDArgument : "var" "global.InventoryDrawColor"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
+		global.InventoryDrawColor = $FFFF99E8;
+		global.InventoryLeftTabSelected = 3;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A52C845
+	/// @DnDParent : 22B284B3
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	/// @DnDArgument : "value" "41"
+	if(global.InventoryCursorButton == 41)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3E037294
+		/// @DnDInput : 2
+		/// @DnDParent : 4A52C845
+		/// @DnDArgument : "expr" "$FF666666"
+		/// @DnDArgument : "expr_1" "4"
+		/// @DnDArgument : "var" "global.InventoryDrawColor"
+		/// @DnDArgument : "var_1" "global.InventoryLeftTabSelected"
+		global.InventoryDrawColor = $FF666666;
+		global.InventoryLeftTabSelected = 4;
+	}
 }

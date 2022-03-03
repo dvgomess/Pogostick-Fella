@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "TextBoxBackground",
-    "path": "sprites/TextBoxBackground/TextBoxBackground.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -27,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "InBattle",
-    "path": "folders/Objects/InBattle.yy",
+    "name": "OldBattleObjects",
+    "path": "folders/Objects/InBattle/OldBattleObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "TextBox",
