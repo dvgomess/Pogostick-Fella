@@ -108,6 +108,15 @@ if(global.GodmodeSelectedButton == 3)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "global.PlayerHP"
 			global.PlayerHP += 1;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2050F1CA
+			/// @DnDParent : 577AD680
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "global.PlayerMaxHP"
+			global.PlayerMaxHP += 1;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -172,6 +181,15 @@ if(global.GodmodeSelectedButton == 3)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "global.PlayerHP"
 			global.PlayerHP += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 33CE3074
+			/// @DnDParent : 13BFDE75
+			/// @DnDArgument : "expr" "-1"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "global.PlayerMaxHP"
+			global.PlayerMaxHP += -1;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

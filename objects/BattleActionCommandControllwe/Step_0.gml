@@ -93,35 +93,44 @@ if(global.BattleStep == 4)
 		l1D44CBC9_0 = keyboard_check_pressed(ord("E"));
 		if (l1D44CBC9_0)
 		{
-			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 50C6EA1B
-			/// @DnDParent : 1D44CBC9
-			/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
-			/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-			audio_play_sound(MenuBeepSoundEffect, 0, 0);
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 71F3F329
+			/// @DnDHash : 1B5CACCF
 			/// @DnDParent : 1D44CBC9
 			/// @DnDArgument : "var" "R"
-			R = 0;
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 08CA3D85
-			/// @DnDParent : 1D44CBC9
-			/// @DnDArgument : "expr" "(10-abs((180- (BatSliderPosition))/24) div 1)/10"
-			/// @DnDArgument : "var" "global.DamageMultiplier"
-			global.DamageMultiplier = (10-abs((180- (BatSliderPosition))/24) div 1)/10;
-		
-			/// @DnDAction : YoYo Games.Instances.Set_Alarm
-			/// @DnDVersion : 1
-			/// @DnDHash : 38AAAD3E
-			/// @DnDParent : 1D44CBC9
-			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, 30);
+			/// @DnDArgument : "value" "1"
+			if(R == 1)
+			{
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1
+				/// @DnDHash : 50C6EA1B
+				/// @DnDParent : 1B5CACCF
+				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
+				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
+				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 71F3F329
+				/// @DnDParent : 1B5CACCF
+				/// @DnDArgument : "var" "R"
+				R = 0;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 08CA3D85
+				/// @DnDParent : 1B5CACCF
+				/// @DnDArgument : "expr" "(10-abs((180- (BatSliderPosition))/24) div 1)/10"
+				/// @DnDArgument : "var" "global.DamageMultiplier"
+				global.DamageMultiplier = (10-abs((180- (BatSliderPosition))/24) div 1)/10;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 38AAAD3E
+				/// @DnDParent : 1B5CACCF
+				/// @DnDArgument : "alarm" "1"
+				alarm_set(1, 30);
+			}
 		}
 	}
 }

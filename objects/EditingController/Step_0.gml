@@ -161,4 +161,21 @@ if (l2174CEA6_0)
 		/// @DnDSaveInfo : "room" "School_1_3"
 		room_goto(School_1_3);
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D7F6D4A
+	/// @DnDParent : 2174CEA6
+	/// @DnDArgument : "var" "global.CurrentRoom"
+	/// @DnDArgument : "value" "Outside_1_1"
+	if(global.CurrentRoom == Outside_1_1)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 393FB1EE
+		/// @DnDParent : 1D7F6D4A
+		/// @DnDArgument : "room" "Outside_1_1"
+		/// @DnDSaveInfo : "room" "Outside_1_1"
+		room_goto(Outside_1_1);
+	}
 }
