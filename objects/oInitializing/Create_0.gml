@@ -73,14 +73,14 @@ global.EditingPlayerPositionSelectedButton = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 24AD7176
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "300"
-/// @DnDArgument : "expr_1" "280"
+/// @DnDArgument : "expr" "256"
+/// @DnDArgument : "expr_1" "870"
 /// @DnDArgument : "expr_2" "Outside_1_1"
 /// @DnDArgument : "var" "global.PlayerXposition"
 /// @DnDArgument : "var_1" "global.PlayerYposition"
 /// @DnDArgument : "var_2" "global.CurrentRoom"
-global.PlayerXposition = 300;
-global.PlayerYposition = 280;
+global.PlayerXposition = 256;
+global.PlayerYposition = 870;
 global.CurrentRoom = Outside_1_1;
 
 /// @DnDAction : YoYo Games.Common.Variable
@@ -141,9 +141,19 @@ global.TextScrollSpeed = .5;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 657CF1A2
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.InventoryLeftTabSelected"
+/// @DnDArgument : "var_1" "global.EnemyType"
 global.InventoryLeftTabSelected = 1;
+global.EnemyType = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 07174E2B
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.FadeOutOfBlack"
+global.FadeOutOfBlack = 1;
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

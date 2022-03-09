@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 493FACDC
-/// @DnDInput : 12
+/// @DnDInput : 13
 /// @DnDArgument : "expr" ""You are challenged by Drippy \nFella""
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "drippykid"
@@ -14,6 +14,7 @@
 /// @DnDArgument : "expr_9" "100"
 /// @DnDArgument : "expr_10" "5"
 /// @DnDArgument : "expr_11" "5"
+/// @DnDArgument : "expr_12" "2"
 /// @DnDArgument : "var" "global.EnemyName"
 /// @DnDArgument : "var_1" "global.InBattle"
 /// @DnDArgument : "var_2" "global.EnemyStyle"
@@ -26,6 +27,7 @@
 /// @DnDArgument : "var_9" "global.EnemyMaxHP"
 /// @DnDArgument : "var_10" "global.EnemyLuck"
 /// @DnDArgument : "var_11" "global.EnemyATK"
+/// @DnDArgument : "var_12" "global.EnemyType"
 global.EnemyName = "You are challenged by Drippy \nFella";
 global.InBattle = 1;
 global.EnemyStyle = drippykid;
@@ -38,6 +40,7 @@ global.EnemyHP = 100;
 global.EnemyMaxHP = 100;
 global.EnemyLuck = 5;
 global.EnemyATK = 5;
+global.EnemyType = 2;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

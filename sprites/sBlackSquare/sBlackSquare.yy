@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 999,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 999,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 32,
+  "width": 1000,
+  "height": 1000,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"04d0c2f7-a439-4e0b-a157-e1f8a779e98b","path":"sprites/HealthMeter/HealthMeter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04d0c2f7-a439-4e0b-a157-e1f8a779e98b","path":"sprites/HealthMeter/HealthMeter.yy",},"LayerId":{"name":"4933fef0-5981-46df-a435-f6d71ba0f3ca","path":"sprites/HealthMeter/HealthMeter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"HealthMeter","path":"sprites/HealthMeter/HealthMeter.yy",},"resourceVersion":"1.0","name":"04d0c2f7-a439-4e0b-a157-e1f8a779e98b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f9a2eca6-ce36-4745-a779-a28867a1210c","path":"sprites/sBlackSquare/sBlackSquare.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f9a2eca6-ce36-4745-a779-a28867a1210c","path":"sprites/sBlackSquare/sBlackSquare.yy",},"LayerId":{"name":"4ef8a27b-dbe3-4db6-9d52-818d2dc51cdb","path":"sprites/sBlackSquare/sBlackSquare.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBlackSquare","path":"sprites/sBlackSquare/sBlackSquare.yy",},"resourceVersion":"1.0","name":"f9a2eca6-ce36-4745-a779-a28867a1210c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"HealthMeter","path":"sprites/HealthMeter/HealthMeter.yy",},
+    "spriteId": {"name":"sBlackSquare","path":"sprites/sBlackSquare/sBlackSquare.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e74a1e18-1a2b-4545-9969-c1edb181a1fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04d0c2f7-a439-4e0b-a157-e1f8a779e98b","path":"sprites/HealthMeter/HealthMeter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"730f3048-dd01-490d-831e-5b3f5eb96aa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9a2eca6-ce36-4745-a779-a28867a1210c","path":"sprites/sBlackSquare/sBlackSquare.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"HealthMeter","path":"sprites/HealthMeter/HealthMeter.yy",},
+    "parent": {"name":"sBlackSquare","path":"sprites/sBlackSquare/sBlackSquare.yy",},
     "resourceVersion": "1.3",
-    "name": "HealthMeter",
+    "name": "sBlackSquare",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4933fef0-5981-46df-a435-f6d71ba0f3ca","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4ef8a27b-dbe3-4db6-9d52-818d2dc51cdb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "BattleSprites",
-    "path": "folders/Sprites/BattleSprites.yy",
+    "name": "PlaceHolderSprites",
+    "path": "folders/Sprites/PlaceHolderSprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "HealthMeter",
+  "name": "sBlackSquare",
   "tags": [],
   "resourceType": "GMSprite",
 }
