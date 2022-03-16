@@ -167,6 +167,14 @@ if(A == 1)
 					/// @DnDArgument : "var" "global.PanningCamToHome"
 					global.PanningCamToHome = 1;
 				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 62AADB73
+					/// @DnDParent : 274DA07A
+					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "var" "global.AlreadyTalkedToStacy"
+					global.AlreadyTalkedToStacy = 1;
+				
 					/// @DnDAction : YoYo Games.Instances.Set_Alarm
 					/// @DnDVersion : 1
 					/// @DnDHash : 20C6EC67

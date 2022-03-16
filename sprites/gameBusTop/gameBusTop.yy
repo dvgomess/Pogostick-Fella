@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 363,
-  "bbox_top": 44,
-  "bbox_bottom": 127,
+  "bbox_right": 355,
+  "bbox_top": 0,
+  "bbox_bottom": 55,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBus1/gameBus1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBus1/gameBus1.yy",},"LayerId":{"name":"2715cce5-7045-4d2e-9746-bee8bff603de","path":"sprites/gameBus1/gameBus1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"gameBus1","path":"sprites/gameBus1/gameBus1.yy",},"resourceVersion":"1.0","name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBusTop/gameBusTop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBusTop/gameBusTop.yy",},"LayerId":{"name":"2715cce5-7045-4d2e-9746-bee8bff603de","path":"sprites/gameBusTop/gameBusTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"gameBusTop","path":"sprites/gameBusTop/gameBusTop.yy",},"resourceVersion":"1.0","name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"gameBus1","path":"sprites/gameBus1/gameBus1.yy",},
+    "spriteId": {"name":"gameBusTop","path":"sprites/gameBusTop/gameBusTop.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"34f360d9-5d09-4bb1-9e86-1373eccd2478","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBus1/gameBus1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"22c2c5de-addd-44b5-b205-98c1a6ed9d04","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6715003e-f348-42f9-84b9-31ebd4c9d8bb","path":"sprites/gameBusTop/gameBusTop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"gameBus1","path":"sprites/gameBus1/gameBus1.yy",},
+    "parent": {"name":"gameBusTop","path":"sprites/gameBusTop/gameBusTop.yy",},
     "resourceVersion": "1.3",
-    "name": "gameBus1",
+    "name": "gameBusTop",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/OverworldSprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "gameBus1",
+  "name": "gameBusTop",
   "tags": [],
   "resourceType": "GMSprite",
 }

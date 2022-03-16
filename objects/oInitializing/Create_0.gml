@@ -171,6 +171,22 @@ global.CameraXoffset = 0;
 /// @DnDArgument : "var" "global.PanningCamToHome"
 global.PanningCamToHome = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 50045BB7
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "Outside"
+/// @DnDArgument : "var" "global.CurrentBackgroundMusic"
+/// @DnDArgument : "var_1" "global.SwappingBackgroundMusic"
+global.CurrentBackgroundMusic = Outside;
+global.SwappingBackgroundMusic = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 386E2C77
+/// @DnDArgument : "var" "global.AlreadyTalkedToStacy"
+global.AlreadyTalkedToStacy = 0;
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 04BFC2B5
