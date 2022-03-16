@@ -73,15 +73,15 @@ global.EditingPlayerPositionSelectedButton = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 24AD7176
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "256"
-/// @DnDArgument : "expr_1" "870"
-/// @DnDArgument : "expr_2" "Outside_1_1"
+/// @DnDArgument : "expr" "834"
+/// @DnDArgument : "expr_1" "750"
+/// @DnDArgument : "expr_2" "Outside_DropOffZone"
 /// @DnDArgument : "var" "global.PlayerXposition"
 /// @DnDArgument : "var_1" "global.PlayerYposition"
 /// @DnDArgument : "var_2" "global.CurrentRoom"
-global.PlayerXposition = 256;
-global.PlayerYposition = 870;
-global.CurrentRoom = Outside_1_1;
+global.PlayerXposition = 834;
+global.PlayerYposition = 750;
+global.CurrentRoom = Outside_DropOffZone;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -155,6 +155,22 @@ global.EnemyType = 0;
 /// @DnDArgument : "var" "global.FadeOutOfBlack"
 global.FadeOutOfBlack = 1;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2D98490D
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "400"
+/// @DnDArgument : "var" "global.CameraYoffset"
+/// @DnDArgument : "var_1" "global.CameraXoffset"
+global.CameraYoffset = 400;
+global.CameraXoffset = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 653B517B
+/// @DnDArgument : "var" "global.PanningCamToHome"
+global.PanningCamToHome = 0;
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 04BFC2B5
@@ -170,6 +186,6 @@ randomize();
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 0ACFB833
-/// @DnDArgument : "room" "Outside_1_1"
-/// @DnDSaveInfo : "room" "Outside_1_1"
-room_goto(Outside_1_1);
+/// @DnDArgument : "room" "Outside_DropOffZone"
+/// @DnDSaveInfo : "room" "Outside_DropOffZone"
+room_goto(Outside_DropOffZone);

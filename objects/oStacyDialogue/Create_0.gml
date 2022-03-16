@@ -74,3 +74,28 @@ Line7 = "Have a great first day at\nyour new school, sweetie!";
 /// @DnDHash : 1FDF955B
 /// @DnDArgument : "steps" "100"
 alarm_set(0, 100);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 4D40C883
+/// @DnDArgument : "xscale" "-1"
+image_xscale = -1;
+image_yscale = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3B8B9AEB
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, 1);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 76784C2F
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "120"
+/// @DnDArgument : "expr_1" "40"
+/// @DnDArgument : "var" "global.CameraYoffset"
+/// @DnDArgument : "var_1" "global.CameraXoffset"
+global.CameraYoffset = 120;
+global.CameraXoffset = 40;

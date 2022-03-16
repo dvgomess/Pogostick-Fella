@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "emoTop",
-    "path": "sprites/emoTop/emoTop.yy",
+    "name": "car1",
+    "path": "sprites/car1/car1.yy",
   },
   "solid": false,
   "visible": true,

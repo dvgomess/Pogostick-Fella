@@ -34,70 +34,78 @@ if(A == 1)
 			{
 				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 6E28A7F9
+				/// @DnDHash : 020ADC03
 				/// @DnDParent : 6B39B8D1
-				/// @DnDArgument : "var" "global.InventoryOpen"
-				if(global.InventoryOpen == 0)
+				/// @DnDArgument : "var" "CarGoBrrrr"
+				if(CarGoBrrrr == 0)
 				{
-					/// @DnDAction : YoYo Games.Drawing.Set_Color
+					/// @DnDAction : YoYo Games.Common.If_Variable
 					/// @DnDVersion : 1
-					/// @DnDHash : 18D6685B
-					/// @DnDParent : 6E28A7F9
-					/// @DnDArgument : "color" "$FFD8D8D8"
-					draw_set_colour($FFD8D8D8 & $ffffff);
-					var l18D6685B_0=($FFD8D8D8 >> 24);
-					draw_set_alpha(l18D6685B_0 / $ff);
-				
-					/// @DnDAction : YoYo Games.Common.Variable
-					/// @DnDVersion : 1
-					/// @DnDHash : 51E698E1
-					/// @DnDInput : 4
-					/// @DnDParent : 6E28A7F9
-					/// @DnDArgument : "expr" "1"
-					/// @DnDArgument : "expr_2" "7"
-					/// @DnDArgument : "var" "InDialogue"
-					/// @DnDArgument : "var_1" "global.CanPlayerMoveRn"
-					/// @DnDArgument : "var_2" "LineCount"
-					/// @DnDArgument : "var_3" "DrawTextScroll"
-					InDialogue = 1;
-					global.CanPlayerMoveRn = 0;
-					LineCount = 7;
-					DrawTextScroll = 0;
-				
-					/// @DnDAction : YoYo Games.Common.Variable
-					/// @DnDVersion : 1
-					/// @DnDHash : 54049E60
-					/// @DnDInput : 7
-					/// @DnDParent : 6E28A7F9
-					/// @DnDArgument : "expr" ""Ugh.""
-					/// @DnDArgument : "expr_1" ""Whatever, Stacy. You need\na vibe check or some'n""
-					/// @DnDArgument : "expr_2" ""I told you to stop calling\nme that! I am your mother!""
-					/// @DnDArgument : "expr_3" ""Yeah, yeah.  \nWhatever, Stacy""
-					/// @DnDArgument : "expr_4" ""I didn't even know that\nwas possible.""
-					/// @DnDArgument : "expr_5" "" ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...""
-					/// @DnDArgument : "expr_6" ""Have a great first day at\nyour new school, sweetie!""
-					/// @DnDArgument : "var" "Line1"
-					/// @DnDArgument : "var_1" "Line2"
-					/// @DnDArgument : "var_2" "Line3"
-					/// @DnDArgument : "var_3" "Line4"
-					/// @DnDArgument : "var_4" "Line5"
-					/// @DnDArgument : "var_5" "Line6"
-					/// @DnDArgument : "var_6" "Line7"
-					Line1 = "Ugh.";
-					Line2 = "Whatever, Stacy. You need\na vibe check or some'n";
-					Line3 = "I told you to stop calling\nme that! I am your mother!";
-					Line4 = "Yeah, yeah.  \nWhatever, Stacy";
-					Line5 = "I didn't even know that\nwas possible.";
-					Line6 = " ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...";
-					Line7 = "Have a great first day at\nyour new school, sweetie!";
-				
-					/// @DnDAction : YoYo Games.Audio.Play_Audio
-					/// @DnDVersion : 1
-					/// @DnDHash : 6145B7AC
-					/// @DnDParent : 6E28A7F9
-					/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
-					/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-					audio_play_sound(MenuBeepSoundEffect, 0, 0);
+					/// @DnDHash : 6E28A7F9
+					/// @DnDParent : 020ADC03
+					/// @DnDArgument : "var" "global.InventoryOpen"
+					if(global.InventoryOpen == 0)
+					{
+						/// @DnDAction : YoYo Games.Drawing.Set_Color
+						/// @DnDVersion : 1
+						/// @DnDHash : 18D6685B
+						/// @DnDParent : 6E28A7F9
+						/// @DnDArgument : "color" "$FFD8D8D8"
+						draw_set_colour($FFD8D8D8 & $ffffff);
+						var l18D6685B_0=($FFD8D8D8 >> 24);
+						draw_set_alpha(l18D6685B_0 / $ff);
+					
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 51E698E1
+						/// @DnDInput : 4
+						/// @DnDParent : 6E28A7F9
+						/// @DnDArgument : "expr" "1"
+						/// @DnDArgument : "expr_2" "7"
+						/// @DnDArgument : "var" "InDialogue"
+						/// @DnDArgument : "var_1" "global.CanPlayerMoveRn"
+						/// @DnDArgument : "var_2" "LineCount"
+						/// @DnDArgument : "var_3" "DrawTextScroll"
+						InDialogue = 1;
+						global.CanPlayerMoveRn = 0;
+						LineCount = 7;
+						DrawTextScroll = 0;
+					
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 54049E60
+						/// @DnDInput : 7
+						/// @DnDParent : 6E28A7F9
+						/// @DnDArgument : "expr" ""Ugh.""
+						/// @DnDArgument : "expr_1" ""Whatever, Stacy. You need\na vibe check or some'n""
+						/// @DnDArgument : "expr_2" ""I told you to stop calling\nme that! I am your mother!""
+						/// @DnDArgument : "expr_3" ""Yeah, yeah.  \nWhatever, Stacy""
+						/// @DnDArgument : "expr_4" ""I didn't even know that\nwas possible.""
+						/// @DnDArgument : "expr_5" "" ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...""
+						/// @DnDArgument : "expr_6" ""Have a great first day at\nyour new school, sweetie!""
+						/// @DnDArgument : "var" "Line1"
+						/// @DnDArgument : "var_1" "Line2"
+						/// @DnDArgument : "var_2" "Line3"
+						/// @DnDArgument : "var_3" "Line4"
+						/// @DnDArgument : "var_4" "Line5"
+						/// @DnDArgument : "var_5" "Line6"
+						/// @DnDArgument : "var_6" "Line7"
+						Line1 = "Ugh.";
+						Line2 = "Whatever, Stacy. You need\na vibe check or some'n";
+						Line3 = "I told you to stop calling\nme that! I am your mother!";
+						Line4 = "Yeah, yeah.  \nWhatever, Stacy";
+						Line5 = "I didn't even know that\nwas possible.";
+						Line6 = " ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...";
+						Line7 = "Have a great first day at\nyour new school, sweetie!";
+					
+						/// @DnDAction : YoYo Games.Audio.Play_Audio
+						/// @DnDVersion : 1
+						/// @DnDHash : 6145B7AC
+						/// @DnDParent : 6E28A7F9
+						/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
+						/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
+						audio_play_sound(MenuBeepSoundEffect, 0, 0);
+					}
 				}
 			}
 		
@@ -133,6 +141,38 @@ if(A == 1)
 					/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 					/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
 					audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Sprite
+					/// @DnDVersion : 1
+					/// @DnDHash : 01969908
+					/// @DnDParent : 274DA07A
+					/// @DnDArgument : "spriteind" "car_animated_transparent"
+					/// @DnDSaveInfo : "spriteind" "car_animated_transparent"
+					sprite_index = car_animated_transparent;
+					image_index = 0;
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 1BC40A9A
+					/// @DnDParent : 274DA07A
+					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "var" "CarGoBrrrr"
+					CarGoBrrrr = 1;
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 2A6835EC
+					/// @DnDParent : 274DA07A
+					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "var" "global.PanningCamToHome"
+					global.PanningCamToHome = 1;
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Alarm
+					/// @DnDVersion : 1
+					/// @DnDHash : 20C6EC67
+					/// @DnDParent : 274DA07A
+					/// @DnDArgument : "alarm" "1"
+					alarm_set(1, 30);
 				}
 			
 				/// @DnDAction : YoYo Games.Common.If_Variable
