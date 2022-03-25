@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OverworldSprites",
-    "path": "folders/Sprites/OverworldSprites.yy",
+    "name": "PlayerSprites",
+    "path": "folders/Sprites/PlayerSprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "mainchar",

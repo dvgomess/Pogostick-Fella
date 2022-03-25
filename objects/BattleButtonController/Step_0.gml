@@ -124,9 +124,9 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDVersion : 1
 				/// @DnDHash : 29347F3C
 				/// @DnDParent : 4C130F26
-				/// @DnDArgument : "expr" "global.HotbarSlot1"
+				/// @DnDArgument : "expr" "skateboard"
 				/// @DnDArgument : "var" "global.ChosenMove"
-				global.ChosenMove = global.HotbarSlot1;
+				global.ChosenMove = skateboard;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -141,9 +141,9 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDVersion : 1
 				/// @DnDHash : 58C64351
 				/// @DnDParent : 1ABCE7D7
-				/// @DnDArgument : "expr" "global.HotbarSlot2"
+				/// @DnDArgument : "expr" ""pogostick""
 				/// @DnDArgument : "var" "global.ChosenMove"
-				global.ChosenMove = global.HotbarSlot2;
+				global.ChosenMove = "pogostick";
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -158,9 +158,9 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDVersion : 1
 				/// @DnDHash : 6A67E3D0
 				/// @DnDParent : 178E816E
-				/// @DnDArgument : "expr" "global.HotbarSlot3"
+				/// @DnDArgument : "expr" "item"
 				/// @DnDArgument : "var" "global.ChosenMove"
-				global.ChosenMove = global.HotbarSlot3;
+				global.ChosenMove = item;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable

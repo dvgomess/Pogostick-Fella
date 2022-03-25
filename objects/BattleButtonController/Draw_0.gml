@@ -5,71 +5,41 @@
 /// @DnDArgument : "value" "1"
 if(global.InBattleDrawButtons == 1)
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 73715A77
+	/// @DnDHash : 60892180
 	/// @DnDParent : 7FA0AF3A
-	/// @DnDArgument : "var" "BattleSelectedButton"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "2"
-	if(!(BattleSelectedButton == 2))
-	{
-		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
-		/// @DnDVersion : 1
-		/// @DnDHash : 59277378
-		/// @DnDParent : 73715A77
-		/// @DnDArgument : "x" "320"
-		/// @DnDArgument : "y" "288"
-		/// @DnDArgument : "xscale" "2"
-		/// @DnDArgument : "yscale" "2"
-		/// @DnDArgument : "sprite" "BattleItemOutline"
-		/// @DnDSaveInfo : "sprite" "BattleItemOutline"
-		draw_sprite_ext(BattleItemOutline, 0, 320, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
-	}
+	/// @DnDArgument : "x" "220"
+	/// @DnDArgument : "y" "288"
+	/// @DnDArgument : "xscale" "2"
+	/// @DnDArgument : "yscale" "2"
+	/// @DnDArgument : "sprite" "BattleItemOutline"
+	/// @DnDSaveInfo : "sprite" "BattleItemOutline"
+	draw_sprite_ext(BattleItemOutline, 0, 220, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 279D5F5A
+	/// @DnDHash : 7570F843
 	/// @DnDParent : 7FA0AF3A
-	/// @DnDArgument : "var" "BattleSelectedButton"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "3"
-	if(!(BattleSelectedButton == 3))
-	{
-		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
-		/// @DnDVersion : 1
-		/// @DnDHash : 65245D79
-		/// @DnDParent : 279D5F5A
-		/// @DnDArgument : "x" "420"
-		/// @DnDArgument : "y" "288"
-		/// @DnDArgument : "xscale" "2"
-		/// @DnDArgument : "yscale" "2"
-		/// @DnDArgument : "sprite" "BattleItemOutline"
-		/// @DnDSaveInfo : "sprite" "BattleItemOutline"
-		draw_sprite_ext(BattleItemOutline, 0, 420, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
-	}
+	/// @DnDArgument : "x" "320"
+	/// @DnDArgument : "y" "288"
+	/// @DnDArgument : "xscale" "2"
+	/// @DnDArgument : "yscale" "2"
+	/// @DnDArgument : "sprite" "BattleItemOutline"
+	/// @DnDSaveInfo : "sprite" "BattleItemOutline"
+	draw_sprite_ext(BattleItemOutline, 0, 320, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 2C92FF73
+	/// @DnDHash : 1579D119
 	/// @DnDParent : 7FA0AF3A
-	/// @DnDArgument : "var" "BattleSelectedButton"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "1"
-	if(!(BattleSelectedButton == 1))
-	{
-		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
-		/// @DnDVersion : 1
-		/// @DnDHash : 64DD7612
-		/// @DnDParent : 2C92FF73
-		/// @DnDArgument : "x" "220"
-		/// @DnDArgument : "y" "288"
-		/// @DnDArgument : "xscale" "2"
-		/// @DnDArgument : "yscale" "2"
-		/// @DnDArgument : "sprite" "BattleItemOutline"
-		/// @DnDSaveInfo : "sprite" "BattleItemOutline"
-		draw_sprite_ext(BattleItemOutline, 0, 220, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
-	}
+	/// @DnDArgument : "x" "420"
+	/// @DnDArgument : "y" "288"
+	/// @DnDArgument : "xscale" "2"
+	/// @DnDArgument : "yscale" "2"
+	/// @DnDArgument : "sprite" "BattleItemOutline"
+	/// @DnDSaveInfo : "sprite" "BattleItemOutline"
+	draw_sprite_ext(BattleItemOutline, 0, 420, 288, 2, 2, 0, $FFFFFF & $ffffff, 1);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
@@ -92,8 +62,9 @@ if(global.InBattleDrawButtons == 1)
 	/// @DnDArgument : "y" "288"
 	/// @DnDArgument : "xscale" ".5"
 	/// @DnDArgument : "yscale" ".5"
-	/// @DnDArgument : "sprite" "global.HotbarSlot1"
-	draw_sprite_ext(global.HotbarSlot1, 0, 220, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "sprite" "skateboard"
+	/// @DnDSaveInfo : "sprite" "skateboard"
+	draw_sprite_ext(skateboard, 0, 220, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
@@ -114,6 +85,7 @@ if(global.InBattleDrawButtons == 1)
 	/// @DnDArgument : "y" "288"
 	/// @DnDArgument : "xscale" ".5"
 	/// @DnDArgument : "yscale" ".5"
-	/// @DnDArgument : "sprite" "global.HotbarSlot3"
-	draw_sprite_ext(global.HotbarSlot3, 0, 420, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "sprite" "item_button"
+	/// @DnDSaveInfo : "sprite" "item_button"
+	draw_sprite_ext(item_button, 0, 420, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
 }
