@@ -13,9 +13,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_12_to_School_10","path":"objects/Transition_School_12_to_School_10/Transition_School_12_to_School_10.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":480.0,"resourceVersion":"1.0","name":"inst_70664148","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall_","path":"objects/oWall_/oWall_.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":448.0,"resourceVersion":"1.0","name":"inst_53BA4CF_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall_","path":"objects/oWall_/oWall_.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":32.0,"resourceVersion":"1.0","name":"inst_619F6149_1_1","tags":[],"resourceType":"GMRInstance",},
@@ -143,7 +141,6 @@
     {"name":"inst_1AC767E","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_37D71495","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_648F70D6","path":"rooms/School_1_2/School_1_2.yy",},
-    {"name":"inst_70664148","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_226723ED","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_556FC5F5","path":"rooms/School_1_2/School_1_2.yy",},
     {"name":"inst_23111DD0","path":"rooms/School_1_2/School_1_2.yy",},

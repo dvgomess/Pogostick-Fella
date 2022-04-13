@@ -14,3 +14,12 @@ varSpeed = 4;
 /// @DnDArgument : "var_1" "HoldingSkateboard"
 varCollisionSpeed = varSpeed + 1;
 HoldingSkateboard = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 15A4DC37
+/// @DnDInput : 2
+/// @DnDArgument : "var" "i"
+/// @DnDArgument : "var_1" "p"
+i = 0;
+p = 0;

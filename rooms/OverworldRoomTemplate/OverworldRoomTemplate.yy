@@ -13,9 +13,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_00_to_School_00","path":"objects/Transition_School_00_to_School_00/Transition_School_00_to_School_00.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,"resourceVersion":"1.0","name":"inst_59B26413","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall_","path":"objects/oWall_/oWall_.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_619F6149_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"HiddenCollision","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -108,7 +106,6 @@
   "instanceCreationOrder": [
     {"name":"inst_619F6149_1","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},
     {"name":"inst_20D108D4_1","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},
-    {"name":"inst_59B26413","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},
     {"name":"inst_3A665498","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},
     {"name":"inst_673089EF","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},
     {"name":"inst_3ED13B51","path":"rooms/OverworldRoomTemplate/OverworldRoomTemplate.yy",},

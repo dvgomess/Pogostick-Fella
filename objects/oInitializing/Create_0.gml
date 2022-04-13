@@ -86,12 +86,13 @@ global.TextScrollSpeed = .5;
 /// @DnDVersion : 1
 /// @DnDHash : 1A79BE9A
 /// @DnDInput : 3
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "global.SkipRoomTransition"
 /// @DnDArgument : "var_1" "global.HotbarSelected"
 /// @DnDArgument : "var_2" "global.HotbarAlpha"
-global.SkipRoomTransition = 0;
+global.SkipRoomTransition = 1;
 global.HotbarSelected = 1;
 global.HotbarAlpha = 1;
 
@@ -279,6 +280,12 @@ global.NoHotbar = 1;
 /// @DnDArgument : "expr" "$FFFFFFFF"
 /// @DnDArgument : "var" "global.InventoryDrawColor"
 global.InventoryDrawColor = $FFFFFFFF;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7541AF62
+/// @DnDArgument : "var" "global.SecondHalfOfRoomTransition"
+global.SecondHalfOfRoomTransition = 0;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
