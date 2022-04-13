@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 77A1002B
 /// @DnDArgument : "var" "global.InventoryLeftTabSelected"
-/// @DnDArgument : "value" "1"
-if(global.InventoryLeftTabSelected == 1)
+/// @DnDArgument : "value" "5"
+if(global.InventoryLeftTabSelected == 5)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

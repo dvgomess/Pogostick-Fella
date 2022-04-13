@@ -10,11 +10,10 @@ global.HasProgress = 1;
 /// @DnDHash : 00B4D8B5
 game_save("save.dat");
 
-/// @DnDAction : YoYo Games.Game.Save_Game
+/// @DnDAction : YoYo Games.Files.Buffer_Save
 /// @DnDVersion : 1
-/// @DnDHash : 6D0520A7
-/// @DnDArgument : "filename" ""savefile.txt""
-game_save("savefile.txt");
+/// @DnDHash : 55D3AA74
+buffer_save(buffer, "file.txt");
 
 /// @DnDAction : YoYo Games.Game.End_Game
 /// @DnDVersion : 1

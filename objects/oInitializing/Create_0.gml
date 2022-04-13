@@ -194,12 +194,6 @@ global.EnemyStyle = shadyfella;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 19A50C3A
-/// @DnDArgument : "var" "global.HasProgress"
-global.HasProgress = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 61713EE2
 /// @DnDInput : 2
 /// @DnDArgument : "var" "global.FriendApproaching_Op"
@@ -207,12 +201,84 @@ global.HasProgress = 0;
 global.FriendApproaching_Op = 0;
 global.FriendApproaching_Op2 = 0;
 
-/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 04BFC2B5
-draw_set_colour($FFFFFFFF & $ffffff);
-var l04BFC2B5_0=($FFFFFFFF >> 24);
-draw_set_alpha(l04BFC2B5_0 / $ff);
+/// @DnDHash : 5E5B7FB4
+/// @DnDInput : 20
+/// @DnDArgument : "expr" "empty"
+/// @DnDArgument : "expr_1" "empty"
+/// @DnDArgument : "expr_2" "empty"
+/// @DnDArgument : "expr_3" "empty"
+/// @DnDArgument : "expr_4" "empty"
+/// @DnDArgument : "expr_5" "empty"
+/// @DnDArgument : "expr_6" "empty"
+/// @DnDArgument : "expr_7" "empty"
+/// @DnDArgument : "expr_8" "empty"
+/// @DnDArgument : "expr_9" "empty"
+/// @DnDArgument : "expr_10" "empty"
+/// @DnDArgument : "expr_11" "empty"
+/// @DnDArgument : "expr_12" "empty"
+/// @DnDArgument : "expr_13" "empty"
+/// @DnDArgument : "expr_14" "empty"
+/// @DnDArgument : "expr_15" "empty"
+/// @DnDArgument : "expr_16" "empty"
+/// @DnDArgument : "expr_17" "empty"
+/// @DnDArgument : "expr_18" "empty"
+/// @DnDArgument : "expr_19" "empty"
+/// @DnDArgument : "var" "global.InventorySlot1"
+/// @DnDArgument : "var_1" "global.InventorySlot2"
+/// @DnDArgument : "var_2" "global.InventorySlot3"
+/// @DnDArgument : "var_3" "global.InventorySlot4"
+/// @DnDArgument : "var_4" "global.InventorySlot5"
+/// @DnDArgument : "var_5" "global.InventorySlot6"
+/// @DnDArgument : "var_6" "global.InventorySlot7"
+/// @DnDArgument : "var_7" "global.InventorySlot8"
+/// @DnDArgument : "var_8" "global.InventorySlot9"
+/// @DnDArgument : "var_9" "global.InventorySlot10"
+/// @DnDArgument : "var_10" "global.InventorySlot11"
+/// @DnDArgument : "var_11" "global.InventorySlot12"
+/// @DnDArgument : "var_12" "global.InventorySlot13"
+/// @DnDArgument : "var_13" "global.InventorySlot14"
+/// @DnDArgument : "var_14" "global.InventorySlot15"
+/// @DnDArgument : "var_15" "global.InventorySlot16"
+/// @DnDArgument : "var_16" "global.InventorySlot17"
+/// @DnDArgument : "var_17" "global.InventorySlot18"
+/// @DnDArgument : "var_18" "global.InventorySlot19"
+/// @DnDArgument : "var_19" "global.InventorySlot20"
+global.InventorySlot1 = empty;
+global.InventorySlot2 = empty;
+global.InventorySlot3 = empty;
+global.InventorySlot4 = empty;
+global.InventorySlot5 = empty;
+global.InventorySlot6 = empty;
+global.InventorySlot7 = empty;
+global.InventorySlot8 = empty;
+global.InventorySlot9 = empty;
+global.InventorySlot10 = empty;
+global.InventorySlot11 = empty;
+global.InventorySlot12 = empty;
+global.InventorySlot13 = empty;
+global.InventorySlot14 = empty;
+global.InventorySlot15 = empty;
+global.InventorySlot16 = empty;
+global.InventorySlot17 = empty;
+global.InventorySlot18 = empty;
+global.InventorySlot19 = empty;
+global.InventorySlot20 = empty;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4ADB1F31
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.NoHotbar"
+global.NoHotbar = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 48F1EAC4
+/// @DnDArgument : "expr" "$FFFFFFFF"
+/// @DnDArgument : "var" "global.InventoryDrawColor"
+global.InventoryDrawColor = $FFFFFFFF;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
