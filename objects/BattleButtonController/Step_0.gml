@@ -167,20 +167,23 @@ if(global.InBattleDrawButtons == 1)
 			/// @DnDVersion : 1
 			/// @DnDHash : 61E2D9E2
 			/// @DnDParent : 7FA6E19B
-			/// @DnDArgument : "var" "b"
+			/// @DnDArgument : "var" "global.BattleButtonDelay"
 			/// @DnDArgument : "value" "1"
-			if(b == 1)
+			if(global.BattleButtonDelay == 1)
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 71B30301
-				/// @DnDInput : 2
+				/// @DnDInput : 3
 				/// @DnDParent : 61E2D9E2
 				/// @DnDArgument : "expr" "4"
+				/// @DnDArgument : "expr_2" "1"
 				/// @DnDArgument : "var" "global.BattleStep"
 				/// @DnDArgument : "var_1" "global.InBattleDrawButtons"
+				/// @DnDArgument : "var_2" "global.ResetActionCommand"
 				global.BattleStep = 4;
 				global.InBattleDrawButtons = 0;
+				global.ResetActionCommand = 1;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.Else
@@ -194,8 +197,8 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDHash : 499BC177
 				/// @DnDParent : 59E5CCC6
 				/// @DnDArgument : "expr" "1"
-				/// @DnDArgument : "var" "b"
-				b = 1;
+				/// @DnDArgument : "var" "global.BattleButtonDelay"
+				global.BattleButtonDelay = 1;
 			}
 		}
 	}

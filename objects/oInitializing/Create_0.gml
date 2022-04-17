@@ -139,45 +139,30 @@ global.EditingPlayerPositionSelectedButton = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0D30D1FD
-/// @DnDInput : 5
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "1"
-/// @DnDArgument : "expr_3" "1"
-/// @DnDArgument : "expr_4" "1"
 /// @DnDArgument : "var" "global.EnemyHP"
 /// @DnDArgument : "var_1" "global.EnemyATK"
-/// @DnDArgument : "var_2" "global.EnemyCritChance"
-/// @DnDArgument : "var_3" "global.EnemyDEF"
-/// @DnDArgument : "var_4" "global.EnemyEVA"
 global.EnemyHP = 1;
 global.EnemyATK = 1;
-global.EnemyCritChance = 1;
-global.EnemyDEF = 1;
-global.EnemyEVA = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3740AA8C
-/// @DnDInput : 6
-/// @DnDArgument : "expr" "10"
+/// @DnDInput : 4
+/// @DnDArgument : "expr" "100"
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "1"
+/// @DnDArgument : "expr_2" "100"
 /// @DnDArgument : "expr_3" "1"
-/// @DnDArgument : "expr_4" "1"
-/// @DnDArgument : "expr_5" "10"
 /// @DnDArgument : "var" "global.PlayerHP"
 /// @DnDArgument : "var_1" "global.PlayerATK"
-/// @DnDArgument : "var_2" "global.PlayerCritChance"
-/// @DnDArgument : "var_3" "global.PlayerDEF"
-/// @DnDArgument : "var_4" "global.PlayerLuck"
-/// @DnDArgument : "var_5" "global.PlayerMaxHP"
-global.PlayerHP = 10;
+/// @DnDArgument : "var_2" "global.PlayerMaxHP"
+/// @DnDArgument : "var_3" "global.PlayerLuck"
+global.PlayerHP = 100;
 global.PlayerATK = 1;
-global.PlayerCritChance = 1;
-global.PlayerDEF = 1;
+global.PlayerMaxHP = 100;
 global.PlayerLuck = 1;
-global.PlayerMaxHP = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

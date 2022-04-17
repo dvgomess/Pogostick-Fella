@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "_223152__yoyodaman234__glass_footstep_1.wav",
-  "duration": 0.608367,
+  "soundFile": "bonk.wav",
+  "duration": 0.5,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_223152__yoyodaman234__glass_footstep_1",
+  "name": "bonk",
   "tags": [],
   "resourceType": "GMSound",
 }

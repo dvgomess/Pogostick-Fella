@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Pogostick Fella",
-    "path": "Pogostick Fella.yyp",
+    "name": "OverworldSprites",
+    "path": "folders/Sprites/OverworldSprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "clock",

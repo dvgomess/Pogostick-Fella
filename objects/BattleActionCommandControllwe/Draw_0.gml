@@ -10,8 +10,8 @@ if(global.BattleStep == 4)
 	/// @DnDHash : 7873F0A6
 	/// @DnDParent : 111BEFC7
 	/// @DnDArgument : "var" "global.ChosenMove"
-	/// @DnDArgument : "value" "bat"
-	if(global.ChosenMove == bat)
+	/// @DnDArgument : "value" "skateboard"
+	if(global.ChosenMove == skateboard)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1

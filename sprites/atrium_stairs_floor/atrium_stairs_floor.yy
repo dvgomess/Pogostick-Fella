@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Pogostick Fella",
-    "path": "Pogostick Fella.yyp",
+    "name": "TileSets",
+    "path": "folders/Sprites/TileSets.yy",
   },
   "resourceVersion": "1.0",
   "name": "atrium_stairs_floor",

@@ -4,6 +4,6 @@
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "BattleSelectedButton"
-/// @DnDArgument : "var_1" "b"
+/// @DnDArgument : "var_1" "global.BattleButtonDelay"
 BattleSelectedButton = 2;
-b = 0;
+global.BattleButtonDelay = 0;

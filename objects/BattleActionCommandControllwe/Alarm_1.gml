@@ -66,8 +66,8 @@ if(EvadeRoll <= 5+(global.EnemyLuck)/3)
 /// @DnDVersion : 1
 /// @DnDHash : 30A08C39
 /// @DnDArgument : "var" "global.ChosenMove"
-/// @DnDArgument : "value" "bat"
-if(global.ChosenMove == bat)
+/// @DnDArgument : "value" "skateboard"
+if(global.ChosenMove == skateboard)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -110,9 +110,9 @@ if(global.ChosenMove == bat)
 			/// @DnDVersion : 1
 			/// @DnDHash : 3E38584C
 			/// @DnDParent : 651AE799
-			/// @DnDArgument : "expr" "2*((30*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1)"
+			/// @DnDArgument : "expr" "1.5*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1"
 			/// @DnDArgument : "var" "global.BattleDamageOutput"
-			global.BattleDamageOutput = 2*((30*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1);
+			global.BattleDamageOutput = 1.5*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -139,9 +139,9 @@ if(global.ChosenMove == bat)
 			/// @DnDVersion : 1
 			/// @DnDHash : 2F5442FA
 			/// @DnDParent : 2A7117F9
-			/// @DnDArgument : "expr" "(30*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1"
+			/// @DnDArgument : "expr" "(15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1"
 			/// @DnDArgument : "var" "global.BattleDamageOutput"
-			global.BattleDamageOutput = (30*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1;
+			global.BattleDamageOutput = (15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

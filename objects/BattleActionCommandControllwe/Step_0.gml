@@ -1,5 +1,34 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 089179A5
+/// @DnDArgument : "var" "global.ResetActionCommand"
+/// @DnDArgument : "value" "1"
+if(global.ResetActionCommand == 1)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6F92BAD3
+	/// @DnDParent : 089179A5
+	/// @DnDArgument : "var" "global.ResetActionCommand"
+	global.ResetActionCommand = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7933516C
+	/// @DnDInput : 4
+	/// @DnDParent : 089179A5
+	/// @DnDArgument : "var" "BatSliderPosition"
+	/// @DnDArgument : "var_1" "HitCrit"
+	/// @DnDArgument : "var_2" "EvadedByEnemy"
+	/// @DnDArgument : "var_3" "global.BattleDamageOutput"
+	BatSliderPosition = 0;
+	HitCrit = 0;
+	EvadedByEnemy = 0;
+	global.BattleDamageOutput = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 5F7713DF
 /// @DnDArgument : "var" "global.BattleStep"
 /// @DnDArgument : "not" "1"
@@ -105,9 +134,9 @@ if(global.BattleStep == 4)
 				/// @DnDVersion : 1
 				/// @DnDHash : 50C6EA1B
 				/// @DnDParent : 1B5CACCF
-				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
-				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				/// @DnDArgument : "soundid" "bonk"
+				/// @DnDSaveInfo : "soundid" "bonk"
+				audio_play_sound(bonk, 0, 0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

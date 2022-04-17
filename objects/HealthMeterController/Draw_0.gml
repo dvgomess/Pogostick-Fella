@@ -59,20 +59,33 @@ draw_sprite_ext(heartforhealthmeter, 0, 352, 8, 1, 1, 0, global.EnemyHealthColor
 /// @DnDSaveInfo : "sprite" "heartforhealthmeter"
 draw_sprite_ext(heartforhealthmeter, 0, 32, 8, 1, 1, 0, $00FFE700 & $ffffff, 1);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 6976495F
-/// @DnDArgument : "var" "global.EnemyType"
-/// @DnDArgument : "value" "2"
-if(global.EnemyType == 2)
-{
-	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
-	/// @DnDVersion : 1
-	/// @DnDHash : 6A9B2825
-	/// @DnDParent : 6976495F
-	/// @DnDArgument : "x" "352"
-	/// @DnDArgument : "y" "64"
-	/// @DnDArgument : "sprite" "MoraleMeter"
-	/// @DnDSaveInfo : "sprite" "MoraleMeter"
-	draw_sprite_ext(MoraleMeter, 0, 352, 64, 1, 1, 0, $FFFFFF & $ffffff, 1);
-}
+/// @DnDHash : 0CBADADF
+/// @DnDArgument : "x" "80 "
+/// @DnDArgument : "y" "56"
+/// @DnDArgument : "xscale" ".75"
+/// @DnDArgument : "yscale" ".75"
+/// @DnDArgument : "caption" ""Pogostick Fella: ""
+/// @DnDArgument : "text" "string(global.PlayerHP) + "/" + string(global.PlayerMaxHP)"
+draw_text_transformed(80 , 56, string("Pogostick Fella: ") + string(string(global.PlayerHP) + "/" + string(global.PlayerMaxHP)), .75, .75, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 2D97EE71
+/// @DnDArgument : "x" "400"
+/// @DnDArgument : "y" "56"
+/// @DnDArgument : "xscale" ".75"
+/// @DnDArgument : "yscale" ".75"
+/// @DnDArgument : "caption" "global.EnemyName2 + ": ""
+/// @DnDArgument : "text" "string(global.EnemyHP) + "/" + string(global.EnemyMaxHP)"
+draw_text_transformed(400, 56, string(global.EnemyName2 + ": ") + string(string(global.EnemyHP) + "/" + string(global.EnemyMaxHP)), .75, .75, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 5ED3C0A5
+/// @DnDArgument : "x" "20"
+/// @DnDArgument : "y" "20"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "text" "global.BattleStep"
+draw_text_transformed(20, 20, "" + string(global.BattleStep), 1, 1, 0);
