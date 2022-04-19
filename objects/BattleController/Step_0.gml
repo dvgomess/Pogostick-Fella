@@ -84,12 +84,12 @@ if(global.BattleStep == 8)
 			/// @DnDInput : 3
 			/// @DnDParent : 3E188D0B
 			/// @DnDArgument : "expr" "9"
-			/// @DnDArgument : "expr_1" ""Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ""
+			/// @DnDArgument : "expr_1" "global.LossMessage"
 			/// @DnDArgument : "var" "global.BattleStep"
 			/// @DnDArgument : "var_1" "global.BattleTextOutput"
 			/// @DnDArgument : "var_2" "global.BattleTextOutputCharacterVal"
 			global.BattleStep = 9;
-			global.BattleTextOutput = "Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ";
+			global.BattleTextOutput = global.LossMessage;
 			global.BattleTextOutputCharacterVal = 0;
 		}
 	

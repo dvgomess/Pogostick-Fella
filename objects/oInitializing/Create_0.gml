@@ -272,6 +272,12 @@ global.InventoryDrawColor = $FFFFFFFF;
 /// @DnDArgument : "var" "global.SecondHalfOfRoomTransition"
 global.SecondHalfOfRoomTransition = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 54A64710
+/// @DnDArgument : "var" "global.AddingItemToInventory"
+global.AddingItemToInventory = 0;
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 0ACFB833

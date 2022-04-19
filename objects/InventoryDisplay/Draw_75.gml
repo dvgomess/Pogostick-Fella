@@ -35,19 +35,19 @@ if(global.InventoryLeftTabSelected == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 638DAB3A
 		/// @DnDParent : 2528B0BE
-		/// @DnDArgument : "x" "(144*(3)) + 467 -72 "
+		/// @DnDArgument : "x" "(144*(2)) + 467 -72 "
 		/// @DnDArgument : "y" "125"
 		/// @DnDArgument : "sprite" "global.InventorySlot3"
-		draw_sprite(global.InventorySlot3, 0, (144*(3)) + 467 -72 , 125);
+		draw_sprite(global.InventorySlot3, 0, (144*(2)) + 467 -72 , 125);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 30B24E35
 		/// @DnDParent : 2528B0BE
-		/// @DnDArgument : "x" "(144*(2)) + 467 -72 "
+		/// @DnDArgument : "x" "(144*(3)) + 467 -72 "
 		/// @DnDArgument : "y" "125"
 		/// @DnDArgument : "sprite" "global.InventorySlot4"
-		draw_sprite(global.InventorySlot4, 0, (144*(2)) + 467 -72 , 125);
+		draw_sprite(global.InventorySlot4, 0, (144*(3)) + 467 -72 , 125);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 		/// @DnDVersion : 1

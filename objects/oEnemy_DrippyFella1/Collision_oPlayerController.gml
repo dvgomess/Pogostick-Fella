@@ -79,6 +79,13 @@ global.ItemStrength1 = 0;
 global.ItemStrength2 = 0;
 global.ItemStrength3 = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0849107B
+/// @DnDArgument : "expr" ""Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ""
+/// @DnDArgument : "var" "global.LossMessage"
+global.LossMessage = "Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ";
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 5D75C9FC

@@ -158,9 +158,9 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDVersion : 1
 				/// @DnDHash : 6A67E3D0
 				/// @DnDParent : 178E816E
-				/// @DnDArgument : "expr" "item"
+				/// @DnDArgument : "expr" ""item""
 				/// @DnDArgument : "var" "global.ChosenMove"
-				global.ChosenMove = item;
+				global.ChosenMove = "item";
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable

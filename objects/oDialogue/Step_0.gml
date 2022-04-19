@@ -101,8 +101,8 @@ if (l3709CFD9_0)
 				/// @DnDHash : 5A1861DF
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" "rottenapple"
-				/// @DnDArgument : "var" "global.InventorySlot1"
-				global.InventorySlot1 = rottenapple;
+				/// @DnDArgument : "var" "global.AddingItemToInventory"
+				global.AddingItemToInventory = rottenapple;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
