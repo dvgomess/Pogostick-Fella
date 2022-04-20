@@ -80,12 +80,3 @@ draw_text_transformed(80 , 56, string("Pogostick Fella: ") + string(string(globa
 /// @DnDArgument : "caption" "global.EnemyName2 + ": ""
 /// @DnDArgument : "text" "string(global.EnemyHP) + "/" + string(global.EnemyMaxHP)"
 draw_text_transformed(400, 56, string(global.EnemyName2 + ": ") + string(string(global.EnemyHP) + "/" + string(global.EnemyMaxHP)), .75, .75, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 5ED3C0A5
-/// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "20"
-/// @DnDArgument : "caption" ""
-/// @DnDArgument : "text" "global.BattleStep"
-draw_text_transformed(20, 20, "" + string(global.BattleStep), 1, 1, 0);
