@@ -14,8 +14,8 @@
   "soundFile": "_128190__soundmary__car_drive_away.wav",
   "duration": 8.981937,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "_128190__soundmary__car_drive_away",

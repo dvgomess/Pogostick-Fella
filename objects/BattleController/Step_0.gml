@@ -1,5 +1,210 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 035B3E91
+/// @DnDArgument : "var" "global.BattleStep"
+/// @DnDArgument : "value" "13"
+if(global.BattleStep == 13)
+{
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 59801DA2
+	/// @DnDParent : 035B3E91
+	/// @DnDArgument : "key" "ord("E")"
+	var l59801DA2_0;
+	l59801DA2_0 = keyboard_check_pressed(ord("E"));
+	if (l59801DA2_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 70060D0D
+		/// @DnDParent : 59801DA2
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "global.SwappingBackgroundMusic"
+		global.SwappingBackgroundMusic = 1;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 03143D6A
+		/// @DnDParent : 59801DA2
+		/// @DnDArgument : "var" "global.InBattle"
+		global.InBattle = 0;
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5DFAFC0E
+		/// @DnDParent : 59801DA2
+		/// @DnDArgument : "soundid" "PogostickBattleMix2"
+		/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
+		audio_stop_sound(PogostickBattleMix2);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 32E63D70
+		/// @DnDParent : 59801DA2
+		/// @DnDArgument : "soundid" "EarlyVictoryJingle"
+		/// @DnDSaveInfo : "soundid" "EarlyVictoryJingle"
+		audio_play_sound(EarlyVictoryJingle, 0, 0);
+	
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 1F4FAA8A
+		/// @DnDParent : 59801DA2
+		/// @DnDArgument : "room" "global.CurrentRoom"
+		room_goto(global.CurrentRoom);
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A7F1C5D
+/// @DnDArgument : "var" "global.BattleStep"
+/// @DnDArgument : "value" "12"
+if(global.BattleStep == 12)
+{
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 3CE779B6
+	/// @DnDParent : 3A7F1C5D
+	/// @DnDArgument : "key" "ord("E")"
+	var l3CE779B6_0;
+	l3CE779B6_0 = keyboard_check_pressed(ord("E"));
+	if (l3CE779B6_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2AF59B46
+		/// @DnDParent : 3CE779B6
+		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "var" "global.BattleStep"
+		global.BattleStep = 5;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 58AF8BCC
+/// @DnDArgument : "var" "global.BattleStep"
+/// @DnDArgument : "value" "11"
+if(global.BattleStep == 11)
+{
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 2251986F
+	/// @DnDParent : 58AF8BCC
+	/// @DnDArgument : "key" "ord("E")"
+	var l2251986F_0;
+	l2251986F_0 = keyboard_check_pressed(ord("E"));
+	if (l2251986F_0)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 69620B89
+		/// @DnDParent : 2251986F
+		/// @DnDArgument : "var" "global.EnemyMorale"
+		/// @DnDArgument : "op" "3"
+		if(global.EnemyMorale <= 0)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 17F06B6F
+			/// @DnDParent : 69620B89
+			/// @DnDArgument : "expr" "13"
+			/// @DnDArgument : "var" "global.BattleStep"
+			global.BattleStep = 13;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 111829FA
+			/// @DnDInput : 2
+			/// @DnDParent : 69620B89
+			/// @DnDArgument : "expr" "global.EnemyMoraleDeprivationMessage"
+			/// @DnDArgument : "var" "global.BattleTextOutput"
+			/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
+			global.BattleTextOutput = global.EnemyMoraleDeprivationMessage;
+			global.BattleTextOutputCharacterVal = 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 6B862278
+		/// @DnDParent : 2251986F
+		else
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2E59B786
+			/// @DnDParent : 6B862278
+			/// @DnDArgument : "expr" "3"
+			/// @DnDArgument : "var" "global.BattleStep"
+			global.BattleStep = 3;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1364D7BE
+			/// @DnDParent : 6B862278
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "var" "global.InBattleDrawButtons"
+			global.InBattleDrawButtons = 1;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 3BA13F34
+			/// @DnDParent : 6B862278
+			/// @DnDArgument : "var" "global.InBattleDrawText"
+			global.InBattleDrawText = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1612E780
+			/// @DnDInput : 2
+			/// @DnDParent : 6B862278
+			/// @DnDArgument : "var" "global.ChosenMove"
+			/// @DnDArgument : "var_1" "global.BattleButtonDelay"
+			global.ChosenMove = 0;
+			global.BattleButtonDelay = 0;
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 239D1598
+/// @DnDArgument : "var" "global.BattleStep"
+/// @DnDArgument : "value" "10"
+if(global.BattleStep == 10)
+{
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 23175E2D
+	/// @DnDParent : 239D1598
+	/// @DnDArgument : "key" "ord("E")"
+	var l23175E2D_0;
+	l23175E2D_0 = keyboard_check_pressed(ord("E"));
+	if (l23175E2D_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0A8BD014
+		/// @DnDParent : 23175E2D
+		/// @DnDArgument : "expr" "11"
+		/// @DnDArgument : "var" "global.BattleStep"
+		global.BattleStep = 11;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 616CD78D
+		/// @DnDInput : 2
+		/// @DnDParent : 23175E2D
+		/// @DnDArgument : "expr" ""You lowered your enemy's\nattack stat and morale""
+		/// @DnDArgument : "var" "global.BattleTextOutput"
+		/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
+		global.BattleTextOutput = "You lowered your enemy's\nattack stat and morale";
+		global.BattleTextOutputCharacterVal = 0;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 31941155
 /// @DnDArgument : "var" "global.BattleStep"
 /// @DnDArgument : "value" "9"

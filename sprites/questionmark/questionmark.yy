@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 123,
-  "bbox_top": 20,
-  "bbox_bottom": 103,
+  "bbox_left": 34,
+  "bbox_right": 104,
+  "bbox_top": 4,
+  "bbox_bottom": 118,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/sunglasses/sunglasses.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/sunglasses/sunglasses.yy",},"LayerId":{"name":"d5d8a3e9-ee3d-4cdd-a84e-772f258fde3e","path":"sprites/sunglasses/sunglasses.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sunglasses","path":"sprites/sunglasses/sunglasses.yy",},"resourceVersion":"1.0","name":"183462c8-1d50-4448-98d9-429befc8dffd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/questionmark/questionmark.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/questionmark/questionmark.yy",},"LayerId":{"name":"d5d8a3e9-ee3d-4cdd-a84e-772f258fde3e","path":"sprites/questionmark/questionmark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"questionmark","path":"sprites/questionmark/questionmark.yy",},"resourceVersion":"1.0","name":"183462c8-1d50-4448-98d9-429befc8dffd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sunglasses","path":"sprites/sunglasses/sunglasses.yy",},
+    "spriteId": {"name":"questionmark","path":"sprites/questionmark/questionmark.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3e24409a-e493-4b04-88a7-6222366b5757","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/sunglasses/sunglasses.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b7e423db-d9ae-408f-b08f-6d7ee823ff99","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"183462c8-1d50-4448-98d9-429befc8dffd","path":"sprites/questionmark/questionmark.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sunglasses","path":"sprites/sunglasses/sunglasses.yy",},
+    "parent": {"name":"questionmark","path":"sprites/questionmark/questionmark.yy",},
     "resourceVersion": "1.3",
-    "name": "sunglasses",
+    "name": "questionmark",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Weapons&items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sunglasses",
+  "name": "questionmark",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -152,7 +152,7 @@ global.EnemyATK = 1;
 /// @DnDHash : 3740AA8C
 /// @DnDInput : 4
 /// @DnDArgument : "expr" "100"
-/// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_1" "-1"
 /// @DnDArgument : "expr_2" "100"
 /// @DnDArgument : "expr_3" "1"
 /// @DnDArgument : "var" "global.PlayerHP"
@@ -160,7 +160,7 @@ global.EnemyATK = 1;
 /// @DnDArgument : "var_2" "global.PlayerMaxHP"
 /// @DnDArgument : "var_3" "global.PlayerLuck"
 global.PlayerHP = 100;
-global.PlayerATK = 1;
+global.PlayerATK = -1;
 global.PlayerMaxHP = 100;
 global.PlayerLuck = 1;
 
@@ -191,10 +191,10 @@ global.FriendApproaching_Op2 = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 5E5B7FB4
 /// @DnDInput : 20
-/// @DnDArgument : "expr" "empty"
-/// @DnDArgument : "expr_1" "empty"
-/// @DnDArgument : "expr_2" "empty"
-/// @DnDArgument : "expr_3" "empty"
+/// @DnDArgument : "expr" "sunglasses"
+/// @DnDArgument : "expr_1" "jacket"
+/// @DnDArgument : "expr_2" "shoes"
+/// @DnDArgument : "expr_3" "bandaid"
 /// @DnDArgument : "expr_4" "empty"
 /// @DnDArgument : "expr_5" "empty"
 /// @DnDArgument : "expr_6" "empty"
@@ -231,10 +231,10 @@ global.FriendApproaching_Op2 = 0;
 /// @DnDArgument : "var_17" "global.InventorySlot18"
 /// @DnDArgument : "var_18" "global.InventorySlot19"
 /// @DnDArgument : "var_19" "global.InventorySlot20"
-global.InventorySlot1 = empty;
-global.InventorySlot2 = empty;
-global.InventorySlot3 = empty;
-global.InventorySlot4 = empty;
+global.InventorySlot1 = sunglasses;
+global.InventorySlot2 = jacket;
+global.InventorySlot3 = shoes;
+global.InventorySlot4 = bandaid;
 global.InventorySlot5 = empty;
 global.InventorySlot6 = empty;
 global.InventorySlot7 = empty;
@@ -277,6 +277,12 @@ global.SecondHalfOfRoomTransition = 0;
 /// @DnDHash : 54A64710
 /// @DnDArgument : "var" "global.AddingItemToInventory"
 global.AddingItemToInventory = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 26931C41
+/// @DnDArgument : "var" "global.DrippyKidIsDie"
+global.DrippyKidIsDie = 0;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

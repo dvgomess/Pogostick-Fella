@@ -20,10 +20,10 @@ global.PlayerYposition = 798;
 /// @DnDVersion : 1
 /// @DnDHash : 6875637E
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "School_Game_Dev_Club"
+/// @DnDArgument : "expr" "TempMusicSchool"
 /// @DnDArgument : "var" "global.CurrentBackgroundMusic"
 /// @DnDArgument : "var_1" "global.SwappingBackgroundMusic"
-global.CurrentBackgroundMusic = School_Game_Dev_Club;
+global.CurrentBackgroundMusic = TempMusicSchool;
 global.SwappingBackgroundMusic = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable

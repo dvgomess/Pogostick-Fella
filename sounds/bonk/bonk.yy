@@ -14,8 +14,8 @@
   "soundFile": "bonk.wav",
   "duration": 0.5,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "bonk",

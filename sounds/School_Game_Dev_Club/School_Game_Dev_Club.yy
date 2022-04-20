@@ -14,8 +14,8 @@
   "soundFile": "School_Game_Dev_Club.mp3",
   "duration": 198.269318,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "School_Game_Dev_Club",

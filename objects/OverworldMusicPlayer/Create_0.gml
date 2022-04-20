@@ -21,6 +21,14 @@ if(global.SwappingBackgroundMusic == 1)
 	/// @DnDSaveInfo : "soundid" "Outside"
 	audio_stop_sound(Outside);
 
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 63FE980F
+	/// @DnDParent : 2E6423F9
+	/// @DnDArgument : "soundid" "TempMusicSchool"
+	/// @DnDSaveInfo : "soundid" "TempMusicSchool"
+	audio_stop_sound(TempMusicSchool);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6564445E

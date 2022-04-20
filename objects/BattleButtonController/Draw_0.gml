@@ -74,8 +74,9 @@ if(global.InBattleDrawButtons == 1)
 	/// @DnDArgument : "y" "288"
 	/// @DnDArgument : "xscale" ".5"
 	/// @DnDArgument : "yscale" ".5"
-	/// @DnDArgument : "sprite" "global.HotbarSlot2"
-	draw_sprite_ext(global.HotbarSlot2, 0, 320, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "sprite" "questionmark"
+	/// @DnDSaveInfo : "sprite" "questionmark"
+	draw_sprite_ext(questionmark, 0, 320, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
@@ -88,4 +89,20 @@ if(global.InBattleDrawButtons == 1)
 	/// @DnDArgument : "sprite" "item_button"
 	/// @DnDSaveInfo : "sprite" "item_button"
 	draw_sprite_ext(item_button, 0, 420, 288, .5, .5, 0, $FFFFFF & $ffffff, 1);
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7F99097A
+	/// @DnDParent : 7FA0AF3A
+	/// @DnDArgument : "var" "global.BattleStep"
+	/// @DnDArgument : "value" "3"
+	if(global.BattleStep == 3)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0E539F63
+		/// @DnDParent : 7F99097A
+		/// @DnDArgument : "var" "r"
+		r = 0;
+	}
 }

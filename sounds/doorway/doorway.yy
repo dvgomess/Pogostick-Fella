@@ -14,8 +14,8 @@
   "soundFile": "doorway.ogg",
   "duration": 1.025438,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "doorway",

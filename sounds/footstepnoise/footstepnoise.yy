@@ -14,8 +14,8 @@
   "soundFile": "footstepnoise.wav",
   "duration": 0.095034,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "footstepnoise",

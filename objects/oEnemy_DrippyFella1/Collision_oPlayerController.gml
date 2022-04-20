@@ -66,15 +66,18 @@ global.EnemyMove3 = "Drip show";
 /// @DnDVersion : 1
 /// @DnDHash : 73013EE8
 /// @DnDInput : 6
+/// @DnDArgument : "expr" "sunglasses"
+/// @DnDArgument : "expr_1" "jacket"
+/// @DnDArgument : "expr_2" "shoes"
 /// @DnDArgument : "var" "global.ItemWeakness1"
 /// @DnDArgument : "var_1" "global.ItemWeakness2"
 /// @DnDArgument : "var_2" "global.ItemWeakness3"
 /// @DnDArgument : "var_3" "global.ItemStrength1"
 /// @DnDArgument : "var_4" "global.ItemStrength2"
 /// @DnDArgument : "var_5" "global.ItemStrength3"
-global.ItemWeakness1 = 0;
-global.ItemWeakness2 = 0;
-global.ItemWeakness3 = 0;
+global.ItemWeakness1 = sunglasses;
+global.ItemWeakness2 = jacket;
+global.ItemWeakness3 = shoes;
 global.ItemStrength1 = 0;
 global.ItemStrength2 = 0;
 global.ItemStrength3 = 0;
@@ -85,6 +88,28 @@ global.ItemStrength3 = 0;
 /// @DnDArgument : "expr" ""Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ""
 /// @DnDArgument : "var" "global.LossMessage"
 global.LossMessage = "Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 69B64EA4
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr_1" ""Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!""
+/// @DnDArgument : "var" "global.EnemyMorale"
+/// @DnDArgument : "var_1" "global.EnemyMoraleDeprivationMessage"
+global.EnemyMorale = 3;
+global.EnemyMoraleDeprivationMessage = "Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4E516E08
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "expr_1" "100"
+/// @DnDArgument : "var" "global.PlayerHP"
+/// @DnDArgument : "var_1" "global.PlayerMaxHP"
+global.PlayerHP = 100;
+global.PlayerMaxHP = 100;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

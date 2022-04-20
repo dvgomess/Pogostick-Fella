@@ -12,9 +12,7 @@ global.BattleTextOutputCharacterVal = 0;
 global.InBattleDrawButtons = 0;
 global.ChosenMove = 0;
 
-/// @DnDAction : YoYo Games.Audio.Pause_Audio
+/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 5B2B53A0
-/// @DnDArgument : "sound" "School_Game_Dev_Club"
-/// @DnDSaveInfo : "sound" "School_Game_Dev_Club"
-audio_pause_sound(School_Game_Dev_Club);
+/// @DnDHash : 30D26616
+audio_stop_all();

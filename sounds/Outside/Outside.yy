@@ -14,8 +14,8 @@
   "soundFile": "Outside.ogg",
   "duration": 45.2830162,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "Outside",

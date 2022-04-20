@@ -14,8 +14,8 @@
   "soundFile": "PogostickBattleMix2.ogg",
   "duration": 68.16558,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "PogostickBattleMix2",
