@@ -8,10 +8,10 @@ if(i == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3723418C
 	/// @DnDParent : 0C7EC40C
-	/// @DnDArgument : "expr" "30.5"
+	/// @DnDArgument : "expr" "40"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "p"
-	p += 30.5;
+	p += 40;
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1

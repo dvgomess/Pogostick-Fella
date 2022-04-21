@@ -7,8 +7,8 @@
 /// @DnDArgument : "expr_2" "drippy_kid__1_"
 /// @DnDArgument : "expr_3" "Background3"
 /// @DnDArgument : "expr_4" "$FF0026B2"
-/// @DnDArgument : "expr_5" "606"
-/// @DnDArgument : "expr_6" "880"
+/// @DnDArgument : "expr_5" "335"
+/// @DnDArgument : "expr_6" "365"
 /// @DnDArgument : "expr_7" "$FF574CFF"
 /// @DnDArgument : "expr_8" "100"
 /// @DnDArgument : "expr_9" "100"
@@ -37,8 +37,8 @@ global.InBattle = 1;
 global.EnemyStyle = drippy_kid__1_;
 global.BackgroundStyle = Background3;
 global.BackgroundColor = $FF0026B2;
-global.PlayerXposition = 606;
-global.PlayerYposition = 880;
+global.PlayerXposition = 335;
+global.PlayerYposition = 365;
 global.EnemyHealthColor = $FF574CFF;
 global.EnemyHP = 100;
 global.EnemyMaxHP = 100;

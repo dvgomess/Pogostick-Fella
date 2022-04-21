@@ -23,6 +23,6 @@ if(i == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0A59732C
 	/// @DnDParent : 42A5D758
-	/// @DnDArgument : "steps" "45"
-	alarm_set(0, 45);
+	/// @DnDArgument : "steps" "35"
+	alarm_set(0, 35);
 }

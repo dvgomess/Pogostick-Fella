@@ -137,7 +137,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oTeacherPet","path":"objects/oTeacherPet/oTeacherPet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":768.0,"resourceVersion":"1.0","name":"inst_436F3DF5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oChef","path":"objects/oChef/oChef.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":704.0,"resourceVersion":"1.0","name":"inst_7D2777EC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oVendingMachine","path":"objects/oVendingMachine/oVendingMachine.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":448.0,"resourceVersion":"1.0","name":"inst_3906B4E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oEnemy_DrippyFella1","path":"objects/oEnemy_DrippyFella1/oEnemy_DrippyFella1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":768.0,"resourceVersion":"1.0","name":"inst_6048666","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[],"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"BackgroundAssets","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"SchoolInteriorSet","path":"tilesets/SchoolInteriorSet/SchoolInteriorSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":38,"SerialiseHeight":49,"TileSerialiseData":[
@@ -355,7 +354,6 @@
     {"name":"inst_1DDAA81F","path":"rooms/School_1_0/School_1_0.yy",},
     {"name":"inst_7FFBF500","path":"rooms/School_1_0/School_1_0.yy",},
     {"name":"inst_13829BDB","path":"rooms/School_1_0/School_1_0.yy",},
-    {"name":"inst_6048666","path":"rooms/School_1_0/School_1_0.yy",},
     {"name":"inst_2D2F340C","path":"rooms/School_1_0/School_1_0.yy",},
     {"name":"inst_18750030","path":"rooms/School_1_0/School_1_0.yy",},
   ],
