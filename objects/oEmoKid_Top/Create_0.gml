@@ -15,21 +15,21 @@ DrawTextScroll = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 27F89235
 /// @DnDInput : 3
-/// @DnDArgument : "expr_1" "4"
+/// @DnDArgument : "expr_1" "3"
 /// @DnDArgument : "var" "InDialogue"
 /// @DnDArgument : "var_1" "LineCount"
 /// @DnDArgument : "var_2" "DrawTextScroll"
 InDialogue = 0;
-LineCount = 4;
+LineCount = 3;
 DrawTextScroll = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""!!!""
-/// @DnDArgument : "expr_1" ""I hate you.""
-/// @DnDArgument : "expr_2" ""....""
+/// @DnDArgument : "expr" ""You'll never understand\nwhat I am going through.""
+/// @DnDArgument : "expr_1" ""You may think that I am\nlost, but really, you're the\none who can't find their\npath.""
+/// @DnDArgument : "expr_2" ""Darkness is the blanket\nthat warms all who are\nlost.""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
 /// @DnDArgument : "expr_4" ""Text line 5""
 /// @DnDArgument : "expr_5" ""Text line 6""
@@ -41,9 +41,9 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "!!!";
-Line2 = "I hate you.";
-Line3 = "....";
+Line1 = "You'll never understand\nwhat I am going through.";
+Line2 = "You may think that I am\nlost, but really, you're the\none who can't find their\npath.";
+Line3 = "Darkness is the blanket\nthat warms all who are\nlost.";
 Line4 = "Here is a rotten apple!!!";
 Line5 = "Text line 5";
 Line6 = "Text line 6";

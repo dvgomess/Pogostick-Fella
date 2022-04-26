@@ -15,7 +15,7 @@
 /// @DnDArgument : "expr_10" "5"
 /// @DnDArgument : "expr_11" "3"
 /// @DnDArgument : "expr_12" "2"
-/// @DnDArgument : "expr_13" ""Drippy Kid""
+/// @DnDArgument : "expr_13" ""Drippy Kid:""
 /// @DnDArgument : "expr_14" "drippy_kid"
 /// @DnDArgument : "var" "global.EnemyName"
 /// @DnDArgument : "var_1" "global.InBattle"
@@ -45,7 +45,7 @@ global.EnemyMaxHP = 100;
 global.EnemyLuck = 5;
 global.EnemyATK = 3;
 global.EnemyType = 2;
-global.EnemyName2 = "Drippy Kid";
+global.EnemyName2 = "Drippy Kid:";
 global.EnemyStyle2 = drippy_kid;
 
 /// @DnDAction : YoYo Games.Common.Variable

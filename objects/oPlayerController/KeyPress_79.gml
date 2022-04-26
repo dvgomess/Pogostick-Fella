@@ -108,4 +108,12 @@ if(global.CanPlayerMoveRn == 1)
 		
 		
 	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 75CBFA7E
+	/// @DnDParent : 5285D410
+	/// @DnDArgument : "expr" "12"
+	/// @DnDArgument : "var" "global.InventoryCursorButton"
+	global.InventoryCursorButton = 12;
 }

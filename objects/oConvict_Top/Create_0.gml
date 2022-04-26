@@ -15,20 +15,20 @@ DrawTextScroll = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 27F89235
 /// @DnDInput : 3
-/// @DnDArgument : "expr_1" "4"
+/// @DnDArgument : "expr_1" "2"
 /// @DnDArgument : "var" "InDialogue"
 /// @DnDArgument : "var_1" "LineCount"
 /// @DnDArgument : "var_2" "DrawTextScroll"
 InDialogue = 0;
-LineCount = 4;
+LineCount = 2;
 DrawTextScroll = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""!!!""
-/// @DnDArgument : "expr_1" ""I hate you.""
+/// @DnDArgument : "expr" ""...Scram!""
+/// @DnDArgument : "expr_1" ""What do you want, kid?""
 /// @DnDArgument : "expr_2" ""....""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
 /// @DnDArgument : "expr_4" ""Text line 5""
@@ -41,8 +41,8 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "!!!";
-Line2 = "I hate you.";
+Line1 = "...Scram!";
+Line2 = "What do you want, kid?";
 Line3 = "....";
 Line4 = "Here is a rotten apple!!!";
 Line5 = "Text line 5";

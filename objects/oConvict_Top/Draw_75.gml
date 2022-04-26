@@ -21,9 +21,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "sportskid"
-		/// @DnDSaveInfo : "sprite" "sportskid"
-		draw_sprite_ext(sportskid, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "angrydrippykid"
+		/// @DnDSaveInfo : "sprite" "angrydrippykid"
+		draw_sprite_ext(angrydrippykid, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -61,8 +61,9 @@ if(InDialogue == 1)
 				/// @DnDHash : 0520392C
 				/// @DnDParent : 1A756240
 				/// @DnDArgument : "var" "RandomPitch"
-				/// @DnDArgument : "min" ".8"
-				RandomPitch = (random_range(.8, 1));
+				/// @DnDArgument : "min" "1"
+				/// @DnDArgument : "max" "1.2"
+				RandomPitch = (random_range(1, 1.2));
 			
 				/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 				/// @DnDVersion : 1
@@ -112,9 +113,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "DumbDumbPortrait"
-		/// @DnDSaveInfo : "sprite" "DumbDumbPortrait"
-		draw_sprite_ext(DumbDumbPortrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "drippykidportrait"
+		/// @DnDSaveInfo : "sprite" "drippykidportrait"
+		draw_sprite_ext(drippykidportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -140,9 +141,9 @@ if(InDialogue == 1)
 				/// @DnDHash : 0275018C
 				/// @DnDParent : 5BAE5893
 				/// @DnDArgument : "var" "RandomPitch"
-				/// @DnDArgument : "min" ".6"
-				/// @DnDArgument : "max" ".9"
-				RandomPitch = (random_range(.6, .9));
+				/// @DnDArgument : "min" "1"
+				/// @DnDArgument : "max" "1.2"
+				RandomPitch = (random_range(1, 1.2));
 			
 				/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 				/// @DnDVersion : 1
