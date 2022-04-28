@@ -33,9 +33,8 @@ if(global.BattleStep == 13)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5DFAFC0E
 		/// @DnDParent : 59801DA2
-		/// @DnDArgument : "soundid" "PogostickBattleMix2"
-		/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
-		audio_stop_sound(PogostickBattleMix2);
+		/// @DnDArgument : "soundid" "global.BattleMusic"
+		audio_stop_sound(global.BattleMusic);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
@@ -238,9 +237,8 @@ if(global.BattleStep == 9)
 		/// @DnDVersion : 1
 		/// @DnDHash : 6CF0DB90
 		/// @DnDParent : 7BB4180B
-		/// @DnDArgument : "soundid" "PogostickBattleMix2"
-		/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
-		audio_stop_sound(PogostickBattleMix2);
+		/// @DnDArgument : "soundid" "global.BattleMusic"
+		audio_stop_sound(global.BattleMusic);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
@@ -402,9 +400,8 @@ if(global.BattleStep == 6)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5A3A3CF1
 		/// @DnDParent : 3A8A6421
-		/// @DnDArgument : "soundid" "PogostickBattleMix2"
-		/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
-		audio_stop_sound(PogostickBattleMix2);
+		/// @DnDArgument : "soundid" "global.BattleMusic"
+		audio_stop_sound(global.BattleMusic);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
@@ -715,10 +712,9 @@ if(global.BattleStep == 2)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2D616603
 		/// @DnDParent : 515E38B9
-		/// @DnDArgument : "soundid" "PogostickBattleMix2"
+		/// @DnDArgument : "soundid" "global.BattleMusic"
 		/// @DnDArgument : "loop" "1"
-		/// @DnDSaveInfo : "soundid" "PogostickBattleMix2"
-		audio_play_sound(PogostickBattleMix2, 0, 1);
+		audio_play_sound(global.BattleMusic, 0, 1);
 	}
 }
 

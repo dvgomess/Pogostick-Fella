@@ -111,6 +111,13 @@ global.EnemyMoraleDeprivationMessage = "Suddenly, everything the drippy\nkid was
 global.PlayerHP = 100;
 global.PlayerMaxHP = 100;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1D932DB5
+/// @DnDArgument : "expr" "PogostickBattleMix2"
+/// @DnDArgument : "var" "global.BattleMusic"
+global.BattleMusic = PogostickBattleMix2;
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 5D75C9FC
