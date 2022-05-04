@@ -281,8 +281,17 @@ global.AddingItemToInventory = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 26931C41
+/// @DnDInput : 2
 /// @DnDArgument : "var" "global.DrippyKidIsDie"
+/// @DnDArgument : "var_1" "global.ChefIsDie"
 global.DrippyKidIsDie = 0;
+global.ChefIsDie = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 52722B7B
+/// @DnDArgument : "var" "global.CafeteriaArcProgressStage"
+global.CafeteriaArcProgressStage = 0;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

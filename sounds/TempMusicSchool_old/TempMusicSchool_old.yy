@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.7,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "TempMusicSchool.mp3",
-  "duration": 35.9967,
+  "soundFile": "TempMusicSchool_old.ogg",
+  "duration": 85.73388,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TempMusicSchool",
+  "name": "TempMusicSchool_old",
   "tags": [],
   "resourceType": "GMSound",
 }
