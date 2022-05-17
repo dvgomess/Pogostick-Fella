@@ -5,7 +5,7 @@
 /// @DnDArgument : "expr" ""You are challenged by Drippy \nKid""
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "drippy_kid__1_"
-/// @DnDArgument : "expr_3" "Background3"
+/// @DnDArgument : "expr_3" "Background2"
 /// @DnDArgument : "expr_4" "$FF0026B2"
 /// @DnDArgument : "expr_5" "335"
 /// @DnDArgument : "expr_6" "365"
@@ -35,7 +35,7 @@
 global.EnemyName = "You are challenged by Drippy \nKid";
 global.InBattle = 1;
 global.EnemyStyle = drippy_kid__1_;
-global.BackgroundStyle = Background3;
+global.BackgroundStyle = Background2;
 global.BackgroundColor = $FF0026B2;
 global.PlayerXposition = 335;
 global.PlayerYposition = 365;

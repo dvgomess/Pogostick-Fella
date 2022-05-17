@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_14_to_School_11","path":"objects/Transition_School_14_to_School_11/Transition_School_14_to_School_11.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":544.0,"resourceVersion":"1.0","name":"inst_235A617F_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_Receptionist_to_School_ShadyHallway","path":"objects/Transition_School_Receptionist_to_School_ShadyHallway/Transition_School_Receptionist_to_School_ShadyHallway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":96.0,"resourceVersion":"1.0","name":"inst_406E946D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_Receptionist_to_School_00","path":"objects/Transition_School_Receptionist_to_School_00/Transition_School_Receptionist_to_School_00.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":544.0,"resourceVersion":"1.0","name":"inst_31164206","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -30,6 +29,7 @@
     {"assets":[
         {"spriteId":{"name":"doggoTop","path":"sprites/doggoTop/doggoTop.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":512.0,"resourceVersion":"1.0","name":"graphic_7970048D_2","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"clock","path":"sprites/clock/clock.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":205.0,"y":81.0,"resourceVersion":"1.0","name":"graphic_28F51B6E_2","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"teacherdesk_top","path":"sprites/teacherdesk_top/teacherdesk_top.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":256.0,"resourceVersion":"1.0","name":"graphic_4D5D631","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Assets_Top","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGodMode","path":"objects/oGodMode/oGodMode.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4BCB661E_1_1_1_2","tags":[],"resourceType":"GMRInstance",},
@@ -108,7 +108,6 @@
     {"name":"inst_1A7B6E60_1","path":"rooms/School_Receptionist/School_Receptionist.yy",},
     {"name":"inst_81F33BA_1","path":"rooms/School_Receptionist/School_Receptionist.yy",},
     {"name":"inst_215485C9_1","path":"rooms/School_Receptionist/School_Receptionist.yy",},
-    {"name":"inst_235A617F_1","path":"rooms/School_Receptionist/School_Receptionist.yy",},
     {"name":"inst_53BA4CF_1_1_1_2","path":"rooms/School_Receptionist/School_Receptionist.yy",},
     {"name":"inst_6041CEE2_1_1_1_2","path":"rooms/School_Receptionist/School_Receptionist.yy",},
     {"name":"inst_68A597E9_2","path":"rooms/School_Receptionist/School_Receptionist.yy",},
