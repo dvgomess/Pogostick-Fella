@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OverworldSprites",
-    "path": "folders/Sprites/OverworldSprites.yy",
+    "name": "CafeteriaStuff",
+    "path": "folders/Sprites/OverworldSprites/CafeteriaStuff.yy",
   },
   "resourceVersion": "1.0",
   "name": "tableNoNPC2",

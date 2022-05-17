@@ -12,19 +12,17 @@ draw_set_alpha(l6681655E_0 / $ff);
 /// @DnDInput : 15
 /// @DnDArgument : "expr" ""A battle is cooking up with\nthis chef!""
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "chef1_"
+/// @DnDArgument : "expr_2" "chef_battle"
 /// @DnDArgument : "expr_3" "Background1"
 /// @DnDArgument : "expr_4" "$FF6B67F5"
-/// @DnDArgument : "expr_5" "350"
-/// @DnDArgument : "expr_6" "600"
 /// @DnDArgument : "expr_7" "$FF61ED61"
 /// @DnDArgument : "expr_8" "120"
 /// @DnDArgument : "expr_9" "120"
 /// @DnDArgument : "expr_10" "5"
 /// @DnDArgument : "expr_11" "4"
 /// @DnDArgument : "expr_12" "2"
-/// @DnDArgument : "expr_13" ""Chef          ""
-/// @DnDArgument : "expr_14" "chef1_"
+/// @DnDArgument : "expr_13" ""Chef: ""
+/// @DnDArgument : "expr_14" "chef_battle"
 /// @DnDArgument : "var" "global.EnemyName"
 /// @DnDArgument : "var_1" "global.InBattle"
 /// @DnDArgument : "var_2" "global.EnemyStyle"
@@ -42,19 +40,19 @@ draw_set_alpha(l6681655E_0 / $ff);
 /// @DnDArgument : "var_14" "global.EnemyStyle2"
 global.EnemyName = "A battle is cooking up with\nthis chef!";
 global.InBattle = 1;
-global.EnemyStyle = chef1_;
+global.EnemyStyle = chef_battle;
 global.BackgroundStyle = Background1;
 global.BackgroundColor = $FF6B67F5;
-global.PlayerXposition = 350;
-global.PlayerYposition = 600;
+global.PlayerXposition = 0;
+global.PlayerYposition = 0;
 global.EnemyHealthColor = $FF61ED61;
 global.EnemyHP = 120;
 global.EnemyMaxHP = 120;
 global.EnemyLuck = 5;
 global.EnemyATK = 4;
 global.EnemyType = 2;
-global.EnemyName2 = "Chef          ";
-global.EnemyStyle2 = chef1_;
+global.EnemyName2 = "Chef: ";
+global.EnemyStyle2 = chef_battle;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

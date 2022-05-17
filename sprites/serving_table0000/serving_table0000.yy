@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 127,
-  "bbox_top": 0,
+  "bbox_top": 66,
   "bbox_bottom": 111,
   "HTile": false,
   "VTile": false,
@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OverworldSprites",
-    "path": "folders/Sprites/OverworldSprites.yy",
+    "name": "CafeteriaStuff",
+    "path": "folders/Sprites/OverworldSprites/CafeteriaStuff.yy",
   },
   "resourceVersion": "1.0",
   "name": "serving_table0000",
