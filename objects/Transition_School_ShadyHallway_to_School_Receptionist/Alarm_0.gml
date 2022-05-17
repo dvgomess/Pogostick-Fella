@@ -21,10 +21,11 @@ global.PlayerYposition = 180;
 /// @DnDHash : 6875637E
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "TempMusicSchool"
+/// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "var" "global.CurrentBackgroundMusic"
 /// @DnDArgument : "var_1" "global.SwappingBackgroundMusic"
 global.CurrentBackgroundMusic = TempMusicSchool;
-global.SwappingBackgroundMusic = 0;
+global.SwappingBackgroundMusic = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
