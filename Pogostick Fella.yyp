@@ -94,6 +94,7 @@
     {"id":{"name":"HotbarItemOutline2","path":"sprites/HotbarItemOutline2/HotbarItemOutline2.yy",},"order":13,},
     {"id":{"name":"bat","path":"sprites/bat/bat.yy",},"order":3,},
     {"id":{"name":"StyleOptionController","path":"objects/StyleOptionController/StyleOptionController.yy",},"order":0,},
+    {"id":{"name":"oEvilChef_Approach","path":"objects/oEvilChef_Approach/oEvilChef_Approach.yy",},"order":41,},
     {"id":{"name":"oBattleEndDetection","path":"objects/oBattleEndDetection/oBattleEndDetection.yy",},"order":3,},
     {"id":{"name":"oBookshelf","path":"objects/oBookshelf/oBookshelf.yy",},"order":4,},
     {"id":{"name":"skateboard","path":"sprites/skateboard/skateboard.yy",},"order":10,},
