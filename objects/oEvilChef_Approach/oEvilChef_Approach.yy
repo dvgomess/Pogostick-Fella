@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "cheftops",
-    "path": "sprites/cheftops/cheftops.yy",
+    "name": "sLoadingZoneTile",
+    "path": "sprites/sLoadingZoneTile/sLoadingZoneTile.yy",
   },
   "solid": false,
   "visible": true,

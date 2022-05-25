@@ -40,40 +40,46 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDHash : 27F89235
 	/// @DnDInput : 3
 	/// @DnDParent : 61717255
-	/// @DnDArgument : "expr_1" "5"
+	/// @DnDArgument : "expr_1" "9"
 	/// @DnDArgument : "var" "InDialogue"
 	/// @DnDArgument : "var_1" "LineCount"
 	/// @DnDArgument : "var_2" "DrawTextScroll"
 	InDialogue = 0;
-	LineCount = 5;
+	LineCount = 9;
 	DrawTextScroll = 0;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 13ED29FE
-	/// @DnDInput : 7
+	/// @DnDInput : 9
 	/// @DnDParent : 61717255
-	/// @DnDArgument : "expr" ""Text line 1""
-	/// @DnDArgument : "expr_1" ""Text line 2""
-	/// @DnDArgument : "expr_2" ""Text line 3""
-	/// @DnDArgument : "expr_3" ""Text line 4""
-	/// @DnDArgument : "expr_4" ""Text line 5""
-	/// @DnDArgument : "expr_5" ""Text line 6""
-	/// @DnDArgument : "expr_6" ""Text line 7""
-	/// @DnDArgument : "var" "Line1"
-	/// @DnDArgument : "var_1" "Line2"
-	/// @DnDArgument : "var_2" "Line3"
-	/// @DnDArgument : "var_3" "Line4"
-	/// @DnDArgument : "var_4" "Line5"
-	/// @DnDArgument : "var_5" "Line6"
-	/// @DnDArgument : "var_6" "Line7"
-	Line1 = "Text line 1";
-	Line2 = "Text line 2";
-	Line3 = "Text line 3";
-	Line4 = "Text line 4";
-	Line5 = "Text line 5";
-	Line6 = "Text line 6";
-	Line7 = "Text line 7";
+	/// @DnDArgument : "expr" ""I guess 5 educationless\nweeks will do that to your\nmemory!""
+	/// @DnDArgument : "expr_1" ""Oh yeahhh, totally,\nabsolutely. Yes, that is\ndefinitely why.""
+	/// @DnDArgument : "expr_2" ""Didn't you also get\nexpelled for skipping?""
+	/// @DnDArgument : "expr_3" ""Huh?""
+	/// @DnDArgument : "expr_4" ""Wait.. why are you here,\nStick?""
+	/// @DnDArgument : "expr_5" ""I haven't seen you since\nwe skipped school for a\nmonth!""
+	/// @DnDArgument : "expr_6" ""Hey, Pogo, how are you\ndoing??""
+	/// @DnDArgument : "expr_7" ""Anyways, yesterday was\nactually my first day here.\nHow about I show you\naround the place?""
+	/// @DnDArgument : "expr_8" ""Meet me inside when\nyoure ready""
+	/// @DnDArgument : "var" "Line3"
+	/// @DnDArgument : "var_1" "Line4"
+	/// @DnDArgument : "var_2" "Line5"
+	/// @DnDArgument : "var_3" "Line6"
+	/// @DnDArgument : "var_4" "Line7"
+	/// @DnDArgument : "var_5" "Line8"
+	/// @DnDArgument : "var_6" "Line9"
+	/// @DnDArgument : "var_7" "Line2"
+	/// @DnDArgument : "var_8" "Line1"
+	Line3 = "I guess 5 educationless\nweeks will do that to your\nmemory!";
+	Line4 = "Oh yeahhh, totally,\nabsolutely. Yes, that is\ndefinitely why.";
+	Line5 = "Didn't you also get\nexpelled for skipping?";
+	Line6 = "Huh?";
+	Line7 = "Wait.. why are you here,\nStick?";
+	Line8 = "I haven't seen you since\nwe skipped school for a\nmonth!";
+	Line9 = "Hey, Pogo, how are you\ndoing??";
+	Line2 = "Anyways, yesterday was\nactually my first day here.\nHow about I show you\naround the place?";
+	Line1 = "Meet me inside when\nyoure ready";
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

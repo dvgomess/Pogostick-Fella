@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "chef1",
-    "path": "sprites/chef1/chef1.yy",
+    "name": "chef_overworld",
+    "path": "sprites/chef_overworld/chef_overworld.yy",
   },
   "solid": false,
   "visible": true,

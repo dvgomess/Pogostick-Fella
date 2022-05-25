@@ -135,7 +135,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" ""A battle is cooking up with\nthis chef!""
 				/// @DnDArgument : "expr_1" "1"
-				/// @DnDArgument : "expr_2" "chef_battle"
+				/// @DnDArgument : "expr_2" "chef_combat_anim"
 				/// @DnDArgument : "expr_3" "Background1"
 				/// @DnDArgument : "expr_4" "$FF6B67F5"
 				/// @DnDArgument : "expr_7" "$FF61ED61"
@@ -145,7 +145,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "expr_11" "4"
 				/// @DnDArgument : "expr_12" "2"
 				/// @DnDArgument : "expr_13" ""Chef: ""
-				/// @DnDArgument : "expr_14" "chef_battle"
+				/// @DnDArgument : "expr_14" "chef_combat_anim"
 				/// @DnDArgument : "var" "global.EnemyName"
 				/// @DnDArgument : "var_1" "global.InBattle"
 				/// @DnDArgument : "var_2" "global.EnemyStyle"
@@ -163,7 +163,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "var_14" "global.EnemyStyle2"
 				global.EnemyName = "A battle is cooking up with\nthis chef!";
 				global.InBattle = 1;
-				global.EnemyStyle = chef_battle;
+				global.EnemyStyle = chef_combat_anim;
 				global.BackgroundStyle = Background1;
 				global.BackgroundColor = $FF6B67F5;
 				global.PlayerXposition = 0;
@@ -175,7 +175,7 @@ if ((l0550EEC0_0 > 0))
 				global.EnemyATK = 4;
 				global.EnemyType = 2;
 				global.EnemyName2 = "Chef: ";
-				global.EnemyStyle2 = chef_battle;
+				global.EnemyStyle2 = chef_combat_anim;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -197,7 +197,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDHash : 027631BF
 				/// @DnDInput : 6
 				/// @DnDParent : 274DA07A
-				/// @DnDArgument : "expr" "sunglasses"
+				/// @DnDArgument : "expr" "rottenapple"
 				/// @DnDArgument : "expr_1" "jacket"
 				/// @DnDArgument : "expr_2" "shoes"
 				/// @DnDArgument : "var" "global.ItemWeakness1"
@@ -206,7 +206,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "var_3" "global.ItemStrength1"
 				/// @DnDArgument : "var_4" "global.ItemStrength2"
 				/// @DnDArgument : "var_5" "global.ItemStrength3"
-				global.ItemWeakness1 = sunglasses;
+				global.ItemWeakness1 = rottenapple;
 				global.ItemWeakness2 = jacket;
 				global.ItemWeakness3 = shoes;
 				global.ItemStrength1 = 0;
@@ -227,23 +227,23 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDInput : 2
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" "3"
-				/// @DnDArgument : "expr_1" ""Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!""
+				/// @DnDArgument : "expr_1" ""The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?""
 				/// @DnDArgument : "var" "global.EnemyMorale"
 				/// @DnDArgument : "var_1" "global.EnemyMoraleDeprivationMessage"
 				global.EnemyMorale = 3;
-				global.EnemyMoraleDeprivationMessage = "Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!";
+				global.EnemyMoraleDeprivationMessage = "The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?";
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 6DE48B73
 				/// @DnDInput : 2
 				/// @DnDParent : 274DA07A
-				/// @DnDArgument : "expr_relative" "1"
-				/// @DnDArgument : "expr_relative_1" "1"
+				/// @DnDArgument : "expr" "100"
+				/// @DnDArgument : "expr_1" "100"
 				/// @DnDArgument : "var" "global.PlayerHP"
 				/// @DnDArgument : "var_1" "global.PlayerMaxHP"
-				global.PlayerHP += 0;
-				global.PlayerMaxHP += 0;
+				global.PlayerHP = 100;
+				global.PlayerMaxHP = 100;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

@@ -17,11 +17,11 @@ global.CurrentRoom = School_1_0;
 /// @DnDHash : 163FFD0D
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "608"
-/// @DnDArgument : "expr_1" "1450"
+/// @DnDArgument : "expr_1" "1000"
 /// @DnDArgument : "var" "global.PlayerXposition"
 /// @DnDArgument : "var_1" "global.PlayerYposition"
 global.PlayerXposition = 608;
-global.PlayerYposition = 1450;
+global.PlayerYposition = 1000;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

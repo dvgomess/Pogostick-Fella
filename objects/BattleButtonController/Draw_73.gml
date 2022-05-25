@@ -1560,6 +1560,75 @@ if(global.BattleStep == 4)
 							/// @DnDArgument : "var" "global.BattleStep"
 							global.BattleStep = 10;
 						}
+					
+						/// @DnDAction : YoYo Games.Common.If_Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 1CA8081E
+						/// @DnDParent : 73957031
+						/// @DnDArgument : "var" "global.ChosenMove"
+						/// @DnDArgument : "value" "rottenapple"
+						if(global.ChosenMove == rottenapple)
+						{
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 426B0469
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "expr" ""You throw the rotten apple in the chef's soup. That was crossing the line.""
+							/// @DnDArgument : "var" "global.BattleTextOutput"
+							global.BattleTextOutput = "You throw the rotten apple in the chef's soup. That was crossing the line.";
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 676861C4
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "expr" "-1"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyMorale"
+							global.EnemyMorale += -1;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 5DF7B27A
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "expr" "2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.PlayerATK"
+							global.PlayerATK += 2;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 44562667
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "expr" "-2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyATK"
+							global.EnemyATK += -2;
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 4F277119
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "var" "global.EnemyATK"
+							/// @DnDArgument : "op" "3"
+							if(global.EnemyATK <= 0)
+							{
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 38BAAF6A
+								/// @DnDParent : 4F277119
+								/// @DnDArgument : "expr" "1"
+								/// @DnDArgument : "var" "global.EnemyATK"
+								global.EnemyATK = 1;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 4617EBF8
+							/// @DnDParent : 1CA8081E
+							/// @DnDArgument : "expr" "10"
+							/// @DnDArgument : "var" "global.BattleStep"
+							global.BattleStep = 10;
+						}
 					}
 				
 					/// @DnDAction : YoYo Games.Common.Else

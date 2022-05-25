@@ -14,6 +14,16 @@ if(global.FriendApproaching_Op2 == 1)
 	/// @DnDArgument : "value" "143"
 	if(i <= 143)
 	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 050C3BD8
+		/// @DnDParent : 2114F8F7
+		/// @DnDArgument : "imageind_relative" "1"
+		/// @DnDArgument : "spriteind" "drippy_kid_walking"
+		/// @DnDSaveInfo : "spriteind" "drippy_kid_walking"
+		sprite_index = drippy_kid_walking;
+		image_index += 0;
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 3B8839ED
@@ -46,5 +56,14 @@ if(global.FriendApproaching_Op2 == 1)
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "var" "global.FriendApproaching_Op"
 		global.FriendApproaching_Op = 1;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 378970BB
+		/// @DnDParent : 4CE12F0A
+		/// @DnDArgument : "spriteind" "drippykid_InitialChat"
+		/// @DnDSaveInfo : "spriteind" "drippykid_InitialChat"
+		sprite_index = drippykid_InitialChat;
+		image_index = 0;
 	}
 }

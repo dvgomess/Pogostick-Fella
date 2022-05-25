@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "friendTop",
-    "path": "sprites/friendTop/friendTop.yy",
+    "name": "drippykid_InitialChat",
+    "path": "sprites/drippykid_InitialChat/drippykid_InitialChat.yy",
   },
   "solid": false,
   "visible": true,

@@ -21,9 +21,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "angrydrippykid"
-		/// @DnDSaveInfo : "sprite" "angrydrippykid"
-		draw_sprite_ext(angrydrippykid, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "dog_portrait"
+		/// @DnDSaveInfo : "sprite" "dog_portrait"
+		draw_sprite_ext(dog_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
