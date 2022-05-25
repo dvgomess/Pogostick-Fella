@@ -32,7 +32,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_2" ""....please""
 /// @DnDArgument : "expr_3" ""........""
 /// @DnDArgument : "expr_4" ""Fine, but only if you say\nthe magic word!""
-/// @DnDArgument : "expr_5" ""Its a mystery.""
+/// @DnDArgument : "expr_5" ""It's a mystery.""
 /// @DnDArgument : "expr_6" ""What for?""
 /// @DnDArgument : "expr_7" ""Gimme one of those.""
 /// @DnDArgument : "var" "Line1"
@@ -48,7 +48,7 @@ Line2 = "This generation is so\nrespectful! Here is a\nhamburger!";
 Line3 = "....please";
 Line4 = "........";
 Line5 = "Fine, but only if you say\nthe magic word!";
-Line6 = "Its a mystery.";
+Line6 = "It's a mystery.";
 Line7 = "What for?";
 Line8 = "Gimme one of those.";
 

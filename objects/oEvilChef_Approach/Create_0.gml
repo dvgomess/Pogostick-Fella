@@ -29,17 +29,17 @@ DrawTextScroll = 0;
 /// @DnDInput : 13
 /// @DnDArgument : "expr" ""lol""
 /// @DnDArgument : "expr_1" ""THAT IS A SERIOUS\nESCALATION OF THIS\nSITUATION!""
-/// @DnDArgument : "expr_2" ""YOURE GOING TO KILL\nME?""
+/// @DnDArgument : "expr_2" ""YOU'RE GOING TO KILL\nME?""
 /// @DnDArgument : "expr_3" ""What?""
 /// @DnDArgument : "expr_4" ""....""
 /// @DnDArgument : "expr_5" ""Permanently.""
-/// @DnDArgument : "expr_6" ""If YOU dont stop pouring\nthat into our food, Im\ngoing to escort you out of\nlife. ""
-/// @DnDArgument : "expr_7" ""Leave now. If you dont, Im\ngoing to have to escort\nyou out of the kitchen.\nPhysically.""
+/// @DnDArgument : "expr_6" ""If YOU don't stop pouring\nthat into our food, Im\ngoing to escort you out of\nlife. ""
+/// @DnDArgument : "expr_7" ""Leave now. If you don't, I'm\ngoing to have to escort\nyou out of the kitchen.\nPhysically.""
 /// @DnDArgument : "expr_8" ""....""
 /// @DnDArgument : "expr_9" ""Something weird is going\non... What are you putting\nin the food?""
 /// @DnDArgument : "expr_10" ""Get out!""
-/// @DnDArgument : "expr_11" ""Huh? Howd you get in\nhere?""
-/// @DnDArgument : "expr_12" ""Uhh... Whats that bag you\ngot there?""
+/// @DnDArgument : "expr_11" ""Huh? How'd you get in\nhere?""
+/// @DnDArgument : "expr_12" ""Uhh... What's that bag you\ngot there?""
 /// @DnDArgument : "var" "Line1"
 /// @DnDArgument : "var_1" "Line2"
 /// @DnDArgument : "var_2" "Line3"
@@ -55,17 +55,17 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_12" "Line13"
 Line1 = "lol";
 Line2 = "THAT IS A SERIOUS\nESCALATION OF THIS\nSITUATION!";
-Line3 = "YOURE GOING TO KILL\nME?";
+Line3 = "YOU'RE GOING TO KILL\nME?";
 Line4 = "What?";
 Line5 = "....";
 Line6 = "Permanently.";
-Line7 = "If YOU dont stop pouring\nthat into our food, Im\ngoing to escort you out of\nlife. ";
-Line8 = "Leave now. If you dont, Im\ngoing to have to escort\nyou out of the kitchen.\nPhysically.";
+Line7 = "If YOU don't stop pouring\nthat into our food, Im\ngoing to escort you out of\nlife. ";
+Line8 = "Leave now. If you don't, I'm\ngoing to have to escort\nyou out of the kitchen.\nPhysically.";
 Line9 = "....";
 Line10 = "Something weird is going\non... What are you putting\nin the food?";
 Line11 = "Get out!";
-Line12 = "Huh? Howd you get in\nhere?";
-Line13 = "Uhh... Whats that bag you\ngot there?";
+Line12 = "Huh? How'd you get in\nhere?";
+Line13 = "Uhh... What's that bag you\ngot there?";
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

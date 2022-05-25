@@ -28,12 +28,12 @@ DrawTextScroll = 0;
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 9
 /// @DnDArgument : "expr" ""Let me know when you got\nsomething.""
-/// @DnDArgument : "expr_1" ""Ill get fired if I get caught\ntrying to steal food again,\nso this is all on you.""
+/// @DnDArgument : "expr_1" ""I'll get fired if I get caught\ntrying to steal food again,\nso this is all on you.""
 /// @DnDArgument : "expr_2" ""If you can get me\nsomething to eat, I will let\nyou through""
-/// @DnDArgument : "expr_3" ""I cant even afford lunch\nthese days.""
-/// @DnDArgument : "expr_4" ""This dang school doesnt\npay me enough.""
+/// @DnDArgument : "expr_3" ""I can't even afford lunch\nthese days.""
+/// @DnDArgument : "expr_4" ""This dang school doesn't\npay me enough.""
 /// @DnDArgument : "expr_5" ""I need you to do something\nfor me.""
-/// @DnDArgument : "expr_6" ""Ill let you in, but""
+/// @DnDArgument : "expr_6" ""I'll let you in, but""
 /// @DnDArgument : "expr_7" ""You trying to get in there?""
 /// @DnDArgument : "expr_8" ""Hey, kid.""
 /// @DnDArgument : "var" "Line1"
@@ -46,12 +46,12 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_7" "Line8"
 /// @DnDArgument : "var_8" "Line9"
 Line1 = "Let me know when you got\nsomething.";
-Line2 = "Ill get fired if I get caught\ntrying to steal food again,\nso this is all on you.";
+Line2 = "I'll get fired if I get caught\ntrying to steal food again,\nso this is all on you.";
 Line3 = "If you can get me\nsomething to eat, I will let\nyou through";
-Line4 = "I cant even afford lunch\nthese days.";
-Line5 = "This dang school doesnt\npay me enough.";
+Line4 = "I can't even afford lunch\nthese days.";
+Line5 = "This dang school doesn't\npay me enough.";
 Line6 = "I need you to do something\nfor me.";
-Line7 = "Ill let you in, but";
+Line7 = "I'll let you in, but";
 Line8 = "You trying to get in there?";
 Line9 = "Hey, kid.";
 

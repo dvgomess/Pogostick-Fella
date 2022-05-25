@@ -53,7 +53,7 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDHash : 13ED29FE
 	/// @DnDInput : 9
 	/// @DnDParent : 61717255
-	/// @DnDArgument : "expr" ""I guess 5 educationless\nweeks will do that to your\nmemory!""
+	/// @DnDArgument : "expr" ""I guess five educationless\nweeks will do that to your\nmemory!""
 	/// @DnDArgument : "expr_1" ""Oh yeahhh, totally,\nabsolutely. Yes, that is\ndefinitely why.""
 	/// @DnDArgument : "expr_2" ""Didn't you also get\nexpelled for skipping?""
 	/// @DnDArgument : "expr_3" ""Huh?""
@@ -61,7 +61,7 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDArgument : "expr_5" ""I haven't seen you since\nwe skipped school for a\nmonth!""
 	/// @DnDArgument : "expr_6" ""Hey, Pogo, how are you\ndoing??""
 	/// @DnDArgument : "expr_7" ""Anyways, yesterday was\nactually my first day here.\nHow about I show you\naround the place?""
-	/// @DnDArgument : "expr_8" ""Meet me inside when\nyoure ready""
+	/// @DnDArgument : "expr_8" ""Meet me inside when\nyou're ready""
 	/// @DnDArgument : "var" "Line3"
 	/// @DnDArgument : "var_1" "Line4"
 	/// @DnDArgument : "var_2" "Line5"
@@ -71,7 +71,7 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDArgument : "var_6" "Line9"
 	/// @DnDArgument : "var_7" "Line2"
 	/// @DnDArgument : "var_8" "Line1"
-	Line3 = "I guess 5 educationless\nweeks will do that to your\nmemory!";
+	Line3 = "I guess five educationless\nweeks will do that to your\nmemory!";
 	Line4 = "Oh yeahhh, totally,\nabsolutely. Yes, that is\ndefinitely why.";
 	Line5 = "Didn't you also get\nexpelled for skipping?";
 	Line6 = "Huh?";
@@ -79,7 +79,7 @@ if(global.AlreadyTalkedToStacy == 0)
 	Line8 = "I haven't seen you since\nwe skipped school for a\nmonth!";
 	Line9 = "Hey, Pogo, how are you\ndoing??";
 	Line2 = "Anyways, yesterday was\nactually my first day here.\nHow about I show you\naround the place?";
-	Line1 = "Meet me inside when\nyoure ready";
+	Line1 = "Meet me inside when\nyou're ready";
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

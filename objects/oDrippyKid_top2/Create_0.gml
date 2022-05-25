@@ -27,7 +27,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 8
-/// @DnDArgument : "expr" ""Why dont you go give it a\ntry?""
+/// @DnDArgument : "expr" ""Why don't you go give it a\ntry?""
 /// @DnDArgument : "expr_1" ""If you ever feel like saving\nyour game, go interact\nwith it.""
 /// @DnDArgument : "expr_2" ""Hey. Ya see that vending\nmachine up there?""
 /// @DnDArgument : "expr_3" ""........""
@@ -43,7 +43,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
 /// @DnDArgument : "var_7" "Line8"
-Line1 = "Why dont you go give it a\ntry?";
+Line1 = "Why don't you go give it a\ntry?";
 Line2 = "If you ever feel like saving\nyour game, go interact\nwith it.";
 Line3 = "Hey. Ya see that vending\nmachine up there?";
 Line4 = "........";

@@ -27,7 +27,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""well thats about it!""
+/// @DnDArgument : "expr" ""well that's about it!""
 /// @DnDArgument : "expr_1" ""Flipping hamburgers and..""
 /// @DnDArgument : "expr_2" ""Oh boy! I love this job so\nmuch!!""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
@@ -41,7 +41,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "well thats about it!";
+Line1 = "well that's about it!";
 Line2 = "Flipping hamburgers and..";
 Line3 = "Oh boy! I love this job so\nmuch!!";
 Line4 = "Here is a rotten apple!!!";

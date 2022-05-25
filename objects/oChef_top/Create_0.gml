@@ -28,7 +28,7 @@ DrawTextScroll = 0;
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
 /// @DnDArgument : "expr" ""This is serious business!""
-/// @DnDArgument : "expr_1" ""Cant you see Im busy\nserving people??""
+/// @DnDArgument : "expr_1" ""Can't you see I'm busy\nserving people??""
 /// @DnDArgument : "expr_2" ""....""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
 /// @DnDArgument : "expr_4" ""Text line 5""
@@ -42,7 +42,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
 Line1 = "This is serious business!";
-Line2 = "Cant you see Im busy\nserving people??";
+Line2 = "Can't you see I'm busy\nserving people??";
 Line3 = "....";
 Line4 = "Here is a rotten apple!!!";
 Line5 = "Text line 5";

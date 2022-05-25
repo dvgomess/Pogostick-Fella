@@ -18,8 +18,8 @@ if(global.DrippyKidTutorialProgressStage > 3)
 /// @DnDHash : 040F3EA3
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "224"
-/// @DnDArgument : "expr_1" "32"
+/// @DnDArgument : "expr_1" "64"
 /// @DnDArgument : "var" "walking_x"
 /// @DnDArgument : "var_1" "walking_y"
 walking_x = 224;
-walking_y = 32;
+walking_y = 64;

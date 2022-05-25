@@ -38,13 +38,13 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr" ""BUY BUY BUY!!!!!!!""
 /// @DnDArgument : "expr_1" ""GAMESHOP STOCK?????""
 /// @DnDArgument : "expr_2" ""TWEETER STOCK?""
-/// @DnDArgument : "expr_3" ""INVESTING IS COOL\nTHESE DAYS - WHY DONT\nYOU BUY SOME TEXSLA\nSTOCK?""
+/// @DnDArgument : "expr_3" ""INVESTING IS COOL\nTHESE DAYS - WHY DON'T\nYOU BUY SOME TEXSLA\nSTOCK?""
 /// @DnDArgument : "expr_4" ""BUY BUY BUY!!!""
 /// @DnDArgument : "expr_5" ""PHONE?!?! I HEAR THE\nNEW NOODLE LIGHT 7\nHAS A FANTASTIC\nCAMERA!!!""
-/// @DnDArgument : "expr_6" ""WHILE YOURE THERE,\nWHY DONT YOU PICK UP\nA NEW PH-PH-PH-PH-PH""
+/// @DnDArgument : "expr_6" ""WHILE YOU'RE THERE,\nWHY DONT YOU PICK UP\nA NEW PH-PH-PH-PH-PH""
 /// @DnDArgument : "expr_7" ""BUY BUY BUY!!!""
-/// @DnDArgument : "expr_8" ""THEYRE ON SALE DOWN\nAT COCONUT MALL!!! ""
-/// @DnDArgument : "expr_9" ""WHY DONT YOU CHECK\nMY SHOES??? THEYRE\nTHE KNIKE HAIR FORCE\nTWOS!!!""
+/// @DnDArgument : "expr_8" ""THEY'RE ON SALE DOWN\nAT COCONUT MALL!!! ""
+/// @DnDArgument : "expr_9" ""WHY DON'T YOU CHECK\nMY SHOES??? THEY'RE\nTHE KNIKE HAIR FORCE\nTWOS!!!""
 /// @DnDArgument : "expr_10" ""YOU LOOK LIKE A FELLA\nTHAT REALLY GETS\nSTYLE!!! ""
 /// @DnDArgument : "expr_11" ""HEY HEY HEY!!! YOU\nTHERE!!! NICE SHOES! ""
 /// @DnDArgument : "var" "Line1"
@@ -62,13 +62,13 @@ DrawTextScroll = 0;
 Line1 = "BUY BUY BUY!!!!!!!";
 Line2 = "GAMESHOP STOCK?????";
 Line3 = "TWEETER STOCK?";
-Line4 = "INVESTING IS COOL\nTHESE DAYS - WHY DONT\nYOU BUY SOME TEXSLA\nSTOCK?";
+Line4 = "INVESTING IS COOL\nTHESE DAYS - WHY DON'T\nYOU BUY SOME TEXSLA\nSTOCK?";
 Line5 = "BUY BUY BUY!!!";
 Line6 = "PHONE?!?! I HEAR THE\nNEW NOODLE LIGHT 7\nHAS A FANTASTIC\nCAMERA!!!";
-Line7 = "WHILE YOURE THERE,\nWHY DONT YOU PICK UP\nA NEW PH-PH-PH-PH-PH";
+Line7 = "WHILE YOU'RE THERE,\nWHY DONT YOU PICK UP\nA NEW PH-PH-PH-PH-PH";
 Line8 = "BUY BUY BUY!!!";
-Line9 = "THEYRE ON SALE DOWN\nAT COCONUT MALL!!! ";
-Line10 = "WHY DONT YOU CHECK\nMY SHOES??? THEYRE\nTHE KNIKE HAIR FORCE\nTWOS!!!";
+Line9 = "THEY'RE ON SALE DOWN\nAT COCONUT MALL!!! ";
+Line10 = "WHY DON'T YOU CHECK\nMY SHOES??? THEY'RE\nTHE KNIKE HAIR FORCE\nTWOS!!!";
 Line11 = "YOU LOOK LIKE A FELLA\nTHAT REALLY GETS\nSTYLE!!! ";
 Line12 = "HEY HEY HEY!!! YOU\nTHERE!!! NICE SHOES! ";
 
