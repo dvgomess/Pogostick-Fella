@@ -101,16 +101,16 @@ if (l3709CFD9_0)
 				/// @DnDHash : 0E047914
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
-				/// @DnDArgument : "value" "1"
-				if(global.DrippyKidTutorialProgressStage == 1)
+				/// @DnDArgument : "value" "5"
+				if(global.DrippyKidTutorialProgressStage == 5)
 				{
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 394B7DB8
 					/// @DnDParent : 0E047914
-					/// @DnDArgument : "expr" "2"
+					/// @DnDArgument : "expr" "6"
 					/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
-					global.DrippyKidTutorialProgressStage = 2;
+					global.DrippyKidTutorialProgressStage = 6;
 				
 					/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 					/// @DnDVersion : 1
@@ -160,3 +160,51 @@ if (l3709CFD9_0)
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "DrawTextScroll"
 DrawTextScroll += global.TextScrollSpeed;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3DE056AA
+/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "5"
+if(global.DrippyKidTutorialProgressStage < 5)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 11AFF9CB
+	/// @DnDInput : 2
+	/// @DnDParent : 3DE056AA
+	/// @DnDArgument : "expr" "2000"
+	/// @DnDArgument : "expr_1" "2000"
+	/// @DnDArgument : "var" "x"
+	/// @DnDArgument : "var_1" "y"
+	x = 2000;
+	y = 2000;
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 717AADE1
+else
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 565A47DC
+	/// @DnDParent : 717AADE1
+	/// @DnDArgument : "x" "64"
+	/// @DnDArgument : "y" "768"
+	x = 64;
+	y = 768;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 58A560C1
+	/// @DnDInput : 2
+	/// @DnDParent : 717AADE1
+	/// @DnDArgument : "expr" "64"
+	/// @DnDArgument : "expr_1" "768"
+	/// @DnDArgument : "var" "x"
+	/// @DnDArgument : "var_1" "y"
+	x = 64;
+	y = 768;
+}

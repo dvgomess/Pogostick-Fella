@@ -34,7 +34,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_4" ""I am so much drippier than\nyou.""
 /// @DnDArgument : "expr_5" ""No. This is not ok.""
 /// @DnDArgument : "expr_6" ""I'm just saying..""
-/// @DnDArgument : "expr_7" ""insult my fit""
+/// @DnDArgument : "expr_7" ""insult my 'fit""
 /// @DnDArgument : "expr_8" ""did you just""
 /// @DnDArgument : "expr_9" ""what did you just say""
 /// @DnDArgument : "expr_10" ""...""
@@ -62,7 +62,7 @@ Line4 = "Absolutely not. I'm willing\nto fight you over this";
 Line5 = "I am so much drippier than\nyou.";
 Line6 = "No. This is not ok.";
 Line7 = "I'm just saying..";
-Line8 = "insult my fit";
+Line8 = "insult my 'fit";
 Line9 = "did you just";
 Line10 = "what did you just say";
 Line11 = "...";

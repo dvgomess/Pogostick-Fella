@@ -95,6 +95,20 @@ if (l3709CFD9_0)
 				/// @DnDArgument : "expr" "1"
 				/// @DnDArgument : "var" "global.PanningCamToHome"
 				global.PanningCamToHome = 1;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 180B7037
+				/// @DnDParent : 274DA07A
+				/// @DnDArgument : "expr" "jacket"
+				/// @DnDArgument : "var" "global.AddingItemToInventory"
+				global.AddingItemToInventory = jacket;
+			
+				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 0A94D593
+				/// @DnDParent : 274DA07A
+				instance_destroy();
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable

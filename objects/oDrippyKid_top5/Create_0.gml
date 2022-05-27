@@ -15,20 +15,20 @@ DrawTextScroll = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 27F89235
 /// @DnDInput : 3
-/// @DnDArgument : "expr_1" "15"
+/// @DnDArgument : "expr_1" "2"
 /// @DnDArgument : "var" "InDialogue"
 /// @DnDArgument : "var_1" "LineCount"
 /// @DnDArgument : "var_2" "DrawTextScroll"
 InDialogue = 0;
-LineCount = 15;
+LineCount = 2;
 DrawTextScroll = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 15
-/// @DnDArgument : "expr" ""Outdripping me will be\nimpossible!""
-/// @DnDArgument : "expr_1" ""I'll give you some time to\nprepare, talk to me one\nmore time when you're\nready.""
+/// @DnDArgument : "expr" ""Let's fight!""
+/// @DnDArgument : "expr_1" ""You ready?""
 /// @DnDArgument : "expr_2" ""You might wanna go find\nsome items to use against\nme and then go save.""
 /// @DnDArgument : "expr_3" ""If you lose the battle,\nyou'll get put back at your\nmost recent save point, so\nsave frequently.""
 /// @DnDArgument : "expr_4" ""Try talking to people and\nsearching stuff like trash\ncans to find them.""
@@ -57,8 +57,8 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_12" "Line13"
 /// @DnDArgument : "var_13" "Line14"
 /// @DnDArgument : "var_14" "Line15"
-Line1 = "Outdripping me will be\nimpossible!";
-Line2 = "I'll give you some time to\nprepare, talk to me one\nmore time when you're\nready.";
+Line1 = "Let's fight!";
+Line2 = "You ready?";
 Line3 = "You might wanna go find\nsome items to use against\nme and then go save.";
 Line4 = "If you lose the battle,\nyou'll get put back at your\nmost recent save point, so\nsave frequently.";
 Line5 = "Try talking to people and\nsearching stuff like trash\ncans to find them.";
@@ -78,8 +78,8 @@ Line15 = "The battle will commence\nshortly, but first, let me\nlay out the rule
 /// @DnDHash : 2B04FE78
 /// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "6"
-if(global.DrippyKidTutorialProgressStage >= 6)
+/// @DnDArgument : "value" "7"
+if(global.DrippyKidTutorialProgressStage >= 7)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

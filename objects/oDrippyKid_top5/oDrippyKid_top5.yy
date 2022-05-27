@@ -33,7 +33,7 @@
     "path": "folders/Objects/Overworld/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDrippyKid_top4",
+  "name": "oDrippyKid_top5",
   "tags": [],
   "resourceType": "GMObject",
 }

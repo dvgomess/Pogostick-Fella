@@ -231,9 +231,9 @@ if(SelectedButton == 1)
 	/// @DnDInput : 20
 	/// @DnDParent : 722D0FE3
 	/// @DnDArgument : "expr" "sunglasses"
-	/// @DnDArgument : "expr_1" "jacket"
-	/// @DnDArgument : "expr_2" "shoes"
-	/// @DnDArgument : "expr_3" "bandaid"
+	/// @DnDArgument : "expr_1" "shoes"
+	/// @DnDArgument : "expr_2" "empty"
+	/// @DnDArgument : "expr_3" "empty"
 	/// @DnDArgument : "expr_4" "empty"
 	/// @DnDArgument : "expr_5" "empty"
 	/// @DnDArgument : "expr_6" "empty"
@@ -271,9 +271,9 @@ if(SelectedButton == 1)
 	/// @DnDArgument : "var_18" "global.InventorySlot19"
 	/// @DnDArgument : "var_19" "global.InventorySlot20"
 	global.InventorySlot1 = sunglasses;
-	global.InventorySlot2 = jacket;
-	global.InventorySlot3 = shoes;
-	global.InventorySlot4 = bandaid;
+	global.InventorySlot2 = shoes;
+	global.InventorySlot3 = empty;
+	global.InventorySlot4 = empty;
 	global.InventorySlot5 = empty;
 	global.InventorySlot6 = empty;
 	global.InventorySlot7 = empty;

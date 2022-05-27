@@ -173,6 +173,7 @@
     {"id":{"name":"oFriendDialogueInitial","path":"objects/oFriendDialogueInitial/oFriendDialogueInitial.yy",},"order":13,},
     {"id":{"name":"oAdvertisingKid_Top","path":"objects/oAdvertisingKid_Top/oAdvertisingKid_Top.yy",},"order":32,},
     {"id":{"name":"StyleOption3","path":"objects/StyleOption3/StyleOption3.yy",},"order":3,},
+    {"id":{"name":"oDrippyKid_top5","path":"objects/oDrippyKid_top5/oDrippyKid_top5.yy",},"order":48,},
     {"id":{"name":"OutdoorTileset","path":"tilesets/OutdoorTileset/OutdoorTileset.yy",},"order":1,},
     {"id":{"name":"OpenAndCloseInventoryController","path":"objects/OpenAndCloseInventoryController/OpenAndCloseInventoryController.yy",},"order":0,},
     {"id":{"name":"DumbDumbRun","path":"sprites/DumbDumbRun/DumbDumbRun.yy",},"order":2,},
