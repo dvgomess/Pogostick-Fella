@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_14_to_School_11","path":"objects/Transition_School_14_to_School_11/Transition_School_14_to_School_11.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-224.0,"y":544.0,"resourceVersion":"1.0","name":"inst_235A617F_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_ShadyHallway_to_School_Receptionist","path":"objects/Transition_School_ShadyHallway_to_School_Receptionist/Transition_School_ShadyHallway_to_School_Receptionist.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":3968.0,"resourceVersion":"1.0","name":"inst_3457A40E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Transition_School_ShadyHallway_to_PrincipalOffice","path":"objects/Transition_School_ShadyHallway_to_PrincipalOffice/Transition_School_ShadyHallway_to_PrincipalOffice.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_59831A7B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"RoomTransitions","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall_","path":"objects/oWall_/oWall_.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":15.499999,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,"resourceVersion":"1.0","name":"inst_504D5797","tags":[],"resourceType":"GMRInstance",},
@@ -49,11 +50,11 @@
     {"assets":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"BackgroundAssets","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"SchoolInteriorSet","path":"tilesets/SchoolInteriorSet/SchoolInteriorSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":26,"SerialiseHeight":125,"TileSerialiseData":[
 13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-13,13,13,13,13,13,13,13,13,13,1,2,2,2,3,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+13,13,13,13,13,13,13,13,13,13,1,150,0,151,3,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 13,13,13,13,13,13,13,13,13,13,12,13,13,13,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 13,13,13,13,13,13,13,13,13,13,12,13,13,13,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 13,13,13,13,13,13,13,13,13,13,12,13,13,13,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-13,13,13,13,13,13,13,13,13,13,12,13,13,13,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+13,13,13,13,13,13,13,13,13,13,12,153,153,153,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 13,13,13,13,13,13,13,13,13,13,12,162,161,163,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 13,13,13,13,13,13,13,13,13,13,12,161,163,162,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
 0,0,0,0,0,0,0,0,0,0,12,161,163,161,14,13,13,13,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -330,6 +331,7 @@
     {"name":"inst_518907B2","path":"rooms/School_ShadyHallway/School_ShadyHallway.yy",},
     {"name":"inst_763CB394","path":"rooms/School_ShadyHallway/School_ShadyHallway.yy",},
     {"name":"inst_23723B27","path":"rooms/School_ShadyHallway/School_ShadyHallway.yy",},
+    {"name":"inst_59831A7B","path":"rooms/School_ShadyHallway/School_ShadyHallway.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
