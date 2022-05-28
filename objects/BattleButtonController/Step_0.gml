@@ -141,9 +141,9 @@ if(global.InBattleDrawButtons == 1)
 				/// @DnDVersion : 1
 				/// @DnDHash : 58C64351
 				/// @DnDParent : 1ABCE7D7
-				/// @DnDArgument : "expr" ""pogostick""
+				/// @DnDArgument : "expr" "bat"
 				/// @DnDArgument : "var" "global.ChosenMove"
-				global.ChosenMove = "pogostick";
+				global.ChosenMove = bat;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable

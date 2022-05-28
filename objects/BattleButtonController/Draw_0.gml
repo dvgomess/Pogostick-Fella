@@ -74,9 +74,9 @@ if(global.InBattleDrawButtons == 1)
 	/// @DnDArgument : "y" "288-26"
 	/// @DnDArgument : "xscale" ".5"
 	/// @DnDArgument : "yscale" ".5"
-	/// @DnDArgument : "sprite" "questionmark"
-	/// @DnDSaveInfo : "sprite" "questionmark"
-	draw_sprite_ext(questionmark, 0, 320, 288-26, .5, .5, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "sprite" "bat"
+	/// @DnDSaveInfo : "sprite" "bat"
+	draw_sprite_ext(bat, 0, 320, 288-26, .5, .5, 0, $FFFFFF & $ffffff, 1);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
