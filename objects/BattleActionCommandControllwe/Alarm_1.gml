@@ -252,9 +252,9 @@ if(global.ChosenMove == bat)
 			/// @DnDVersion : 1
 			/// @DnDHash : 31378D29
 			/// @DnDParent : 520F237B
-			/// @DnDArgument : "expr" "2.25*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1"
+			/// @DnDArgument : "expr" "1.5*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1"
 			/// @DnDArgument : "var" "global.BattleDamageOutput"
-			global.BattleDamageOutput = 2.25*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1;
+			global.BattleDamageOutput = 1.5*((15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10)))) div 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -281,9 +281,9 @@ if(global.ChosenMove == bat)
 			/// @DnDVersion : 1
 			/// @DnDHash : 06F147D5
 			/// @DnDParent : 594712A5
-			/// @DnDArgument : "expr" "1.5*(15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1"
+			/// @DnDArgument : "expr" "1*(15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1"
 			/// @DnDArgument : "var" "global.BattleDamageOutput"
-			global.BattleDamageOutput = 1.5*(15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1;
+			global.BattleDamageOutput = 1*(15*(global.DamageMultiplier) * (1+(global.PlayerATK / 10))) div 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

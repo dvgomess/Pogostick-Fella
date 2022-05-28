@@ -13,10 +13,15 @@ if ((l58B3B06D_0 > 0))
 	/// @DnDHash : 2DC133B5
 	/// @DnDParent : 58B3B06D
 	/// @DnDArgument : "x" "global.PlayerXposition"
-	/// @DnDArgument : "y" "global.PlayerYposition -80"
+	/// @DnDArgument : "y" "global.PlayerYposition -60"
 	/// @DnDArgument : "xscale" "1.5"
 	/// @DnDArgument : "yscale" "1.5"
 	/// @DnDArgument : "sprite" "ExclamationMark"
 	/// @DnDSaveInfo : "sprite" "ExclamationMark"
-	draw_sprite_ext(ExclamationMark, 0, global.PlayerXposition, global.PlayerYposition -80, 1.5, 1.5, 0, $FFFFFF & $ffffff, 1);
+	draw_sprite_ext(ExclamationMark, 0, global.PlayerXposition, global.PlayerYposition -60, 1.5, 1.5, 0, $FFFFFF & $ffffff, 1);
 }
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDVersion : 1
+/// @DnDHash : 3AB7CD78
+draw_self();
