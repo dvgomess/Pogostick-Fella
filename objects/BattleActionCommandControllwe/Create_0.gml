@@ -17,3 +17,10 @@ global.BattleDamageOutput = 0;
 global.ResetActionCommand = 0;
 global.DamageMultiplier = 0;
 Arrow_up = "Left";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 567D6C50
+/// @DnDArgument : "expr" "240"
+/// @DnDArgument : "var" "K"
+K = 240;

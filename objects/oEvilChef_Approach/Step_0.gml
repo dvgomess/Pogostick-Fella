@@ -119,15 +119,6 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDParent : 274DA07A
 				instance_destroy();
 			
-				/// @DnDAction : YoYo Games.Drawing.Set_Color
-				/// @DnDVersion : 1
-				/// @DnDHash : 4ED89A01
-				/// @DnDParent : 274DA07A
-				/// @DnDArgument : "color" "$FF61ED61"
-				draw_set_colour($FF61ED61 & $ffffff);
-				var l4ED89A01_0=($FF61ED61 >> 24);
-				draw_set_alpha(l4ED89A01_0 / $ff);
-			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 4D91FEA2
@@ -197,18 +188,18 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDHash : 027631BF
 				/// @DnDInput : 6
 				/// @DnDParent : 274DA07A
-				/// @DnDArgument : "expr" "rottenapple"
-				/// @DnDArgument : "expr_1" "jacket"
-				/// @DnDArgument : "expr_2" "shoes"
+				/// @DnDArgument : "expr" "kitchenKnife"
+				/// @DnDArgument : "expr_1" "rottenapple"
+				/// @DnDArgument : "expr_2" "microwave"
 				/// @DnDArgument : "var" "global.ItemWeakness1"
 				/// @DnDArgument : "var_1" "global.ItemWeakness2"
 				/// @DnDArgument : "var_2" "global.ItemWeakness3"
 				/// @DnDArgument : "var_3" "global.ItemStrength1"
 				/// @DnDArgument : "var_4" "global.ItemStrength2"
 				/// @DnDArgument : "var_5" "global.ItemStrength3"
-				global.ItemWeakness1 = rottenapple;
-				global.ItemWeakness2 = jacket;
-				global.ItemWeakness3 = shoes;
+				global.ItemWeakness1 = kitchenKnife;
+				global.ItemWeakness2 = rottenapple;
+				global.ItemWeakness3 = microwave;
 				global.ItemStrength1 = 0;
 				global.ItemStrength2 = 0;
 				global.ItemStrength3 = 0;

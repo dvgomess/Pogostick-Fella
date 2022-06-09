@@ -44,6 +44,13 @@ if(global.CanPlayerMoveRn == 1)
 				audio_play_sound(vending_machine, 0, 0);
 			}
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 0E000E44
+			/// @DnDParent : 4B4F55B2
+			/// @DnDArgument : "var" "global.CanPlayerMoveRn"
+			global.CanPlayerMoveRn = 0;
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
 			/// @DnDHash : 1C412E52

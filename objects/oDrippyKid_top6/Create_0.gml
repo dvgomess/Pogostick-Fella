@@ -91,3 +91,33 @@ Line12 = "";
 Line13 = "";
 Line14 = "";
 Line15 = "";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4DD11104
+/// @DnDArgument : "var" "LMNOP"
+LMNOP = 0;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6FD0D272
+/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
+/// @DnDArgument : "value" "7"
+if(global.DrippyKidTutorialProgressStage == 7)
+{
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 19E84D34
+	/// @DnDParent : 6FD0D272
+	/// @DnDArgument : "soundid" "global.CurrentBackgroundMusic"
+	audio_stop_sound(global.CurrentBackgroundMusic);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D22158C
+	/// @DnDParent : 6FD0D272
+	/// @DnDArgument : "soundid" "PrincipalsTheme___Flow_1"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "PrincipalsTheme___Flow_1"
+	audio_play_sound(PrincipalsTheme___Flow_1, 0, 1);
+}

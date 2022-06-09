@@ -123,7 +123,7 @@ if (l3709CFD9_0)
 					/// @DnDHash : 73D25E98
 					/// @DnDInput : 15
 					/// @DnDParent : 0E047914
-					/// @DnDArgument : "expr" ""You are challenged by Drippy \nKid""
+					/// @DnDArgument : "expr" ""You are challenged by Stick""
 					/// @DnDArgument : "expr_1" "1"
 					/// @DnDArgument : "expr_2" "drippy_kid__1_"
 					/// @DnDArgument : "expr_3" "Background2"
@@ -136,7 +136,7 @@ if (l3709CFD9_0)
 					/// @DnDArgument : "expr_10" "5"
 					/// @DnDArgument : "expr_11" "3"
 					/// @DnDArgument : "expr_12" "2"
-					/// @DnDArgument : "expr_13" ""Drippy Kid:""
+					/// @DnDArgument : "expr_13" ""Stick:""
 					/// @DnDArgument : "expr_14" "drippy_kid"
 					/// @DnDArgument : "var" "global.EnemyName"
 					/// @DnDArgument : "var_1" "global.InBattle"
@@ -153,7 +153,7 @@ if (l3709CFD9_0)
 					/// @DnDArgument : "var_12" "global.EnemyType"
 					/// @DnDArgument : "var_13" "global.EnemyName2"
 					/// @DnDArgument : "var_14" "global.EnemyStyle2"
-					global.EnemyName = "You are challenged by Drippy \nKid";
+					global.EnemyName = "You are challenged by Stick";
 					global.InBattle = 1;
 					global.EnemyStyle = drippy_kid__1_;
 					global.BackgroundStyle = Background2;
@@ -166,7 +166,7 @@ if (l3709CFD9_0)
 					global.EnemyLuck = 5;
 					global.EnemyATK = 3;
 					global.EnemyType = 2;
-					global.EnemyName2 = "Drippy Kid:";
+					global.EnemyName2 = "Stick:";
 					global.EnemyStyle2 = drippy_kid;
 				
 					/// @DnDAction : YoYo Games.Common.Variable
@@ -219,11 +219,11 @@ if (l3709CFD9_0)
 					/// @DnDInput : 2
 					/// @DnDParent : 0E047914
 					/// @DnDArgument : "expr" "3"
-					/// @DnDArgument : "expr_1" ""Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!""
+					/// @DnDArgument : "expr_1" ""Suddenly, everything Stck\n was wearing went out of\nstyle. You win!""
 					/// @DnDArgument : "var" "global.EnemyMorale"
 					/// @DnDArgument : "var_1" "global.EnemyMoraleDeprivationMessage"
 					global.EnemyMorale = 3;
-					global.EnemyMoraleDeprivationMessage = "Suddenly, everything the drippy\nkid was wearing went out of\nstyle. You win!";
+					global.EnemyMoraleDeprivationMessage = "Suddenly, everything Stck\n was wearing went out of\nstyle. You win!";
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1

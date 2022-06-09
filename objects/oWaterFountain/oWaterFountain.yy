@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "stove",
-    "path": "sprites/stove/stove.yy",
+    "name": "waterfountain",
+    "path": "sprites/waterfountain/waterfountain.yy",
   },
   "solid": false,
   "visible": true,

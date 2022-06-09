@@ -28,6 +28,14 @@ if(global.ResetActionCommand == 1)
 	EvadedByEnemy = 0;
 	global.BattleDamageOutput = 0;
 	Arrow_up = "Left";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 654FB30F
+	/// @DnDParent : 089179A5
+	/// @DnDArgument : "expr" "240"
+	/// @DnDArgument : "var" "K"
+	K = 240;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

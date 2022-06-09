@@ -65,6 +65,24 @@ if(global.BattleStep == 4)
 	/// @DnDArgument : "value" "bat"
 	if(global.ChosenMove == bat)
 	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 0FC4EC82
+		/// @DnDParent : 5BE9B655
+		/// @DnDArgument : "x" "286"
+		/// @DnDArgument : "y" "200"
+		/// @DnDArgument : "caption" "K/60"
+		draw_text_transformed(286, 200, string(K/60) + "", 1, 1, 0);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2A6AE3AF
+		/// @DnDParent : 5BE9B655
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "K"
+		K += -1;
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1E08298B

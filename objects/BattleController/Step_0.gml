@@ -789,6 +789,234 @@ if(global.BattleStep == 5)
 				/// @DnDArgument : "var" "global.EnemyATK"
 				global.EnemyATK += 1;
 			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5E3EFDA3
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""CoffeeSip""
+			if(SelectedMoveEnemy == "CoffeeSip")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2D8304F5
+				/// @DnDInput : 2
+				/// @DnDParent : 5E3EFDA3
+				/// @DnDArgument : "expr" ""The teacher took a sip of her\ncoffee, raising her attack stat""
+				/// @DnDArgument : "expr_1" ""Pure energy is flowing through\nher veins""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The teacher took a sip of her\ncoffee, raising her attack stat";
+				SelectedMoveEnemy = "Pure energy is flowing through\nher veins";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7FD06011
+				/// @DnDParent : 5E3EFDA3
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7DE765B4
+				/// @DnDParent : 5E3EFDA3
+				/// @DnDArgument : "expr" "1.5"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.EnemyATK"
+				global.EnemyATK += 1.5;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 060AECD9
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""SnackTime""
+			if(SelectedMoveEnemy == "SnackTime")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 68CA99BC
+				/// @DnDInput : 2
+				/// @DnDParent : 060AECD9
+				/// @DnDArgument : "expr" ""The chef quickly took a break to have a snack.""
+				/// @DnDArgument : "expr_1" ""His strength was raised.""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The chef quickly took a break to have a snack.";
+				SelectedMoveEnemy = "His strength was raised.";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3CE5FF8A
+				/// @DnDParent : 060AECD9
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2BEB8D4A
+				/// @DnDParent : 060AECD9
+				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.EnemyATK"
+				global.EnemyATK += 2;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 28DB4971
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""RulerSmack""
+			if(SelectedMoveEnemy == "RulerSmack")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0A82F616
+				/// @DnDInput : 2
+				/// @DnDParent : 28DB4971
+				/// @DnDArgument : "expr" ""The substitute teacher\nsmacked you with a ruler.\nThat stings""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The substitute teacher\nsmacked you with a ruler.\nThat stings";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 434091F1
+				/// @DnDParent : 28DB4971
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3F946D51
+				/// @DnDParent : 28DB4971
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 0F27271E
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""PencilThrow""
+			if(SelectedMoveEnemy == "PencilThrow")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 505D2CBE
+				/// @DnDInput : 2
+				/// @DnDParent : 0F27271E
+				/// @DnDArgument : "expr" ""You are getting pelted with\nthrown pencils. She never\nmisses!""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "You are getting pelted with\nthrown pencils. She never\nmisses!";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 59A3587F
+				/// @DnDParent : 0F27271E
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 52883892
+				/// @DnDParent : 0F27271E
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4A562481
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""SpatulaSlap""
+			if(SelectedMoveEnemy == "SpatulaSlap")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0C431B65
+				/// @DnDInput : 2
+				/// @DnDParent : 4A562481
+				/// @DnDArgument : "expr" ""The chef hit you with""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The chef hit you with";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3A2C3980
+				/// @DnDParent : 4A562481
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7B5724F1
+				/// @DnDParent : 4A562481
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4CA2044C
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""BoilingWater""
+			if(SelectedMoveEnemy == "BoilingWater")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 626E5F1B
+				/// @DnDInput : 2
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" ""You are getting pelted with\nthrown pencils. She never\nmisses!""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "You are getting pelted with\nthrown pencils. She never\nmisses!";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 5C2A99BB
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 4D7A6CA3
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
 		}
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio

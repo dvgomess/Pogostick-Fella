@@ -1191,3 +1191,21 @@ if(InDialogue == 1)
 		}
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3E8147FB
+/// @DnDArgument : "var" "LMNOP"
+/// @DnDArgument : "value" "1"
+if(LMNOP == 1)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 2107EBC0
+	/// @DnDParent : 3E8147FB
+	/// @DnDArgument : "xscale" "10000"
+	/// @DnDArgument : "yscale" "10000"
+	/// @DnDArgument : "sprite" "BlackScreen2"
+	/// @DnDSaveInfo : "sprite" "BlackScreen2"
+	draw_sprite_ext(BlackScreen2, 0, 0, 0, 10000, 10000, 0, $FFFFFF & $ffffff, 1);
+}

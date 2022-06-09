@@ -18,3 +18,17 @@ audio_play_sound(PogostickMainThemeNEWMELODY, 0, 1);
 /// @DnDHash : 6800DE27
 /// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
 global.DrippyKidTutorialProgressStage = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2425269C
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "i"
+i = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6B0291FC
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "p"
+p = 1;

@@ -35,3 +35,23 @@ else
 	x = 2000;
 	y = 2000;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4A3D98B6
+/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
+/// @DnDArgument : "value" "8"
+if(global.DrippyKidTutorialProgressStage == 8)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E4F6420
+	/// @DnDInput : 2
+	/// @DnDParent : 4A3D98B6
+	/// @DnDArgument : "expr" "2000"
+	/// @DnDArgument : "expr_1" "2000"
+	/// @DnDArgument : "var" "x"
+	/// @DnDArgument : "var_1" "y"
+	x = 2000;
+	y = 2000;
+}

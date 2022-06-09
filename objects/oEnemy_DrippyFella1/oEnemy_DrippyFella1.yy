@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "drippykid",
-    "path": "sprites/drippykid/drippykid.yy",
+    "name": "sBattleDummy",
+    "path": "sprites/sBattleDummy/sBattleDummy.yy",
   },
   "solid": false,
   "visible": true,
