@@ -230,8 +230,8 @@ if(SelectedButton == 1)
 	/// @DnDHash : 32AC02EA
 	/// @DnDInput : 20
 	/// @DnDParent : 722D0FE3
-	/// @DnDArgument : "expr" "sunglasses"
-	/// @DnDArgument : "expr_1" "shoes"
+	/// @DnDArgument : "expr" "dubiousFood"
+	/// @DnDArgument : "expr_1" "badGrades"
 	/// @DnDArgument : "expr_2" "empty"
 	/// @DnDArgument : "expr_3" "empty"
 	/// @DnDArgument : "expr_4" "empty"
@@ -270,8 +270,8 @@ if(SelectedButton == 1)
 	/// @DnDArgument : "var_17" "global.InventorySlot18"
 	/// @DnDArgument : "var_18" "global.InventorySlot19"
 	/// @DnDArgument : "var_19" "global.InventorySlot20"
-	global.InventorySlot1 = sunglasses;
-	global.InventorySlot2 = shoes;
+	global.InventorySlot1 = dubiousFood;
+	global.InventorySlot2 = badGrades;
 	global.InventorySlot3 = empty;
 	global.InventorySlot4 = empty;
 	global.InventorySlot5 = empty;

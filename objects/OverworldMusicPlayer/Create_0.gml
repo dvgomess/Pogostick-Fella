@@ -37,6 +37,14 @@ if(global.SwappingBackgroundMusic == 1)
 	/// @DnDSaveInfo : "soundid" "PrincipalHallwayLoop"
 	audio_stop_sound(PrincipalHallwayLoop);
 
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 5E3EE82C
+	/// @DnDParent : 2E6423F9
+	/// @DnDArgument : "soundid" "Staring_ClubInGame"
+	/// @DnDSaveInfo : "soundid" "Staring_ClubInGame"
+	audio_stop_sound(Staring_ClubInGame);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6564445E

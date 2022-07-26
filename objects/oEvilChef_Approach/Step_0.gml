@@ -111,6 +111,14 @@ if ((l0550EEC0_0 > 0))
 					/// @DnDArgument : "expr" "6"
 					/// @DnDArgument : "var" "global.CafeteriaArcProgressStage"
 					global.CafeteriaArcProgressStage = 6;
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 12DDE0CF
+					/// @DnDParent : 4FA56D29
+					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "var" "global.PrincipalArcProgressStage"
+					global.PrincipalArcProgressStage = 1;
 				}
 			
 				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
@@ -129,6 +137,8 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "expr_2" "chef_combat_anim"
 				/// @DnDArgument : "expr_3" "Background1"
 				/// @DnDArgument : "expr_4" "$FF6B67F5"
+				/// @DnDArgument : "expr_relative_5" "1"
+				/// @DnDArgument : "expr_relative_6" "1"
 				/// @DnDArgument : "expr_7" "$FF61ED61"
 				/// @DnDArgument : "expr_8" "120"
 				/// @DnDArgument : "expr_9" "120"
@@ -157,8 +167,8 @@ if ((l0550EEC0_0 > 0))
 				global.EnemyStyle = chef_combat_anim;
 				global.BackgroundStyle = Background1;
 				global.BackgroundColor = $FF6B67F5;
-				global.PlayerXposition = 0;
-				global.PlayerYposition = 0;
+				global.PlayerXposition += 0;
+				global.PlayerYposition += 0;
 				global.EnemyHealthColor = $FF61ED61;
 				global.EnemyHP = 120;
 				global.EnemyMaxHP = 120;

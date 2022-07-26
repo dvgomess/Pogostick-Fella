@@ -985,14 +985,52 @@ if(global.BattleStep == 5)
 			/// @DnDHash : 4CA2044C
 			/// @DnDParent : 72331E84
 			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""ExpellingYou""
+			if(SelectedMoveEnemy == "ExpellingYou")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 59598B27
+				/// @DnDInput : 2
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" ""The principal threatens to\nexpell you.""
+				/// @DnDArgument : "expr_1" ""A reminder of his authority\nraises his strength.""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The principal threatens to\nexpell you.";
+				SelectedMoveEnemy = "A reminder of his authority\nraises his strength.";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 766BCD74
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 22893EB8
+				/// @DnDParent : 4CA2044C
+				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.EnemyATK"
+				global.EnemyATK += 2;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 63468226
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
 			/// @DnDArgument : "value" ""BoilingWater""
 			if(SelectedMoveEnemy == "BoilingWater")
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 626E5F1B
+				/// @DnDHash : 3138A5E3
 				/// @DnDInput : 2
-				/// @DnDParent : 4CA2044C
+				/// @DnDParent : 63468226
 				/// @DnDArgument : "expr" ""You are getting pelted with\nthrown pencils. She never\nmisses!""
 				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
 				/// @DnDArgument : "var" "global.BattleTextOutput"
@@ -1002,16 +1040,92 @@ if(global.BattleStep == 5)
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 5C2A99BB
-				/// @DnDParent : 4CA2044C
+				/// @DnDHash : 00E7FE82
+				/// @DnDParent : 63468226
 				/// @DnDArgument : "expr" "7"
 				/// @DnDArgument : "var" "global.BattleStep"
 				global.BattleStep = 7;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 4D7A6CA3
-				/// @DnDParent : 4CA2044C
+				/// @DnDHash : 6C3C071D
+				/// @DnDParent : 63468226
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 48508C2C
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""Waraxe""
+			if(SelectedMoveEnemy == "Waraxe")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 4E915368
+				/// @DnDInput : 2
+				/// @DnDParent : 48508C2C
+				/// @DnDArgument : "expr" ""The principal swings a waraxe\nat you""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The principal swings a waraxe\nat you";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3317FF5D
+				/// @DnDParent : 48508C2C
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 03B11720
+				/// @DnDParent : 48508C2C
+				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "global.PlayerHP"
+				global.PlayerHP += -1*(15 * (1+(2*global.EnemyATK / 10))) div 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 18AE96F3
+			/// @DnDParent : 72331E84
+			/// @DnDArgument : "var" "SelectedMoveEnemy"
+			/// @DnDArgument : "value" ""LaserEyes""
+			if(SelectedMoveEnemy == "LaserEyes")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3DA7BA65
+				/// @DnDInput : 2
+				/// @DnDParent : 18AE96F3
+				/// @DnDArgument : "expr" ""The principal shoots lasers at\nyou from his eyes.""
+				/// @DnDArgument : "expr_1" ""You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage""
+				/// @DnDArgument : "var" "global.BattleTextOutput"
+				/// @DnDArgument : "var_1" "SelectedMoveEnemy"
+				global.BattleTextOutput = "The principal shoots lasers at\nyou from his eyes.";
+				SelectedMoveEnemy = "You took " + string(1*(15 * (1+(2*global.EnemyATK / 10))) div 1) + " damage";
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 1BE2CC98
+				/// @DnDParent : 18AE96F3
+				/// @DnDArgument : "expr" "7"
+				/// @DnDArgument : "var" "global.BattleStep"
+				global.BattleStep = 7;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 5274C86E
+				/// @DnDParent : 18AE96F3
 				/// @DnDArgument : "expr" "-1*(15 * (1+(2*global.EnemyATK / 10))) div 1"
 				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "global.PlayerHP"

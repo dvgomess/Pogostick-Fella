@@ -764,9 +764,9 @@ if(global.CanPlayerMoveRn == 1)
 			/// @DnDHash : 65E9E8F2
 			/// @DnDParent : 5D4D3F26
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard"
-			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard"
-			sprite_index = DumbDumbRunNoBoard;
+			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard__"
+			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard__"
+			sprite_index = DumbDumbRunNoBoard__;
 			image_index += 0;
 		}
 	
@@ -784,9 +784,9 @@ if(global.CanPlayerMoveRn == 1)
 			/// @DnDHash : 2EB531A1
 			/// @DnDParent : 018A8F73
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard"
-			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard"
-			sprite_index = DumbDumbRunNoBoard;
+			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard__"
+			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard__"
+			sprite_index = DumbDumbRunNoBoard__;
 			image_index += 0;
 		}
 	
@@ -804,9 +804,9 @@ if(global.CanPlayerMoveRn == 1)
 			/// @DnDHash : 7CB6D59E
 			/// @DnDParent : 0EC24FE9
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard"
-			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard"
-			sprite_index = DumbDumbRunNoBoard;
+			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard__"
+			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard__"
+			sprite_index = DumbDumbRunNoBoard__;
 			image_index += 0;
 		}
 	
@@ -824,9 +824,9 @@ if(global.CanPlayerMoveRn == 1)
 			/// @DnDHash : 02CF9B0E
 			/// @DnDParent : 57522579
 			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard"
-			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard"
-			sprite_index = DumbDumbRunNoBoard;
+			/// @DnDArgument : "spriteind" "DumbDumbRunNoBoard__"
+			/// @DnDSaveInfo : "spriteind" "DumbDumbRunNoBoard__"
+			sprite_index = DumbDumbRunNoBoard__;
 			image_index += 0;
 		}
 	}

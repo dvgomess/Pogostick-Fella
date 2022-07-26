@@ -1767,6 +1767,75 @@ if(global.BattleStep == 4)
 							/// @DnDArgument : "var" "global.BattleStep"
 							global.BattleStep = 10;
 						}
+					
+						/// @DnDAction : YoYo Games.Common.If_Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 26578158
+						/// @DnDParent : 73957031
+						/// @DnDArgument : "var" "global.ChosenMove"
+						/// @DnDArgument : "value" "dubiousFood"
+						if(global.ChosenMove == dubiousFood)
+						{
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 76D68221
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "expr" ""You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.""
+							/// @DnDArgument : "var" "global.BattleTextOutput"
+							global.BattleTextOutput = "You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.";
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 6C4A7457
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "expr" "-1"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyMorale"
+							global.EnemyMorale += -1;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 53D7F12D
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "expr" "2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.PlayerATK"
+							global.PlayerATK += 2;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 6A62D8FD
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "expr" "-2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyATK"
+							global.EnemyATK += -2;
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 0844C19E
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "var" "global.EnemyATK"
+							/// @DnDArgument : "op" "3"
+							if(global.EnemyATK <= 0)
+							{
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 16296733
+								/// @DnDParent : 0844C19E
+								/// @DnDArgument : "expr" "1"
+								/// @DnDArgument : "var" "global.EnemyATK"
+								global.EnemyATK = 1;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 0DFDB85A
+							/// @DnDParent : 26578158
+							/// @DnDArgument : "expr" "10"
+							/// @DnDArgument : "var" "global.BattleStep"
+							global.BattleStep = 10;
+						}
 					}
 				
 					/// @DnDAction : YoYo Games.Common.Else
@@ -2189,6 +2258,144 @@ if(global.BattleStep == 4)
 								/// @DnDVersion : 1
 								/// @DnDHash : 542A0AE4
 								/// @DnDParent : 6B74F988
+								/// @DnDArgument : "expr" "10"
+								/// @DnDArgument : "var" "global.BattleStep"
+								global.BattleStep = 10;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 1C49FDD9
+							/// @DnDParent : 24AF6E53
+							/// @DnDArgument : "var" "global.ChosenMove"
+							/// @DnDArgument : "value" "dubiousFood"
+							if(global.ChosenMove == dubiousFood)
+							{
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 42123925
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "expr" ""You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.""
+								/// @DnDArgument : "var" "global.BattleTextOutput"
+								global.BattleTextOutput = "You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.";
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 6D16D017
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "expr" "-1"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.EnemyMorale"
+								global.EnemyMorale += -1;
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 2D266F8C
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "expr" "2"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.PlayerATK"
+								global.PlayerATK += 2;
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 4E153ECD
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "expr" "-2"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.EnemyATK"
+								global.EnemyATK += -2;
+							
+								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 40C63AC0
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "var" "global.EnemyATK"
+								/// @DnDArgument : "op" "3"
+								if(global.EnemyATK <= 0)
+								{
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 6B7B2278
+									/// @DnDParent : 40C63AC0
+									/// @DnDArgument : "expr" "1"
+									/// @DnDArgument : "var" "global.EnemyATK"
+									global.EnemyATK = 1;
+								}
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 604B8C3D
+								/// @DnDParent : 1C49FDD9
+								/// @DnDArgument : "expr" "10"
+								/// @DnDArgument : "var" "global.BattleStep"
+								global.BattleStep = 10;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 0305A408
+							/// @DnDParent : 24AF6E53
+							/// @DnDArgument : "var" "global.ChosenMove"
+							/// @DnDArgument : "value" "badGrades"
+							if(global.ChosenMove == badGrades)
+							{
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 25B2E7B0
+								/// @DnDParent : 0305A408
+								/// @DnDArgument : "expr" ""The principal is disappointed in\nthe bad grades of the students\nat his school.""
+								/// @DnDArgument : "var" "global.BattleTextOutput"
+								global.BattleTextOutput = "The principal is disappointed in\nthe bad grades of the students\nat his school.";
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 44A03E39
+								/// @DnDParent : 0305A408
+								/// @DnDArgument : "expr" "-1"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.EnemyMorale"
+								global.EnemyMorale += -1;
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 419AA114
+								/// @DnDParent : 0305A408
+								/// @DnDArgument : "expr" "2"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.PlayerATK"
+								global.PlayerATK += 2;
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 12DFB2C8
+								/// @DnDParent : 0305A408
+								/// @DnDArgument : "expr" "-2"
+								/// @DnDArgument : "expr_relative" "1"
+								/// @DnDArgument : "var" "global.EnemyATK"
+								global.EnemyATK += -2;
+							
+								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 2B82CA43
+								/// @DnDParent : 0305A408
+								/// @DnDArgument : "var" "global.EnemyATK"
+								/// @DnDArgument : "op" "3"
+								if(global.EnemyATK <= 0)
+								{
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 42AAC93C
+									/// @DnDParent : 2B82CA43
+									/// @DnDArgument : "expr" "1"
+									/// @DnDArgument : "var" "global.EnemyATK"
+									global.EnemyATK = 1;
+								}
+							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 1C935A86
+								/// @DnDParent : 0305A408
 								/// @DnDArgument : "expr" "10"
 								/// @DnDArgument : "var" "global.BattleStep"
 								global.BattleStep = 10;
@@ -2822,6 +3029,75 @@ if(global.BattleStep == 4)
 									/// @DnDVersion : 1
 									/// @DnDHash : 1A7B2385
 									/// @DnDParent : 7D3BD720
+									/// @DnDArgument : "expr" "10"
+									/// @DnDArgument : "var" "global.BattleStep"
+									global.BattleStep = 10;
+								}
+							
+								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 180A30DF
+								/// @DnDParent : 03CFCD6A
+								/// @DnDArgument : "var" "global.ChosenMove"
+								/// @DnDArgument : "value" "dubiousFood"
+								if(global.ChosenMove == dubiousFood)
+								{
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 4CFF2170
+									/// @DnDParent : 180A30DF
+									/// @DnDArgument : "expr" ""You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.""
+									/// @DnDArgument : "var" "global.BattleTextOutput"
+									global.BattleTextOutput = "You present evidence of the\nprincipal's conspiracy. He\ndenies the accusation.";
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 0C91EC87
+									/// @DnDParent : 180A30DF
+									/// @DnDArgument : "expr" "-1"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.EnemyMorale"
+									global.EnemyMorale += -1;
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 4A188E6D
+									/// @DnDParent : 180A30DF
+									/// @DnDArgument : "expr" "2"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.PlayerATK"
+									global.PlayerATK += 2;
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 20B4E6CC
+									/// @DnDParent : 180A30DF
+									/// @DnDArgument : "expr" "-2"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.EnemyATK"
+									global.EnemyATK += -2;
+								
+									/// @DnDAction : YoYo Games.Common.If_Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 5DB5DD04
+									/// @DnDParent : 180A30DF
+									/// @DnDArgument : "var" "global.EnemyATK"
+									/// @DnDArgument : "op" "3"
+									if(global.EnemyATK <= 0)
+									{
+										/// @DnDAction : YoYo Games.Common.Variable
+										/// @DnDVersion : 1
+										/// @DnDHash : 5BA47C6D
+										/// @DnDParent : 5DB5DD04
+										/// @DnDArgument : "expr" "1"
+										/// @DnDArgument : "var" "global.EnemyATK"
+										global.EnemyATK = 1;
+									}
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 2CD7AFE4
+									/// @DnDParent : 180A30DF
 									/// @DnDArgument : "expr" "10"
 									/// @DnDArgument : "var" "global.BattleStep"
 									global.BattleStep = 10;

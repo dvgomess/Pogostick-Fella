@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "PrincipalsTheme___Flow_1.ogg",
-  "duration": 163.94014,
+  "duration": 153.846008,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

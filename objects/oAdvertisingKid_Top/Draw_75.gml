@@ -21,9 +21,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -113,9 +113,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -181,9 +181,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -261,9 +261,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -341,9 +341,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -421,9 +421,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -501,9 +501,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -581,9 +581,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -661,9 +661,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -741,9 +741,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -821,9 +821,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -901,9 +901,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "mom"
-		/// @DnDSaveInfo : "sprite" "mom"
-		draw_sprite_ext(mom, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "nike"
+		/// @DnDSaveInfo : "sprite" "nike"
+		draw_sprite_ext(nike, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
