@@ -14,6 +14,5 @@ if(InDialogue == 1)
 	/// @DnDArgument : "xscale" "5"
 	/// @DnDArgument : "yscale" "4"
 	/// @DnDArgument : "sprite" "DialogueBox"
-	/// @DnDSaveInfo : "sprite" "DialogueBox"
 	draw_sprite_ext(DialogueBox, 0, 683, 580, 5, 4, 0, $FFFFFF & $ffffff, 1);
 }

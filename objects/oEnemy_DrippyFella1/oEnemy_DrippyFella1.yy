@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oEnemy_DrippyFella1",
   "spriteId": {
     "name": "sBattleDummy",
     "path": "sprites/sBattleDummy/sBattleDummy.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "Enemies-School",
     "path": "folders/Objects/Overworld/Enemies-School.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oEnemy_DrippyFella1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

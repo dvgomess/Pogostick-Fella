@@ -46,12 +46,12 @@ if (l3709CFD9_0)
 				DrawTextScroll = 0;
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 6145B7AC
 				/// @DnDParent : 18132C68
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	
@@ -81,12 +81,12 @@ if (l3709CFD9_0)
 				global.CanPlayerMoveRn = 1;
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 0F60BE43
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -103,7 +103,7 @@ if (l3709CFD9_0)
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" ""The substitute teacher attacks\nyou""
 				/// @DnDArgument : "expr_1" "1"
-				/// @DnDArgument : "expr_2" "drippy_kid__1_"
+				/// @DnDArgument : "expr_2" "SubBattleIdle"
 				/// @DnDArgument : "expr_3" "Background1"
 				/// @DnDArgument : "expr_4" "$FFFF5B87"
 				/// @DnDArgument : "expr_relative_5" "1"
@@ -115,7 +115,7 @@ if (l3709CFD9_0)
 				/// @DnDArgument : "expr_11" "4"
 				/// @DnDArgument : "expr_12" "2"
 				/// @DnDArgument : "expr_13" ""Substitute Teacher:""
-				/// @DnDArgument : "expr_14" "drippy_kid"
+				/// @DnDArgument : "expr_14" "SubBattleIdle"
 				/// @DnDArgument : "var" "global.EnemyName"
 				/// @DnDArgument : "var_1" "global.InBattle"
 				/// @DnDArgument : "var_2" "global.EnemyStyle"
@@ -133,7 +133,7 @@ if (l3709CFD9_0)
 				/// @DnDArgument : "var_14" "global.EnemyStyle2"
 				global.EnemyName = "The substitute teacher attacks\nyou";
 				global.InBattle = 1;
-				global.EnemyStyle = drippy_kid__1_;
+				global.EnemyStyle = SubBattleIdle;
 				global.BackgroundStyle = Background1;
 				global.BackgroundColor = $FFFF5B87;
 				global.PlayerXposition += 0;
@@ -145,7 +145,7 @@ if (l3709CFD9_0)
 				global.EnemyATK = 4;
 				global.EnemyType = 2;
 				global.EnemyName2 = "Substitute Teacher:";
-				global.EnemyStyle2 = drippy_kid;
+				global.EnemyStyle2 = SubBattleIdle;
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -262,12 +262,12 @@ if (l3709CFD9_0)
 				LineCount += -1;
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 3FE7B097
 				/// @DnDParent : 4A8D8B71
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}

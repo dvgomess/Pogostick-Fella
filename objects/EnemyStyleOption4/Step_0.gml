@@ -19,7 +19,6 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDParent : 669E87F2
 		/// @DnDArgument : "imageind" "1"
 		/// @DnDArgument : "spriteind" "sEnemyStyle4"
-		/// @DnDSaveInfo : "spriteind" "sEnemyStyle4"
 		sprite_index = sEnemyStyle4;
 		image_index = 1;
 	}
@@ -38,7 +37,6 @@ if(global.GodmodeSelectedButton == 7)
 		/// @DnDHash : 28FD1651
 		/// @DnDParent : 27655E95
 		/// @DnDArgument : "spriteind" "sEnemyStyle4"
-		/// @DnDSaveInfo : "spriteind" "sEnemyStyle4"
 		sprite_index = sEnemyStyle4;
 		image_index = 0;
 	}
@@ -58,7 +56,6 @@ if(!(global.GodmodeSelectedButton == 7))
 	/// @DnDParent : 7B32B5D3
 	/// @DnDArgument : "imageind" "2"
 	/// @DnDArgument : "spriteind" "sStyleOption1"
-	/// @DnDSaveInfo : "spriteind" "sStyleOption1"
 	sprite_index = sStyleOption1;
 	image_index = 2;
 }

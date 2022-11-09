@@ -22,7 +22,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
 		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -52,7 +51,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 5ECB8A39
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l1A756240_0 = DialogueSFX;
 			if (!audio_is_playing(l1A756240_0))
 			{
@@ -71,16 +69,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 1A756240
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 27253501
 				/// @DnDParent : 1A756240
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -114,7 +110,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
 		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -132,7 +127,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 143903F1
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l5BAE5893_0 = DialogueSFX;
 			if (!audio_is_playing(l5BAE5893_0))
 			{
@@ -151,16 +145,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 5BAE5893
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 35147070
 				/// @DnDParent : 5BAE5893
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -182,7 +174,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
 		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -212,7 +203,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 738C8972
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l30247C2D_0 = DialogueSFX;
 			if (!audio_is_playing(l30247C2D_0))
 			{
@@ -231,16 +221,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 30247C2D
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 69FB626C
 				/// @DnDParent : 30247C2D
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -262,7 +250,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
 		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -292,7 +279,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 6FAD2A37
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l16815ADB_0 = DialogueSFX;
 			if (!audio_is_playing(l16815ADB_0))
 			{
@@ -311,16 +297,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 16815ADB
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 48CC8522
 				/// @DnDParent : 16815ADB
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -342,7 +326,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
 		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -372,7 +355,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 2BA139E8
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l18D42CE4_0 = DialogueSFX;
 			if (!audio_is_playing(l18D42CE4_0))
 			{
@@ -391,16 +373,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 18D42CE4
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 6C753B47
 				/// @DnDParent : 18D42CE4
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -440,7 +420,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 69670E21
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l7E80C138_0 = DialogueSFX;
 			if (!audio_is_playing(l7E80C138_0))
 			{
@@ -459,16 +438,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 7E80C138
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 1BAA0DC5
 				/// @DnDParent : 7E80C138
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}
@@ -508,7 +485,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 2853367C
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l1FC5C56C_0 = DialogueSFX;
 			if (!audio_is_playing(l1FC5C56C_0))
 			{
@@ -527,16 +503,14 @@ if(InDialogue == 1)
 				/// @DnDParent : 1FC5C56C
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 0C2F37DC
 				/// @DnDParent : 1FC5C56C
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
-				audio_play_sound(DialogueSFX, 0, 0);
+				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}

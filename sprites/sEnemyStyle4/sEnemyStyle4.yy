@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sEnemyStyle4",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"52b19325-23fe-4e4d-adfa-1680dd4a3011","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52b19325-23fe-4e4d-adfa-1680dd4a3011","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":{"name":"91592a8e-c8b1-4522-ba57-8cadf5eb6eb5","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyStyle4","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"52b19325-23fe-4e4d-adfa-1680dd4a3011","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e463ac5d-5e27-450d-9cb1-b7b19a15d3c8","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e463ac5d-5e27-450d-9cb1-b7b19a15d3c8","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":{"name":"91592a8e-c8b1-4522-ba57-8cadf5eb6eb5","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyStyle4","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"e463ac5d-5e27-450d-9cb1-b7b19a15d3c8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9724e91f-c650-4877-b22c-695e8af02dc2","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9724e91f-c650-4877-b22c-695e8af02dc2","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"LayerId":{"name":"91592a8e-c8b1-4522-ba57-8cadf5eb6eb5","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyStyle4","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","name":"9724e91f-c650-4877-b22c-695e8af02dc2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52b19325-23fe-4e4d-adfa-1680dd4a3011",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e463ac5d-5e27-450d-9cb1-b7b19a15d3c8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9724e91f-c650-4877-b22c-695e8af02dc2",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemyStyle4","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sEnemyStyle4",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e597f00f-5c31-420f-b4a6-ddad109373e4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52b19325-23fe-4e4d-adfa-1680dd4a3011","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"50beb613-1d58-485e-9747-d9e30dc2f20c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e463ac5d-5e27-450d-9cb1-b7b19a15d3c8","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"255bb426-35cb-4f69-97da-995fc322390f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9724e91f-c650-4877-b22c-695e8af02dc2","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemyStyle4","path":"sprites/sEnemyStyle4/sEnemyStyle4.yy",},
-    "resourceVersion": "1.3",
-    "name": "sEnemyStyle4",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"91592a8e-c8b1-4522-ba57-8cadf5eb6eb5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"91592a8e-c8b1-4522-ba57-8cadf5eb6eb5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "EnemystyleSettings",
     "path": "folders/Sprites/GodmodeStuff/EnemystyleSettings.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sEnemyStyle4",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

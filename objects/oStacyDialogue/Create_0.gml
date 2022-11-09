@@ -23,7 +23,6 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDHash : 708F65A4
 	/// @DnDParent : 61717255
 	/// @DnDArgument : "font" "Font1"
-	/// @DnDSaveInfo : "font" "Font1"
 	draw_set_font(Font1);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color

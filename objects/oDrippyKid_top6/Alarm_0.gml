@@ -12,11 +12,11 @@ LMNOP = 0;
 audio_stop_sound(PrincipalsTheme___Flow_1);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
+/// @DnDVersion : 1.1
 /// @DnDHash : 07395D47
 /// @DnDArgument : "soundid" "global.CurrentBackgroundMusic"
 /// @DnDArgument : "loop" "1"
-audio_play_sound(global.CurrentBackgroundMusic, 0, 1);
+audio_play_sound(global.CurrentBackgroundMusic, 0, 1, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -21,6 +21,5 @@ if(i == 0)
 	/// @DnDArgument : "xscale" "800"
 	/// @DnDArgument : "yscale" "600"
 	/// @DnDArgument : "sprite" "BlackScreen"
-	/// @DnDSaveInfo : "sprite" "BlackScreen"
 	draw_sprite_ext(BlackScreen, 0, p, 0, 800, 600, 0, $FFFFFF & $ffffff, 1);
 }

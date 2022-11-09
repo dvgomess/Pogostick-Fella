@@ -110,11 +110,11 @@ buffer_delete( _buffer);
 show_debug_message("Game saved successfully. " + _string);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
+/// @DnDVersion : 1.1
 /// @DnDHash : 379D0B9B
 /// @DnDArgument : "soundid" "Save"
 /// @DnDSaveInfo : "soundid" "Save"
-audio_play_sound(Save, 0, 0);
+audio_play_sound(Save, 0, 0, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

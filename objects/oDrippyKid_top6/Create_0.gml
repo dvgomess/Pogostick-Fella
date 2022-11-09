@@ -113,11 +113,11 @@ if(global.DrippyKidTutorialProgressStage == 7)
 	audio_stop_sound(global.CurrentBackgroundMusic);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 6D22158C
 	/// @DnDParent : 6FD0D272
 	/// @DnDArgument : "soundid" "PrincipalsTheme___Flow_1"
 	/// @DnDArgument : "loop" "1"
 	/// @DnDSaveInfo : "soundid" "PrincipalsTheme___Flow_1"
-	audio_play_sound(PrincipalsTheme___Flow_1, 0, 1);
+	audio_play_sound(PrincipalsTheme___Flow_1, 0, 1, 1.0, undefined, 1.0);
 }

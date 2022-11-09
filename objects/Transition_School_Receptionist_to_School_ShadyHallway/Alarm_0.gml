@@ -38,5 +38,4 @@ global.SecondHalfOfRoomTransition = 1;
 /// @DnDVersion : 1
 /// @DnDHash : 0419E0BD
 /// @DnDArgument : "room" "TransitionScreen"
-/// @DnDSaveInfo : "room" "TransitionScreen"
 room_goto(TransitionScreen);

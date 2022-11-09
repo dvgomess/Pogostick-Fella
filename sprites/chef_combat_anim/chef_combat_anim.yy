@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "chef_combat_anim",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3977c496-4e8b-4c52-84fd-1ded114d530c","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3977c496-4e8b-4c52-84fd-1ded114d530c","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"3977c496-4e8b-4c52-84fd-1ded114d530c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"82cfad7e-b63d-4724-adcb-3aca05c06ab6","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"82cfad7e-b63d-4724-adcb-3aca05c06ab6","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"82cfad7e-b63d-4724-adcb-3aca05c06ab6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"93b066c7-c179-4229-9686-911937fc4670","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93b066c7-c179-4229-9686-911937fc4670","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"93b066c7-c179-4229-9686-911937fc4670","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34a52484-ffb9-4256-a656-9635a2f2c1a5","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34a52484-ffb9-4256-a656-9635a2f2c1a5","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"34a52484-ffb9-4256-a656-9635a2f2c1a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d3643b07-5bb2-4092-ace3-0db6b0883dda","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3643b07-5bb2-4092-ace3-0db6b0883dda","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"d3643b07-5bb2-4092-ace3-0db6b0883dda","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6dae13ef-c5af-4ec8-b789-821f8586a3fc","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6dae13ef-c5af-4ec8-b789-821f8586a3fc","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"LayerId":{"name":"0f7654db-3102-4f44-b08f-288924e3e7ae","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","name":"6dae13ef-c5af-4ec8-b789-821f8586a3fc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3977c496-4e8b-4c52-84fd-1ded114d530c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82cfad7e-b63d-4724-adcb-3aca05c06ab6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93b066c7-c179-4229-9686-911937fc4670",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34a52484-ffb9-4256-a656-9635a2f2c1a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3643b07-5bb2-4092-ace3-0db6b0883dda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dae13ef-c5af-4ec8-b789-821f8586a3fc",},
   ],
   "sequence": {
-    "spriteId": {"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "chef_combat_anim",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b17c6dc0-f420-4532-b0f8-8ad9ba5f7bee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3977c496-4e8b-4c52-84fd-1ded114d530c","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3fe88757-4fad-4372-a94f-7a7c8526c5f3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82cfad7e-b63d-4724-adcb-3aca05c06ab6","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"265e0433-76fe-461d-bbca-969febbefc6c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93b066c7-c179-4229-9686-911937fc4670","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cb6315e5-eb8d-422b-82d3-3b2e03feba20","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34a52484-ffb9-4256-a656-9635a2f2c1a5","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"99e83dc7-b5de-4149-97da-f9b025b8d665","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3643b07-5bb2-4092-ace3-0db6b0883dda","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b3a32791-c1ac-4355-8962-e9dc99d8b66d","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6dae13ef-c5af-4ec8-b789-821f8586a3fc","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"chef_combat_anim","path":"sprites/chef_combat_anim/chef_combat_anim.yy",},
-    "resourceVersion": "1.3",
-    "name": "chef_combat_anim",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f7654db-3102-4f44-b08f-288924e3e7ae","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0f7654db-3102-4f44-b08f-288924e3e7ae","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "BattleSprites",
     "path": "folders/Sprites/BattleSprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "chef_combat_anim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

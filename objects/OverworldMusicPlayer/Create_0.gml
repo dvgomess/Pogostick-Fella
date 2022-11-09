@@ -93,11 +93,11 @@ if (!audio_is_playing(l41E3CA93_0))
 	if(global.InBattle == 0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 3D48D644
 		/// @DnDParent : 00D4CA8C
 		/// @DnDArgument : "soundid" "global.CurrentBackgroundMusic"
 		/// @DnDArgument : "loop" "1"
-		audio_play_sound(global.CurrentBackgroundMusic, 0, 1);
+		audio_play_sound(global.CurrentBackgroundMusic, 0, 1, 1.0, undefined, 1.0);
 	}
 }

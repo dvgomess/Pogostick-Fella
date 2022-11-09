@@ -142,12 +142,11 @@ if(global.BattleStep == 4)
 			if(R == 1)
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 50C6EA1B
 				/// @DnDParent : 1B5CACCF
 				/// @DnDArgument : "soundid" "bonk"
-				/// @DnDSaveInfo : "soundid" "bonk"
-				audio_play_sound(bonk, 0, 0);
+				audio_play_sound(bonk, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sBattleDummyTop",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1632290-af29-446d-a503-a0630d871c27","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1632290-af29-446d-a503-a0630d871c27","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"LayerId":{"name":"47303e34-2f0e-4fa2-9001-e1b41b3b6ce7","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBattleDummyTop","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","name":"d1632290-af29-446d-a503-a0630d871c27","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f4ff6c93-4e23-486e-8086-6634ea1c7b24","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4ff6c93-4e23-486e-8086-6634ea1c7b24","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"LayerId":{"name":"47303e34-2f0e-4fa2-9001-e1b41b3b6ce7","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBattleDummyTop","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","name":"f4ff6c93-4e23-486e-8086-6634ea1c7b24","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1632290-af29-446d-a503-a0630d871c27",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4ff6c93-4e23-486e-8086-6634ea1c7b24",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBattleDummyTop","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sBattleDummyTop",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.5,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"dd35f7d1-ddaf-4dd7-a18b-078ecd8f4065","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1632290-af29-446d-a503-a0630d871c27","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d1dc0cf2-cc18-42e5-bff5-e47736c23252","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4ff6c93-4e23-486e-8086-6634ea1c7b24","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBattleDummyTop","path":"sprites/sBattleDummyTop/sBattleDummyTop.yy",},
-    "resourceVersion": "1.3",
-    "name": "sBattleDummyTop",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47303e34-2f0e-4fa2-9001-e1b41b3b6ce7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"47303e34-2f0e-4fa2-9001-e1b41b3b6ce7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPCs",
     "path": "folders/Sprites/OverworldSprites/NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sBattleDummyTop",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

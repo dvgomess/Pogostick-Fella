@@ -51,12 +51,12 @@ if(global.BattleTextOutputCharacterVal < string_length(global.BattleTextOutput))
 			audio_sound_pitch(DialogueSFX, RandomPitch);
 		
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
-			/// @DnDVersion : 1
+			/// @DnDVersion : 1.1
 			/// @DnDHash : 63B955D4
 			/// @DnDParent : 7301D0F1
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDSaveInfo : "soundid" "DialogueSFX"
-			audio_play_sound(DialogueSFX, 0, 0);
+			audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 		}
 	}
 }

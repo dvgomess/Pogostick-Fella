@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "vendingmachine_animation",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 96,
   "height": 128,
   "textureGroupId": {
@@ -24,45 +28,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2e9b56f-0860-4700-9a6c-132802e62c64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2e9b56f-0860-4700-9a6c-132802e62c64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"c2e9b56f-0860-4700-9a6c-132802e62c64","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"478e15ca-9d42-423a-9dff-21feefa5b93e","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"478e15ca-9d42-423a-9dff-21feefa5b93e","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"478e15ca-9d42-423a-9dff-21feefa5b93e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3c6038dd-cbf2-4546-b1a0-e4b89b0c3188","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c6038dd-cbf2-4546-b1a0-e4b89b0c3188","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"3c6038dd-cbf2-4546-b1a0-e4b89b0c3188","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5972fb87-be44-45f3-ab98-bc04e46fa8ca","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5972fb87-be44-45f3-ab98-bc04e46fa8ca","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"5972fb87-be44-45f3-ab98-bc04e46fa8ca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"01d9aef4-64a6-484b-8328-0b95afe299aa","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01d9aef4-64a6-484b-8328-0b95afe299aa","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"01d9aef4-64a6-484b-8328-0b95afe299aa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b096c590-928c-43a5-97ad-36d7809cf9e7","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b096c590-928c-43a5-97ad-36d7809cf9e7","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"b096c590-928c-43a5-97ad-36d7809cf9e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"63eb264e-7b0c-4be1-9e1b-8769c969844c","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"63eb264e-7b0c-4be1-9e1b-8769c969844c","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"63eb264e-7b0c-4be1-9e1b-8769c969844c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"78c49886-2856-4a05-aa3f-c64a40a81fe8","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78c49886-2856-4a05-aa3f-c64a40a81fe8","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"78c49886-2856-4a05-aa3f-c64a40a81fe8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"01967077-808a-4f11-8f6f-9c2569e28244","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01967077-808a-4f11-8f6f-9c2569e28244","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"01967077-808a-4f11-8f6f-9c2569e28244","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bcd69095-7c40-453d-9965-d7badd46606d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bcd69095-7c40-453d-9965-d7badd46606d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"bcd69095-7c40-453d-9965-d7badd46606d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dffa06e4-0da2-45fe-91b3-1123c5464d64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dffa06e4-0da2-45fe-91b3-1123c5464d64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"dffa06e4-0da2-45fe-91b3-1123c5464d64","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b5ee63f-aca0-415a-9e4d-7ef077b7a03d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b5ee63f-aca0-415a-9e4d-7ef077b7a03d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"LayerId":{"name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","name":"1b5ee63f-aca0-415a-9e4d-7ef077b7a03d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2e9b56f-0860-4700-9a6c-132802e62c64",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"478e15ca-9d42-423a-9dff-21feefa5b93e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c6038dd-cbf2-4546-b1a0-e4b89b0c3188",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5972fb87-be44-45f3-ab98-bc04e46fa8ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01d9aef4-64a6-484b-8328-0b95afe299aa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b096c590-928c-43a5-97ad-36d7809cf9e7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"63eb264e-7b0c-4be1-9e1b-8769c969844c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"78c49886-2856-4a05-aa3f-c64a40a81fe8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01967077-808a-4f11-8f6f-9c2569e28244",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bcd69095-7c40-453d-9965-d7badd46606d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dffa06e4-0da2-45fe-91b3-1123c5464d64",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b5ee63f-aca0-415a-9e4d-7ef077b7a03d",},
   ],
   "sequence": {
-    "spriteId": {"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "vendingmachine_animation",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -73,7 +55,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"77b19fea-b456-4f2d-98ce-31436c537eee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2e9b56f-0860-4700-9a6c-132802e62c64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ef584a68-f1f0-4f64-9c9e-18fad622dc6a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"478e15ca-9d42-423a-9dff-21feefa5b93e","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"29e64715-a5ab-4b21-a07d-3a59f0c9df19","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c6038dd-cbf2-4546-b1a0-e4b89b0c3188","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +68,7 @@
             {"id":"8279d3b1-1eef-456b-8699-f4c88c5e7db5","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcd69095-7c40-453d-9965-d7badd46606d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d0b5498f-d80a-4097-9fc3-0e3f5cf144ff","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dffa06e4-0da2-45fe-91b3-1123c5464d64","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"be92d7b7-8971-44b7-b85e-60cc2c41a63d","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b5ee63f-aca0-415a-9e4d-7ef077b7a03d","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +84,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"vendingmachine_animation","path":"sprites/vendingmachine_animation/vendingmachine_animation.yy",},
-    "resourceVersion": "1.3",
-    "name": "vendingmachine_animation",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d77b3212-0d35-4bc1-9794-f3684b7c8d55","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "OverworldSprites",
     "path": "folders/Sprites/OverworldSprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "vendingmachine_animation",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

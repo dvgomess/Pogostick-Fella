@@ -12,12 +12,12 @@ if(SelectedButton == 1)
 	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 4A30AB28
 	/// @DnDParent : 722D0FE3
 	/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 	/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-	audio_play_sound(MenuBeepSoundEffect, 0, 0);
+	audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Random.Randomize
 	/// @DnDVersion : 1
@@ -230,8 +230,8 @@ if(SelectedButton == 1)
 	/// @DnDHash : 32AC02EA
 	/// @DnDInput : 20
 	/// @DnDParent : 722D0FE3
-	/// @DnDArgument : "expr" "dubiousFood"
-	/// @DnDArgument : "expr_1" "badGrades"
+	/// @DnDArgument : "expr" "sunglasses"
+	/// @DnDArgument : "expr_1" "shoes"
 	/// @DnDArgument : "expr_2" "empty"
 	/// @DnDArgument : "expr_3" "empty"
 	/// @DnDArgument : "expr_4" "empty"
@@ -270,8 +270,8 @@ if(SelectedButton == 1)
 	/// @DnDArgument : "var_17" "global.InventorySlot18"
 	/// @DnDArgument : "var_18" "global.InventorySlot19"
 	/// @DnDArgument : "var_19" "global.InventorySlot20"
-	global.InventorySlot1 = dubiousFood;
-	global.InventorySlot2 = badGrades;
+	global.InventorySlot1 = sunglasses;
+	global.InventorySlot2 = shoes;
 	global.InventorySlot3 = empty;
 	global.InventorySlot4 = empty;
 	global.InventorySlot5 = empty;
@@ -385,12 +385,12 @@ if(SelectedButton == 2)
 	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 3A803906
 	/// @DnDParent : 609A0D50
 	/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 	/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-	audio_play_sound(MenuBeepSoundEffect, 0, 0);
+	audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
@@ -504,11 +504,11 @@ if(SelectedButton == 2)
 	draw_set_font(Font1);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 230EC8A3
 	/// @DnDParent : 609A0D50
 	/// @DnDArgument : "soundid" "global.CurrentBackgroundMusic"
-	audio_play_sound(global.CurrentBackgroundMusic, 0, 0);
+	audio_play_sound(global.CurrentBackgroundMusic, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

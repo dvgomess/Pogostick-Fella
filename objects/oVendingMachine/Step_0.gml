@@ -36,12 +36,12 @@ if(global.CanPlayerMoveRn == 1)
 			if (!audio_is_playing(l0A19AFE6_0))
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 5D8FF3A2
 				/// @DnDParent : 0A19AFE6
 				/// @DnDArgument : "soundid" "vending_machine"
 				/// @DnDSaveInfo : "soundid" "vending_machine"
-				audio_play_sound(vending_machine, 0, 0);
+				audio_play_sound(vending_machine, 0, 0, 1.0, undefined, 1.0);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.Variable

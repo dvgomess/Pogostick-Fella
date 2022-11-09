@@ -24,12 +24,12 @@ if(global.BattleStep == 1)
 		global.BattleSelectedButtonG += 1;
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 682D5D0E
 		/// @DnDParent : 26F65942
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
@@ -51,12 +51,12 @@ if(global.BattleStep == 1)
 		global.BattleSelectedButtonG += -1;
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 265E8D72
 		/// @DnDParent : 09617EBF
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

@@ -84,12 +84,12 @@ if (l3709CFD9_0)
 				Line7 = "Have a great first day at\nyour new school, sweetie!";
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 6145B7AC
 				/// @DnDParent : 6E28A7F9
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	
@@ -119,12 +119,12 @@ if (l3709CFD9_0)
 				global.CanPlayerMoveRn = 1;
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 0F60BE43
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -149,12 +149,12 @@ if (l3709CFD9_0)
 				LineCount += -1;
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 3FE7B097
 				/// @DnDParent : 4A8D8B71
 				/// @DnDArgument : "soundid" "MenuBeepSoundEffect"
 				/// @DnDSaveInfo : "soundid" "MenuBeepSoundEffect"
-				audio_play_sound(MenuBeepSoundEffect, 0, 0);
+				audio_play_sound(MenuBeepSoundEffect, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}

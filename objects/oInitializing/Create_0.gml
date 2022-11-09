@@ -192,9 +192,9 @@ global.FriendApproaching_Op2 = 0;
 /// @DnDHash : 5E5B7FB4
 /// @DnDInput : 20
 /// @DnDArgument : "expr" "sunglasses"
-/// @DnDArgument : "expr_1" "jacket"
+/// @DnDArgument : "expr_1" "empty"
 /// @DnDArgument : "expr_2" "shoes"
-/// @DnDArgument : "expr_3" "bandaid"
+/// @DnDArgument : "expr_3" "empty"
 /// @DnDArgument : "expr_4" "empty"
 /// @DnDArgument : "expr_5" "empty"
 /// @DnDArgument : "expr_6" "empty"
@@ -232,9 +232,9 @@ global.FriendApproaching_Op2 = 0;
 /// @DnDArgument : "var_18" "global.InventorySlot19"
 /// @DnDArgument : "var_19" "global.InventorySlot20"
 global.InventorySlot1 = sunglasses;
-global.InventorySlot2 = jacket;
+global.InventorySlot2 = empty;
 global.InventorySlot3 = shoes;
-global.InventorySlot4 = bandaid;
+global.InventorySlot4 = empty;
 global.InventorySlot5 = empty;
 global.InventorySlot6 = empty;
 global.InventorySlot7 = empty;

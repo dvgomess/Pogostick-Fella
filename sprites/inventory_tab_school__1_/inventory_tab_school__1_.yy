@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "inventory_tab_school__1_",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 80,
   "height": 80,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9bbc6c86-7c2f-4cdc-9af8-2eb1b9a962d9","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9bbc6c86-7c2f-4cdc-9af8-2eb1b9a962d9","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},"LayerId":{"name":"33c332aa-e5a4-4da7-9257-19084424a1a5","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"inventory_tab_school__1_","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},"resourceVersion":"1.0","name":"9bbc6c86-7c2f-4cdc-9af8-2eb1b9a962d9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bbc6c86-7c2f-4cdc-9af8-2eb1b9a962d9",},
   ],
   "sequence": {
-    "spriteId": {"name":"inventory_tab_school__1_","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "inventory_tab_school__1_",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"09ccc175-e626-4456-b39a-e19cb73b19f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9bbc6c86-7c2f-4cdc-9af8-2eb1b9a962d9","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"inventory_tab_school__1_","path":"sprites/inventory_tab_school__1_/inventory_tab_school__1_.yy",},
-    "resourceVersion": "1.3",
-    "name": "inventory_tab_school__1_",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33c332aa-e5a4-4da7-9257-19084424a1a5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"33c332aa-e5a4-4da7-9257-19084424a1a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "UI Elements",
     "path": "folders/Sprites/UI Elements.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "inventory_tab_school__1_",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

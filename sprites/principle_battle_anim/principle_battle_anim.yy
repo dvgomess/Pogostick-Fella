@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "principle_battle_anim",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 74,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1b193c28-7e18-467b-94fb-3e822e4ce1f1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b193c28-7e18-467b-94fb-3e822e4ce1f1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"1b193c28-7e18-467b-94fb-3e822e4ce1f1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"414683f7-648c-4e52-88dd-0cccd59debbb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"414683f7-648c-4e52-88dd-0cccd59debbb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"414683f7-648c-4e52-88dd-0cccd59debbb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3a2f7ebc-e8e2-4bd0-8b02-067816ef0650","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a2f7ebc-e8e2-4bd0-8b02-067816ef0650","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"3a2f7ebc-e8e2-4bd0-8b02-067816ef0650","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dbdbd881-2c4d-47ab-9fcb-f8490de38ed1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbdbd881-2c4d-47ab-9fcb-f8490de38ed1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"dbdbd881-2c4d-47ab-9fcb-f8490de38ed1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a1f2fa05-b05d-4503-ada1-91b3989aa0ef","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1f2fa05-b05d-4503-ada1-91b3989aa0ef","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"a1f2fa05-b05d-4503-ada1-91b3989aa0ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9ad30638-dbc2-4e70-af4e-5170f0280adb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ad30638-dbc2-4e70-af4e-5170f0280adb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"LayerId":{"name":"75f86d10-e883-4fd9-adf9-240addcf9516","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","name":"9ad30638-dbc2-4e70-af4e-5170f0280adb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b193c28-7e18-467b-94fb-3e822e4ce1f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"414683f7-648c-4e52-88dd-0cccd59debbb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a2f7ebc-e8e2-4bd0-8b02-067816ef0650",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbdbd881-2c4d-47ab-9fcb-f8490de38ed1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a1f2fa05-b05d-4503-ada1-91b3989aa0ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ad30638-dbc2-4e70-af4e-5170f0280adb",},
   ],
   "sequence": {
-    "spriteId": {"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "principle_battle_anim",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bbcc1eb1-e978-4115-8fdf-d3741c5040b9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b193c28-7e18-467b-94fb-3e822e4ce1f1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4ad443d4-0957-4572-9a92-24a10dff585e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"414683f7-648c-4e52-88dd-0cccd59debbb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"85c8d5e8-602c-465a-a432-a8e934985a97","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a2f7ebc-e8e2-4bd0-8b02-067816ef0650","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8cac7bc1-a555-4303-ac61-d8bbe311d11e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbdbd881-2c4d-47ab-9fcb-f8490de38ed1","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c2d777f4-2570-49b4-a0c5-d094f560c140","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1f2fa05-b05d-4503-ada1-91b3989aa0ef","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"49c4c463-0858-411d-8f46-8d6c03dce124","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ad30638-dbc2-4e70-af4e-5170f0280adb","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 74,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"principle_battle_anim","path":"sprites/principle_battle_anim/principle_battle_anim.yy",},
-    "resourceVersion": "1.3",
-    "name": "principle_battle_anim",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"75f86d10-e883-4fd9-adf9-240addcf9516","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75f86d10-e883-4fd9-adf9-240addcf9516","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "BattleSprites",
     "path": "folders/Sprites/BattleSprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "principle_battle_anim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

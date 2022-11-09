@@ -20,12 +20,12 @@ if(global.SkipRoomTransition == 1)
 if(global.SkipRoomTransition == 0)
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 4B72D9B5
 	/// @DnDParent : 11C48F6C
 	/// @DnDArgument : "soundid" "doorway"
 	/// @DnDSaveInfo : "soundid" "doorway"
-	audio_play_sound(doorway, 0, 0);
+	audio_play_sound(doorway, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

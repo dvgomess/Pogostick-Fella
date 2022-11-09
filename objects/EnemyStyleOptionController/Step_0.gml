@@ -15,12 +15,11 @@ if(global.GodmodeSelectedButton == 7)
 	if (l65B47CC2_0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 3FDFD706
 		/// @DnDParent : 65B47CC2
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
-		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -41,12 +40,11 @@ if(global.GodmodeSelectedButton == 7)
 	if (l07699D22_0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 1146D8BF
 		/// @DnDParent : 07699D22
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
-		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -67,12 +65,11 @@ if(global.GodmodeSelectedButton == 7)
 	if (l7B0E09C0_0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 0F1C4692
 		/// @DnDParent : 7B0E09C0
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
-		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -93,12 +90,11 @@ if(global.GodmodeSelectedButton == 7)
 	if (l74AABD3A_0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 48BA3EAD
 		/// @DnDParent : 74AABD3A
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
-		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -119,12 +115,11 @@ if(global.GodmodeSelectedButton == 7)
 	if (l1BD98A08_0)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 11A9C462
 		/// @DnDParent : 1BD98A08
 		/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
-		/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+		audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

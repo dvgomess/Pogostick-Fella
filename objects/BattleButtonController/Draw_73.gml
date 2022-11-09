@@ -97,12 +97,12 @@ if(global.BattleStep == 4)
 			if(global.InventoryCursorButton >= 20)
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 100E484D
 				/// @DnDParent : 07CF4D80
 				/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 				/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -134,12 +134,12 @@ if(global.BattleStep == 4)
 			if(global.InventoryCursorButton < 40)
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 66CE94AD
 				/// @DnDParent : 70F70882
 				/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 				/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -171,12 +171,12 @@ if(global.BattleStep == 4)
 			if(!(global.InventoryCursorButton mod 10 == 1))
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 1BEF4E40
 				/// @DnDParent : 06BA31FA
 				/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 				/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
@@ -208,12 +208,12 @@ if(global.BattleStep == 4)
 			if(!(global.InventoryCursorButton mod 10 == 6))
 			{
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1
+				/// @DnDVersion : 1.1
 				/// @DnDHash : 3FAC3E5F
 				/// @DnDParent : 05951757
 				/// @DnDArgument : "soundid" "_220206__gameaudio__beep_space_button"
 				/// @DnDSaveInfo : "soundid" "_220206__gameaudio__beep_space_button"
-				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0);
+				audio_play_sound(_220206__gameaudio__beep_space_button, 0, 0, 1.0, undefined, 1.0);
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

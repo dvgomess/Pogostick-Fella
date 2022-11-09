@@ -20,7 +20,6 @@ if(global.BattleSelectedButtonG == 2)
 	/// @DnDParent : 4353CAF6
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "BraceButton"
-	/// @DnDSaveInfo : "spriteind" "BraceButton"
 	sprite_index = BraceButton;
 	image_index = 1;
 }
@@ -47,7 +46,6 @@ if(!(global.BattleSelectedButtonG == 2))
 	/// @DnDHash : 19651681
 	/// @DnDParent : 42728D80
 	/// @DnDArgument : "spriteind" "BraceButton"
-	/// @DnDSaveInfo : "spriteind" "BraceButton"
 	sprite_index = BraceButton;
 	image_index = 0;
 }
@@ -66,7 +64,6 @@ if(!(global.BattleStep == 1))
 	/// @DnDParent : 7AFE0E0C
 	/// @DnDArgument : "imageind" "2"
 	/// @DnDArgument : "spriteind" "BraceButton"
-	/// @DnDSaveInfo : "spriteind" "BraceButton"
 	sprite_index = BraceButton;
 	image_index = 2;
 }

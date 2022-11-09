@@ -11,7 +11,6 @@ if(global.GodmodeSelectedButton == 2)
 	/// @DnDParent : 613B5884
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "SideButton_BGstyle"
-	/// @DnDSaveInfo : "spriteind" "SideButton_BGstyle"
 	sprite_index = SideButton_BGstyle;
 	image_index = 1;
 }
@@ -29,7 +28,6 @@ if(!(global.GodmodeSelectedButton == 2))
 	/// @DnDHash : 2970608B
 	/// @DnDParent : 7707D4B0
 	/// @DnDArgument : "spriteind" "SideButton_BGstyle"
-	/// @DnDSaveInfo : "spriteind" "SideButton_BGstyle"
 	sprite_index = SideButton_BGstyle;
 	image_index = 0;
 }

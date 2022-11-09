@@ -20,7 +20,6 @@ if(global.BattleSelectedButtonG == 1)
 	/// @DnDParent : 19C58C2F
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "StrongAttackButton"
-	/// @DnDSaveInfo : "spriteind" "StrongAttackButton"
 	sprite_index = StrongAttackButton;
 	image_index = 1;
 }
@@ -47,7 +46,6 @@ if(!(global.BattleSelectedButtonG == 1))
 	/// @DnDHash : 57D39339
 	/// @DnDParent : 22669AAF
 	/// @DnDArgument : "spriteind" "StrongAttackButton"
-	/// @DnDSaveInfo : "spriteind" "StrongAttackButton"
 	sprite_index = StrongAttackButton;
 	image_index = 0;
 }
@@ -66,7 +64,6 @@ if(!(global.BattleStep == 1))
 	/// @DnDParent : 69B46448
 	/// @DnDArgument : "imageind" "2"
 	/// @DnDArgument : "spriteind" "BraceButton"
-	/// @DnDSaveInfo : "spriteind" "BraceButton"
 	sprite_index = BraceButton;
 	image_index = 2;
 }

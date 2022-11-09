@@ -29,11 +29,11 @@ if(global.BattleStep == 6)
 		canJingle = 0;
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 62B437E7
 		/// @DnDParent : 3DBE8F3B
 		/// @DnDArgument : "soundid" "EarlyVictoryJingle"
 		/// @DnDSaveInfo : "soundid" "EarlyVictoryJingle"
-		audio_play_sound(EarlyVictoryJingle, 0, 0);
+		audio_play_sound(EarlyVictoryJingle, 0, 0, 1.0, undefined, 1.0);
 	}
 }

@@ -11,7 +11,6 @@ if(global.BattleStep == 1)
 	/// @DnDParent : 5BB9CC54
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "TextBoxBackground"
-	/// @DnDSaveInfo : "spriteind" "TextBoxBackground"
 	sprite_index = TextBoxBackground;
 	image_index = 1;
 }
@@ -28,7 +27,6 @@ if(global.BattleStep == 2)
 	/// @DnDHash : 32763ED5
 	/// @DnDParent : 0A1D0307
 	/// @DnDArgument : "spriteind" "TextBoxBackground"
-	/// @DnDSaveInfo : "spriteind" "TextBoxBackground"
 	sprite_index = TextBoxBackground;
 	image_index = 0;
 }
@@ -45,7 +43,6 @@ if(global.BattleStep == 3)
 	/// @DnDHash : 77E7B816
 	/// @DnDParent : 092602C0
 	/// @DnDArgument : "spriteind" "TextBoxBackground"
-	/// @DnDSaveInfo : "spriteind" "TextBoxBackground"
 	sprite_index = TextBoxBackground;
 	image_index = 0;
 }
@@ -63,7 +60,6 @@ if(global.BattleStep >= 4)
 	/// @DnDHash : 7B2FBDC5
 	/// @DnDParent : 66313007
 	/// @DnDArgument : "spriteind" "TextBoxBackground"
-	/// @DnDSaveInfo : "spriteind" "TextBoxBackground"
 	sprite_index = TextBoxBackground;
 	image_index = 0;
 }
