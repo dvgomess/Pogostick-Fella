@@ -107,7 +107,9 @@ Line25 = "Finally! I've been trying to talk to you all day!";
 /// @DnDVersion : 1
 /// @DnDHash : 715F082F
 /// @DnDArgument : "var" "global.PrincipalArcProgressStage"
-if(global.PrincipalArcProgressStage == 0)
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "4"
+if(global.PrincipalArcProgressStage > 4)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

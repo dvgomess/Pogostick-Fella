@@ -1836,6 +1836,75 @@ if(global.BattleStep == 4)
 							/// @DnDArgument : "var" "global.BattleStep"
 							global.BattleStep = 10;
 						}
+					
+						/// @DnDAction : YoYo Games.Common.If_Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 18DB4087
+						/// @DnDParent : 73957031
+						/// @DnDArgument : "var" "global.ChosenMove"
+						/// @DnDArgument : "value" "kitchenKnife"
+						if(global.ChosenMove == kitchenKnife)
+						{
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 6A34074E
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "expr" ""Time for a taste of your own\nmedicine!""
+							/// @DnDArgument : "var" "global.BattleTextOutput"
+							global.BattleTextOutput = "Time for a taste of your own\nmedicine!";
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 438837AF
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "expr" "-1"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyMorale"
+							global.EnemyMorale += -1;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 10EF6A1B
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "expr" "2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.PlayerATK"
+							global.PlayerATK += 2;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 787414AF
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "expr" "-2"
+							/// @DnDArgument : "expr_relative" "1"
+							/// @DnDArgument : "var" "global.EnemyATK"
+							global.EnemyATK += -2;
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 3A2DA1C2
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "var" "global.EnemyATK"
+							/// @DnDArgument : "op" "3"
+							if(global.EnemyATK <= 0)
+							{
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 07121DFD
+								/// @DnDParent : 3A2DA1C2
+								/// @DnDArgument : "expr" "1"
+								/// @DnDArgument : "var" "global.EnemyATK"
+								global.EnemyATK = 1;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
+							/// @DnDHash : 4F970145
+							/// @DnDParent : 18DB4087
+							/// @DnDArgument : "expr" "10"
+							/// @DnDArgument : "var" "global.BattleStep"
+							global.BattleStep = 10;
+						}
 					}
 				
 					/// @DnDAction : YoYo Games.Common.Else
@@ -2137,9 +2206,9 @@ if(global.BattleStep == 4)
 								/// @DnDVersion : 1
 								/// @DnDHash : 37DD7074
 								/// @DnDParent : 2B7834A9
-								/// @DnDArgument : "expr" ""You throw the rotten apple in\nthe chef's soup. That was\ncrossing the line.""
+								/// @DnDArgument : "expr" ""You throw the rotten apple in\nthe chef's soup. That\ncrossed the line.""
 								/// @DnDArgument : "var" "global.BattleTextOutput"
-								global.BattleTextOutput = "You throw the rotten apple in\nthe chef's soup. That was\ncrossing the line.";
+								global.BattleTextOutput = "You throw the rotten apple in\nthe chef's soup. That\ncrossed the line.";
 							
 								/// @DnDAction : YoYo Games.Common.Variable
 								/// @DnDVersion : 1
@@ -3102,6 +3171,75 @@ if(global.BattleStep == 4)
 									/// @DnDArgument : "var" "global.BattleStep"
 									global.BattleStep = 10;
 								}
+							
+								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 72D67321
+								/// @DnDParent : 03CFCD6A
+								/// @DnDArgument : "var" "global.ChosenMove"
+								/// @DnDArgument : "value" "cassette_tape"
+								if(global.ChosenMove == cassette_tape)
+								{
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 18124FAF
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "expr" ""This verbal confession will go\na long way in court!""
+									/// @DnDArgument : "var" "global.BattleTextOutput"
+									global.BattleTextOutput = "This verbal confession will go\na long way in court!";
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 4CD22314
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "expr" "-1"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.EnemyMorale"
+									global.EnemyMorale += -1;
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 13836826
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "expr" "2"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.PlayerATK"
+									global.PlayerATK += 2;
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 2ABA85CF
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "expr" "-3"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "global.EnemyATK"
+									global.EnemyATK += -3;
+								
+									/// @DnDAction : YoYo Games.Common.If_Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 6876CC37
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "var" "global.EnemyATK"
+									/// @DnDArgument : "op" "3"
+									if(global.EnemyATK <= 0)
+									{
+										/// @DnDAction : YoYo Games.Common.Variable
+										/// @DnDVersion : 1
+										/// @DnDHash : 547FFBD1
+										/// @DnDParent : 6876CC37
+										/// @DnDArgument : "expr" "1"
+										/// @DnDArgument : "var" "global.EnemyATK"
+										global.EnemyATK = 1;
+									}
+								
+									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 3E99D720
+									/// @DnDParent : 72D67321
+									/// @DnDArgument : "expr" "10"
+									/// @DnDArgument : "var" "global.BattleStep"
+									global.BattleStep = 10;
+								}
 							}
 						
 							/// @DnDAction : YoYo Games.Common.Else
@@ -3165,96 +3303,154 @@ if(global.BattleStep == 4)
 									global.BattleStep = 12;
 								}
 							
-								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDAction : YoYo Games.Common.Else
 								/// @DnDVersion : 1
-								/// @DnDHash : 4BD9E0D6
+								/// @DnDHash : 532CC7FE
 								/// @DnDParent : 74B7C4D5
-								/// @DnDArgument : "var" "global.ChosenMove"
-								/// @DnDArgument : "value" "rubberDuck"
-								if(global.ChosenMove == rubberDuck)
+								else
 								{
-									/// @DnDAction : YoYo Games.Common.Variable
-									/// @DnDVersion : 1
-									/// @DnDHash : 75D029FB
-									/// @DnDInput : 2
-									/// @DnDParent : 4BD9E0D6
-									/// @DnDArgument : "expr" ""It squeaked a little bit, but\nthat's all""
-									/// @DnDArgument : "var" "global.BattleTextOutput"
-									/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
-									global.BattleTextOutput = "It squeaked a little bit, but\nthat's all";
-									global.BattleTextOutputCharacterVal = 0;
-								
 									/// @DnDAction : YoYo Games.Common.If_Variable
 									/// @DnDVersion : 1
-									/// @DnDHash : 21E079A3
-									/// @DnDParent : 4BD9E0D6
-									/// @DnDArgument : "var" "global.PlayerHP"
-									/// @DnDArgument : "op" "2"
-									/// @DnDArgument : "value" "100"
-									if(global.PlayerHP > 100)
+									/// @DnDHash : 4BD9E0D6
+									/// @DnDParent : 532CC7FE
+									/// @DnDArgument : "var" "global.ChosenMove"
+									/// @DnDArgument : "value" "rubberDuck"
+									if(global.ChosenMove == rubberDuck)
 									{
 										/// @DnDAction : YoYo Games.Common.Variable
 										/// @DnDVersion : 1
-										/// @DnDHash : 4CF3B7F2
-										/// @DnDParent : 21E079A3
-										/// @DnDArgument : "expr" "100"
+										/// @DnDHash : 75D029FB
+										/// @DnDInput : 2
+										/// @DnDParent : 4BD9E0D6
+										/// @DnDArgument : "expr" ""It squeaked a little bit, but\nthat's all""
+										/// @DnDArgument : "var" "global.BattleTextOutput"
+										/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
+										global.BattleTextOutput = "It squeaked a little bit, but\nthat's all";
+										global.BattleTextOutputCharacterVal = 0;
+									
+										/// @DnDAction : YoYo Games.Common.If_Variable
+										/// @DnDVersion : 1
+										/// @DnDHash : 21E079A3
+										/// @DnDParent : 4BD9E0D6
 										/// @DnDArgument : "var" "global.PlayerHP"
-										global.PlayerHP = 100;
-									}
-								
-									/// @DnDAction : YoYo Games.Common.Variable
-									/// @DnDVersion : 1
-									/// @DnDHash : 36A0FB63
-									/// @DnDParent : 4BD9E0D6
-									/// @DnDArgument : "expr" "12"
-									/// @DnDArgument : "var" "global.BattleStep"
-									global.BattleStep = 12;
-								}
-							
-								/// @DnDAction : YoYo Games.Common.If_Variable
-								/// @DnDVersion : 1
-								/// @DnDHash : 5C063F7C
-								/// @DnDParent : 74B7C4D5
-								/// @DnDArgument : "var" "global.ChosenMove"
-								/// @DnDArgument : "value" "iceSkates"
-								if(global.ChosenMove == iceSkates)
-								{
-									/// @DnDAction : YoYo Games.Common.Variable
-									/// @DnDVersion : 1
-									/// @DnDHash : 17731F57
-									/// @DnDInput : 2
-									/// @DnDParent : 5C063F7C
-									/// @DnDArgument : "expr" ""Huh, they're not as sharp as\npeople say they are.""
-									/// @DnDArgument : "var" "global.BattleTextOutput"
-									/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
-									global.BattleTextOutput = "Huh, they're not as sharp as\npeople say they are.";
-									global.BattleTextOutputCharacterVal = 0;
-								
-									/// @DnDAction : YoYo Games.Common.If_Variable
-									/// @DnDVersion : 1
-									/// @DnDHash : 2528BF7C
-									/// @DnDParent : 5C063F7C
-									/// @DnDArgument : "var" "global.PlayerHP"
-									/// @DnDArgument : "op" "2"
-									/// @DnDArgument : "value" "100"
-									if(global.PlayerHP > 100)
-									{
+										/// @DnDArgument : "op" "2"
+										/// @DnDArgument : "value" "100"
+										if(global.PlayerHP > 100)
+										{
+											/// @DnDAction : YoYo Games.Common.Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 4CF3B7F2
+											/// @DnDParent : 21E079A3
+											/// @DnDArgument : "expr" "100"
+											/// @DnDArgument : "var" "global.PlayerHP"
+											global.PlayerHP = 100;
+										}
+									
 										/// @DnDAction : YoYo Games.Common.Variable
 										/// @DnDVersion : 1
-										/// @DnDHash : 589559C2
-										/// @DnDParent : 2528BF7C
-										/// @DnDArgument : "expr" "100"
-										/// @DnDArgument : "var" "global.PlayerHP"
-										global.PlayerHP = 100;
+										/// @DnDHash : 36A0FB63
+										/// @DnDParent : 4BD9E0D6
+										/// @DnDArgument : "expr" "12"
+										/// @DnDArgument : "var" "global.BattleStep"
+										global.BattleStep = 12;
 									}
 								
-									/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDAction : YoYo Games.Common.Else
 									/// @DnDVersion : 1
-									/// @DnDHash : 7FF69188
-									/// @DnDParent : 5C063F7C
-									/// @DnDArgument : "expr" "12"
-									/// @DnDArgument : "var" "global.BattleStep"
-									global.BattleStep = 12;
+									/// @DnDHash : 37FCE972
+									/// @DnDParent : 532CC7FE
+									else
+									{
+										/// @DnDAction : YoYo Games.Common.If_Variable
+										/// @DnDVersion : 1
+										/// @DnDHash : 5C063F7C
+										/// @DnDParent : 37FCE972
+										/// @DnDArgument : "var" "global.ChosenMove"
+										/// @DnDArgument : "value" "iceSkates"
+										if(global.ChosenMove == iceSkates)
+										{
+											/// @DnDAction : YoYo Games.Common.Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 17731F57
+											/// @DnDInput : 2
+											/// @DnDParent : 5C063F7C
+											/// @DnDArgument : "expr" ""Huh, they're not as sharp as\npeople say they are.""
+											/// @DnDArgument : "var" "global.BattleTextOutput"
+											/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
+											global.BattleTextOutput = "Huh, they're not as sharp as\npeople say they are.";
+											global.BattleTextOutputCharacterVal = 0;
+										
+											/// @DnDAction : YoYo Games.Common.If_Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 2528BF7C
+											/// @DnDParent : 5C063F7C
+											/// @DnDArgument : "var" "global.PlayerHP"
+											/// @DnDArgument : "op" "2"
+											/// @DnDArgument : "value" "100"
+											if(global.PlayerHP > 100)
+											{
+												/// @DnDAction : YoYo Games.Common.Variable
+												/// @DnDVersion : 1
+												/// @DnDHash : 589559C2
+												/// @DnDParent : 2528BF7C
+												/// @DnDArgument : "expr" "100"
+												/// @DnDArgument : "var" "global.PlayerHP"
+												global.PlayerHP = 100;
+											}
+										
+											/// @DnDAction : YoYo Games.Common.Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 7FF69188
+											/// @DnDParent : 5C063F7C
+											/// @DnDArgument : "expr" "12"
+											/// @DnDArgument : "var" "global.BattleStep"
+											global.BattleStep = 12;
+										}
+									
+										/// @DnDAction : YoYo Games.Common.Else
+										/// @DnDVersion : 1
+										/// @DnDHash : 6C4D58E2
+										/// @DnDParent : 37FCE972
+										else
+										{
+											/// @DnDAction : YoYo Games.Common.Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 393B5245
+											/// @DnDInput : 2
+											/// @DnDParent : 6C4D58E2
+											/// @DnDArgument : "expr" ""Wrong item text not added yet""
+											/// @DnDArgument : "var" "global.BattleTextOutput"
+											/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
+											global.BattleTextOutput = "Wrong item text not added yet";
+											global.BattleTextOutputCharacterVal = 0;
+										
+											/// @DnDAction : YoYo Games.Common.If_Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 6E54A067
+											/// @DnDParent : 6C4D58E2
+											/// @DnDArgument : "var" "global.PlayerHP"
+											/// @DnDArgument : "op" "2"
+											/// @DnDArgument : "value" "100"
+											if(global.PlayerHP > 100)
+											{
+												/// @DnDAction : YoYo Games.Common.Variable
+												/// @DnDVersion : 1
+												/// @DnDHash : 52296837
+												/// @DnDParent : 6E54A067
+												/// @DnDArgument : "expr" "100"
+												/// @DnDArgument : "var" "global.PlayerHP"
+												global.PlayerHP = 100;
+											}
+										
+											/// @DnDAction : YoYo Games.Common.Variable
+											/// @DnDVersion : 1
+											/// @DnDHash : 1144A6BA
+											/// @DnDParent : 6C4D58E2
+											/// @DnDArgument : "expr" "12"
+											/// @DnDArgument : "var" "global.BattleStep"
+											global.BattleStep = 12;
+										}
+									}
 								}
 							}
 						}

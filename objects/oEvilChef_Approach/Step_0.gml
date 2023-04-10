@@ -228,11 +228,11 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDInput : 2
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" "3"
-				/// @DnDArgument : "expr_1" ""The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?""
+				/// @DnDArgument : "expr_1" ""The chef surrenders. How is\nhe  supposed to make a good\nsoup if you treat him this way?""
 				/// @DnDArgument : "var" "global.EnemyMorale"
 				/// @DnDArgument : "var_1" "global.EnemyMoraleDeprivationMessage"
 				global.EnemyMorale = 3;
-				global.EnemyMoraleDeprivationMessage = "The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?";
+				global.EnemyMoraleDeprivationMessage = "The chef surrenders. How is\nhe  supposed to make a good\nsoup if you treat him this way?";
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

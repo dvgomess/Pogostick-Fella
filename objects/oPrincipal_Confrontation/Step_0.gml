@@ -111,16 +111,16 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDHash : 1820693C
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "var" "global.PrincipalArcProgressStage"
-				/// @DnDArgument : "value" "1"
-				if(global.PrincipalArcProgressStage == 1)
+				/// @DnDArgument : "value" "4"
+				if(global.PrincipalArcProgressStage == 4)
 				{
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 68E675E1
 					/// @DnDParent : 1820693C
-					/// @DnDArgument : "expr" "2"
+					/// @DnDArgument : "expr" "5"
 					/// @DnDArgument : "var" "global.PrincipalArcProgressStage"
-					global.PrincipalArcProgressStage = 2;
+					global.PrincipalArcProgressStage = 5;
 				}
 			
 				/// @DnDAction : YoYo Games.Common.Variable
@@ -196,7 +196,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" "dubiousFood"
 				/// @DnDArgument : "expr_1" "badGrades"
-				/// @DnDArgument : "expr_2" "microwave"
+				/// @DnDArgument : "expr_2" "cassette_tape"
 				/// @DnDArgument : "var" "global.ItemWeakness1"
 				/// @DnDArgument : "var_1" "global.ItemWeakness2"
 				/// @DnDArgument : "var_2" "global.ItemWeakness3"
@@ -205,7 +205,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "var_5" "global.ItemStrength3"
 				global.ItemWeakness1 = dubiousFood;
 				global.ItemWeakness2 = badGrades;
-				global.ItemWeakness3 = microwave;
+				global.ItemWeakness3 = cassette_tape;
 				global.ItemStrength1 = 0;
 				global.ItemStrength2 = 0;
 				global.ItemStrength3 = 0;
@@ -224,11 +224,11 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDInput : 2
 				/// @DnDParent : 274DA07A
 				/// @DnDArgument : "expr" "3"
-				/// @DnDArgument : "expr_1" ""The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?""
+				/// @DnDArgument : "expr_1" ""Out of breath, the principal fell\nto his knees.""
 				/// @DnDArgument : "var" "global.EnemyMorale"
 				/// @DnDArgument : "var_1" "global.EnemyMoraleDeprivationMessage"
 				global.EnemyMorale = 3;
-				global.EnemyMoraleDeprivationMessage = "The chef surrenders. How is he ever supposed to make a good soup if you keep treating him this way?";
+				global.EnemyMoraleDeprivationMessage = "Out of breath, the principal fell\nto his knees.";
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

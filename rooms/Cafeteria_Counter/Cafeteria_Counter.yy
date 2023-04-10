@@ -34,6 +34,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_82ECE7E_1_1","properties":[],"isDnd":false,"objectId":{"name":"oFan2_Top","path":"objects/oFan2_Top/oFan2_Top.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":896.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64BB1D54_1_1","properties":[],"isDnd":true,"objectId":{"name":"oEmoKid_Top","path":"objects/oEmoKid_Top/oEmoKid_Top.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":992.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5666FCCF","properties":[],"isDnd":false,"objectId":{"name":"oFan1_Top","path":"objects/oFan1_Top/oFan1_Top.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CFFC393","properties":[],"isDnd":false,"objectId":{"name":"oMicrowaveItem","path":"objects/oMicrowaveItem/oMicrowaveItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":682.0,"y":426.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_Top","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_433717C2","spriteId":{"name":"clock","path":"sprites/clock/clock.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":96.0,},
@@ -150,6 +151,7 @@
     {"name":"inst_3651C4E1","path":"rooms/Cafeteria_Counter/Cafeteria_Counter.yy",},
     {"name":"inst_1B708E47","path":"rooms/Cafeteria_Counter/Cafeteria_Counter.yy",},
     {"name":"inst_34D69408","path":"rooms/Cafeteria_Counter/Cafeteria_Counter.yy",},
+    {"name":"inst_2CFFC393","path":"rooms/Cafeteria_Counter/Cafeteria_Counter.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -42,6 +42,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18A0BF7F","properties":[],"isDnd":false,"objectId":{"name":"oPrincipal","path":"objects/oPrincipal/oPrincipal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E301FEC_1_1_1_2_2","properties":[],"isDnd":false,"objectId":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E9CAC74","properties":[],"isDnd":false,"objectId":{"name":"oPrincipal_Confrontation","path":"objects/oPrincipal_Confrontation/oPrincipal_Confrontation.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EAA95AA","properties":[],"isDnd":false,"objectId":{"name":"oPrincipal_Afterfight","path":"objects/oPrincipal_Afterfight/oPrincipal_Afterfight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.5,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":160.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"BackgroundAssets","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_65DF110","spriteId":{"name":"rug","path":"sprites/rug/rug.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":270.0,"y":242.0,},
@@ -84,6 +85,7 @@
     {"name":"inst_5A17B062","path":"rooms/School_PrincipalOffice/School_PrincipalOffice.yy",},
     {"name":"inst_18A0BF7F","path":"rooms/School_PrincipalOffice/School_PrincipalOffice.yy",},
     {"name":"inst_4E9CAC74","path":"rooms/School_PrincipalOffice/School_PrincipalOffice.yy",},
+    {"name":"inst_5EAA95AA","path":"rooms/School_PrincipalOffice/School_PrincipalOffice.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

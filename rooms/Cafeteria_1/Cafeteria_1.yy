@@ -97,6 +97,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_688B4E7","properties":[],"isDnd":false,"objectId":{"name":"oWaterFountain","path":"objects/oWaterFountain/oWaterFountain.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_637A7E67","properties":[],"isDnd":false,"objectId":{"name":"oDrippyKid_6","path":"objects/oDrippyKid_6/oDrippyKid_6.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FAA0190","properties":[],"isDnd":false,"objectId":{"name":"oTrashCanBig","path":"objects/oTrashCanBig/oTrashCanBig.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F83C7E3","properties":[],"isDnd":false,"objectId":{"name":"oAppleInTrash","path":"objects/oAppleInTrash/oAppleInTrash.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":1.4736841,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E387AA1","properties":[],"isDnd":false,"objectId":{"name":"oSittingKid_GiveReportCard","path":"objects/oSittingKid_GiveReportCard/oSittingKid_GiveReportCard.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":1.1052631,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":320.0,},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"BackgroundAssets","assets":[],"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"BackgroundTilesTop","tilesetId":{"name":"SchoolInteriorSet","path":"tilesets/SchoolInteriorSet/SchoolInteriorSet.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":47,"SerialiseHeight":25,"TileCompressedData":[
@@ -175,6 +177,8 @@
     {"name":"inst_637A7E67","path":"rooms/Cafeteria_1/Cafeteria_1.yy",},
     {"name":"inst_7B285C43","path":"rooms/Cafeteria_1/Cafeteria_1.yy",},
     {"name":"inst_6FAA0190","path":"rooms/Cafeteria_1/Cafeteria_1.yy",},
+    {"name":"inst_2F83C7E3","path":"rooms/Cafeteria_1/Cafeteria_1.yy",},
+    {"name":"inst_1E387AA1","path":"rooms/Cafeteria_1/Cafeteria_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

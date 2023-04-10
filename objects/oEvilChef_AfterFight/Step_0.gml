@@ -121,6 +121,14 @@ if ((l0550EEC0_0 > 0))
 					/// @DnDArgument : "expr" "2"
 					/// @DnDArgument : "var" "global.PrincipalArcProgressStage"
 					global.PrincipalArcProgressStage = 2;
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 7B8832D2
+					/// @DnDParent : 1820693C
+					/// @DnDArgument : "expr" "cassette_tape"
+					/// @DnDArgument : "var" "global.AddingItemToInventory"
+					global.AddingItemToInventory = cassette_tape;
 				}
 			}
 		

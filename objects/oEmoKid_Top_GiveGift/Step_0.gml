@@ -103,6 +103,12 @@ if (l3709CFD9_0)
 				/// @DnDArgument : "expr" "gift"
 				/// @DnDArgument : "var" "global.AddingItemToInventory"
 				global.AddingItemToInventory = gift;
+			
+				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 3723239B
+				/// @DnDParent : 274DA07A
+				instance_destroy();
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable

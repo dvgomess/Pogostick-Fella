@@ -21,9 +21,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
-		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "generic"
+		/// @DnDSaveInfo : "sprite" "generic"
+		draw_sprite_ext(generic, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -113,9 +113,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
-		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "generic"
+		/// @DnDSaveInfo : "sprite" "generic"
+		draw_sprite_ext(generic, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -181,9 +181,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "DumbDumbPortrait"
-		/// @DnDSaveInfo : "sprite" "DumbDumbPortrait"
-		draw_sprite_ext(DumbDumbPortrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "generic"
+		/// @DnDSaveInfo : "sprite" "generic"
+		draw_sprite_ext(generic, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -261,9 +261,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "sportskid"
-		/// @DnDSaveInfo : "sprite" "sportskid"
-		draw_sprite_ext(sportskid, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "generic"
+		/// @DnDSaveInfo : "sprite" "generic"
+		draw_sprite_ext(generic, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1

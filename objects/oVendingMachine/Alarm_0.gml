@@ -138,3 +138,17 @@ if(global.DrippyKidTutorialProgressStage == 2)
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.CanPlayerMoveRn"
 global.CanPlayerMoveRn = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 49CD5CE0
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "showingsaveicon"
+showingsaveicon = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 2B26ED0B
+/// @DnDArgument : "steps" "100"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 100);
