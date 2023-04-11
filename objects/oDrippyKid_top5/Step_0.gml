@@ -209,9 +209,9 @@ if (l3709CFD9_0)
 					/// @DnDVersion : 1
 					/// @DnDHash : 6C264B3E
 					/// @DnDParent : 0E047914
-					/// @DnDArgument : "expr" ""Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ""
+					/// @DnDArgument : "expr" ""Maybe my 'fit isn't so lit...\nNo, that can't be it! I'll never\nquit! ""
 					/// @DnDArgument : "var" "global.LossMessage"
-					global.LossMessage = "Maybe my 'fit isn't so lit...\nNo. That can't be. I need to\nstay positive. ";
+					global.LossMessage = "Maybe my 'fit isn't so lit...\nNo, that can't be it! I'll never\nquit! ";
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1

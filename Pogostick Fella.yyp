@@ -137,6 +137,7 @@
     {"id":{"name":"studentdesk","path":"sprites/studentdesk/studentdesk.yy",},"order":0,},
     {"id":{"name":"oResetButton","path":"objects/oResetButton/oResetButton.yy",},"order":7,},
     {"id":{"name":"sColorOption3","path":"sprites/sColorOption3/sColorOption3.yy",},"order":2,},
+    {"id":{"name":"atrium_playermovefix","path":"objects/atrium_playermovefix/atrium_playermovefix.yy",},"order":22,},
     {"id":{"name":"oTeacher_WalkInOnClass","path":"objects/oTeacher_WalkInOnClass/oTeacher_WalkInOnClass.yy",},"order":57,},
     {"id":{"name":"serving_table0000","path":"sprites/serving_table0000/serving_table0000.yy",},"order":1,},
     {"id":{"name":"roll_of_tape","path":"sprites/roll_of_tape/roll_of_tape.yy",},"order":17,},

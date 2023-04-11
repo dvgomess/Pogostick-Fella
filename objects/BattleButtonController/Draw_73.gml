@@ -3624,10 +3624,10 @@ if(global.BattleStep == 4)
 									/// @DnDHash : 57829926
 									/// @DnDInput : 2
 									/// @DnDParent : 302EFA5E
-									/// @DnDArgument : "expr" ""You throw some gum under\nyour enemy's shoes, slowing\nthem down and lowering their\n       attack""
+									/// @DnDArgument : "expr" ""You throw some gum under\nyour enemy's shoes, slowing\nthem down and lowering their\nattack""
 									/// @DnDArgument : "var" "global.BattleTextOutput"
 									/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
-									global.BattleTextOutput = "You throw some gum under\nyour enemy's shoes, slowing\nthem down and lowering their\n       attack";
+									global.BattleTextOutput = "You throw some gum under\nyour enemy's shoes, slowing\nthem down and lowering their\nattack";
 									global.BattleTextOutputCharacterVal = 0;
 								
 									/// @DnDAction : YoYo Games.Common.If_Variable
@@ -3982,10 +3982,10 @@ if(global.BattleStep == 4)
 									/// @DnDHash : 7A365B42
 									/// @DnDInput : 2
 									/// @DnDParent : 66113439
-									/// @DnDArgument : "expr" ""Those are some nice shoes. Nothing hapens""
+									/// @DnDArgument : "expr" ""Those are some nice shoes.\n\nNothing hapened.""
 									/// @DnDArgument : "var" "global.BattleTextOutput"
 									/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
-									global.BattleTextOutput = "Those are some nice shoes. Nothing hapens";
+									global.BattleTextOutput = "Those are some nice shoes.\n\nNothing hapened.";
 									global.BattleTextOutputCharacterVal = 0;
 								
 									/// @DnDAction : YoYo Games.Common.If_Variable
@@ -4028,10 +4028,10 @@ if(global.BattleStep == 4)
 									/// @DnDHash : 7BE4A488
 									/// @DnDInput : 2
 									/// @DnDParent : 1B84DCDA
-									/// @DnDArgument : "expr" ""You look pretty cool now. Other than that, nothing happened""
+									/// @DnDArgument : "expr" ""You look pretty cool now.\nOther than that, nothing\nhappened.""
 									/// @DnDArgument : "var" "global.BattleTextOutput"
 									/// @DnDArgument : "var_1" "global.BattleTextOutputCharacterVal"
-									global.BattleTextOutput = "You look pretty cool now. Other than that, nothing happened";
+									global.BattleTextOutput = "You look pretty cool now.\nOther than that, nothing\nhappened.";
 									global.BattleTextOutputCharacterVal = 0;
 								
 									/// @DnDAction : YoYo Games.Common.If_Variable
