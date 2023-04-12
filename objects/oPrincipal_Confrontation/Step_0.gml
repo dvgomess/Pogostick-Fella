@@ -131,7 +131,7 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDArgument : "expr" ""This is it. Time to defeat the\nprincipal.""
 				/// @DnDArgument : "expr_1" "1"
 				/// @DnDArgument : "expr_2" "principle_battle_anim"
-				/// @DnDArgument : "expr_3" "Background4"
+				/// @DnDArgument : "expr_3" "bggif"
 				/// @DnDArgument : "expr_4" "$FF00005E"
 				/// @DnDArgument : "expr_relative_5" "1"
 				/// @DnDArgument : "expr_relative_6" "1"
@@ -161,7 +161,7 @@ if ((l0550EEC0_0 > 0))
 				global.EnemyName = "This is it. Time to defeat the\nprincipal.";
 				global.InBattle = 1;
 				global.EnemyStyle = principle_battle_anim;
-				global.BackgroundStyle = Background4;
+				global.BackgroundStyle = bggif;
 				global.BackgroundColor = $FF00005E;
 				global.PlayerXposition += 0;
 				global.PlayerYposition += 0;

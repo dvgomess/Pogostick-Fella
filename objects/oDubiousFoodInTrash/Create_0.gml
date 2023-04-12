@@ -24,7 +24,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""*you found some dubios food in the\ntrash!*""
+/// @DnDArgument : "expr" ""*you found some dubious food in the\ntrash!*""
 /// @DnDArgument : "expr_1" ""I never want to look at it\nagain!""
 /// @DnDArgument : "expr_2" ""Last night's homework was\nso frustrating!""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
@@ -38,7 +38,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "*you found some dubios food in the\ntrash!*";
+Line1 = "*you found some dubious food in the\ntrash!*";
 Line2 = "I never want to look at it\nagain!";
 Line3 = "Last night's homework was\nso frustrating!";
 Line4 = "Here is a rotten apple!!!";

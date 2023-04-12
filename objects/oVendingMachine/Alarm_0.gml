@@ -13,6 +13,22 @@ image_index = 0;
 /// @DnDArgument : "var" "global.HasProgress"
 global.HasProgress = 1;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 32FEDDB5
+/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
+/// @DnDArgument : "value" "2"
+if(global.DrippyKidTutorialProgressStage == 2)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 789347CE
+	/// @DnDParent : 32FEDDB5
+	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
+	global.DrippyKidTutorialProgressStage = 3;
+}
+
 /// @DnDAction : YoYo Games.Game.Save_Game
 /// @DnDVersion : 1
 /// @DnDHash : 3D7C046C
@@ -115,22 +131,6 @@ show_debug_message("Game saved successfully. " + _string);
 /// @DnDArgument : "soundid" "Save"
 /// @DnDSaveInfo : "soundid" "Save"
 audio_play_sound(Save, 0, 0, 1.0, undefined, 1.0);
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 32FEDDB5
-/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
-/// @DnDArgument : "value" "2"
-if(global.DrippyKidTutorialProgressStage == 2)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 789347CE
-	/// @DnDParent : 32FEDDB5
-	/// @DnDArgument : "expr" "3"
-	/// @DnDArgument : "var" "global.DrippyKidTutorialProgressStage"
-	global.DrippyKidTutorialProgressStage = 3;
-}
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
