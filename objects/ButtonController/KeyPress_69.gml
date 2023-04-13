@@ -548,3 +548,19 @@ if(SelectedButton == 2)
 		alarm_set(0, 35);
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3014ED35
+/// @DnDArgument : "var" "SelectedButton"
+/// @DnDArgument : "value" "3"
+if(SelectedButton == 3)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 3DB770D7
+	/// @DnDParent : 3014ED35
+	/// @DnDArgument : "room" "CreditsRoom"
+	/// @DnDSaveInfo : "room" "CreditsRoom"
+	room_goto(CreditsRoom);
+}

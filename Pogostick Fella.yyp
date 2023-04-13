@@ -50,6 +50,7 @@
     {"id":{"name":"health","path":"sprites/health/health.yy",},"order":10,},
     {"id":{"name":"sub","path":"sprites/sub/sub.yy",},"order":18,},
     {"id":{"name":"BattleController","path":"objects/BattleController/BattleController.yy",},"order":2,},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":11,},
     {"id":{"name":"EnemyStyleOption4","path":"objects/EnemyStyleOption4/EnemyStyleOption4.yy",},"order":4,},
     {"id":{"name":"oDrippyKid_4","path":"objects/oDrippyKid_4/oDrippyKid_4.yy",},"order":70,},
     {"id":{"name":"EnemyStatHPdisplay","path":"objects/EnemyStatHPdisplay/EnemyStatHPdisplay.yy",},"order":6,},
@@ -585,6 +586,7 @@
     {"id":{"name":"Window3","path":"sprites/Window3/Window3.yy",},"order":2,},
     {"id":{"name":"gameBusTop","path":"sprites/gameBusTop/gameBusTop.yy",},"order":17,},
     {"id":{"name":"fan2","path":"sprites/fan2/fan2.yy",},"order":5,},
+    {"id":{"name":"CreditsRoom","path":"rooms/CreditsRoom/CreditsRoom.yy",},"order":9,},
     {"id":{"name":"ArrowPointer","path":"sprites/ArrowPointer/ArrowPointer.yy",},"order":3,},
     {"id":{"name":"Trashcan_strip8","path":"sprites/Trashcan_strip8/Trashcan_strip8.yy",},"order":9,},
     {"id":{"name":"roadtiles","path":"sprites/roadtiles/roadtiles.yy",},"order":6,},
@@ -632,6 +634,7 @@
     {"roomId":{"name":"School_Receptionist","path":"rooms/School_Receptionist/School_Receptionist.yy",},},
     {"roomId":{"name":"School_ShadyHallway","path":"rooms/School_ShadyHallway/School_ShadyHallway.yy",},},
     {"roomId":{"name":"School_PrincipalOffice","path":"rooms/School_PrincipalOffice/School_PrincipalOffice.yy",},},
+    {"roomId":{"name":"CreditsRoom","path":"rooms/CreditsRoom/CreditsRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
