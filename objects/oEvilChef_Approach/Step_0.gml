@@ -183,15 +183,15 @@ if ((l0550EEC0_0 > 0))
 				/// @DnDHash : 45D4482C
 				/// @DnDInput : 3
 				/// @DnDParent : 274DA07A
-				/// @DnDArgument : "expr" ""Uppercut""
-				/// @DnDArgument : "expr_1" ""Kick""
-				/// @DnDArgument : "expr_2" ""Drip show""
+				/// @DnDArgument : "expr" ""SnackTime""
+				/// @DnDArgument : "expr_1" ""SpatulaSlap""
+				/// @DnDArgument : "expr_2" ""BoilingWater""
 				/// @DnDArgument : "var" "global.EnemyMove1"
 				/// @DnDArgument : "var_1" "global.EnemyMove2"
 				/// @DnDArgument : "var_2" "global.EnemyMove3"
-				global.EnemyMove1 = "Uppercut";
-				global.EnemyMove2 = "Kick";
-				global.EnemyMove3 = "Drip show";
+				global.EnemyMove1 = "SnackTime";
+				global.EnemyMove2 = "SpatulaSlap";
+				global.EnemyMove3 = "BoilingWater";
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1

@@ -22,7 +22,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -50,7 +49,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 5ECB8A39
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l1A756240_0 = DialogueSFX;
 			if (!audio_is_playing(l1A756240_0))
 			{
@@ -69,7 +67,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 1A756240
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -77,7 +74,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 27253501
 				/// @DnDParent : 1A756240
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -110,7 +106,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -128,7 +123,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 143903F1
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l5BAE5893_0 = DialogueSFX;
 			if (!audio_is_playing(l5BAE5893_0))
 			{
@@ -147,7 +141,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 5BAE5893
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -155,7 +148,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 35147070
 				/// @DnDParent : 5BAE5893
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -178,7 +170,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -206,7 +197,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 738C8972
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l30247C2D_0 = DialogueSFX;
 			if (!audio_is_playing(l30247C2D_0))
 			{
@@ -225,7 +215,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 30247C2D
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -233,7 +222,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 69FB626C
 				/// @DnDParent : 30247C2D
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -256,7 +244,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -284,7 +271,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 6FAD2A37
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l16815ADB_0 = DialogueSFX;
 			if (!audio_is_playing(l16815ADB_0))
 			{
@@ -303,7 +289,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 16815ADB
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -311,7 +296,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 48CC8522
 				/// @DnDParent : 16815ADB
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -334,7 +318,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -362,7 +345,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 2BA139E8
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l18D42CE4_0 = DialogueSFX;
 			if (!audio_is_playing(l18D42CE4_0))
 			{
@@ -381,7 +363,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 18D42CE4
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -389,7 +370,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 6C753B47
 				/// @DnDParent : 18D42CE4
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -412,7 +392,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -440,7 +419,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 69670E21
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l7E80C138_0 = DialogueSFX;
 			if (!audio_is_playing(l7E80C138_0))
 			{
@@ -459,7 +437,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 7E80C138
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -467,7 +444,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 1BAA0DC5
 				/// @DnDParent : 7E80C138
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -490,7 +466,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -518,7 +493,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 2853367C
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l1FC5C56C_0 = DialogueSFX;
 			if (!audio_is_playing(l1FC5C56C_0))
 			{
@@ -537,7 +511,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 1FC5C56C
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -545,7 +518,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 0C2F37DC
 				/// @DnDParent : 1FC5C56C
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -568,7 +540,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -596,7 +567,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 6A8F125A
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l6BA1CE84_0 = DialogueSFX;
 			if (!audio_is_playing(l6BA1CE84_0))
 			{
@@ -615,7 +585,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 6BA1CE84
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -623,7 +592,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 2EEFB7A9
 				/// @DnDParent : 6BA1CE84
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -646,7 +614,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -674,7 +641,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 732B248B
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l6D520C3E_0 = DialogueSFX;
 			if (!audio_is_playing(l6D520C3E_0))
 			{
@@ -693,7 +659,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 6D520C3E
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -701,7 +666,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 05C9F3C9
 				/// @DnDParent : 6D520C3E
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -724,7 +688,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -752,7 +715,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 758EF667
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l4E4CB4B8_0 = DialogueSFX;
 			if (!audio_is_playing(l4E4CB4B8_0))
 			{
@@ -771,7 +733,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 4E4CB4B8
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -779,7 +740,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 609B30D2
 				/// @DnDParent : 4E4CB4B8
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -802,7 +762,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -830,7 +789,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 22F7F8F2
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l039D1474_0 = DialogueSFX;
 			if (!audio_is_playing(l039D1474_0))
 			{
@@ -849,7 +807,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 039D1474
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -857,7 +814,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 50D71B3A
 				/// @DnDParent : 039D1474
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -880,7 +836,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -908,7 +863,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 7A96BD5B
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l29D31894_0 = DialogueSFX;
 			if (!audio_is_playing(l29D31894_0))
 			{
@@ -927,7 +881,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 29D31894
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -935,7 +888,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 5595B6DB
 				/// @DnDParent : 29D31894
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -958,7 +910,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "receptionistportrait"
-		/// @DnDSaveInfo : "sprite" "receptionistportrait"
 		draw_sprite_ext(receptionistportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -986,7 +937,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 0730DEDF
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l7694D90E_0 = DialogueSFX;
 			if (!audio_is_playing(l7694D90E_0))
 			{
@@ -1005,7 +955,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 7694D90E
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1013,7 +962,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 2ADFA1F6
 				/// @DnDParent : 7694D90E
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1036,7 +984,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1064,7 +1011,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 4384749A
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l2C753472_0 = DialogueSFX;
 			if (!audio_is_playing(l2C753472_0))
 			{
@@ -1083,7 +1029,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 2C753472
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1091,7 +1036,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 2D7696F5
 				/// @DnDParent : 2C753472
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1114,7 +1058,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "staringclubenthusiastportrait"
-		/// @DnDSaveInfo : "sprite" "staringclubenthusiastportrait"
 		draw_sprite_ext(staringclubenthusiastportrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1142,7 +1085,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 6268D4F0
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l01F18215_0 = DialogueSFX;
 			if (!audio_is_playing(l01F18215_0))
 			{
@@ -1161,7 +1103,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 01F18215
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1169,7 +1110,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 53854FF2
 				/// @DnDParent : 01F18215
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1192,7 +1132,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1220,7 +1159,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 2F3EFBD5
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l573055C5_0 = DialogueSFX;
 			if (!audio_is_playing(l573055C5_0))
 			{
@@ -1239,7 +1177,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 573055C5
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1247,7 +1184,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 34043819
 				/// @DnDParent : 573055C5
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1270,7 +1206,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1298,7 +1233,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 54B52C63
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l7EC4D51F_0 = DialogueSFX;
 			if (!audio_is_playing(l7EC4D51F_0))
 			{
@@ -1317,7 +1251,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 7EC4D51F
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1325,7 +1258,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 00EC3B33
 				/// @DnDParent : 7EC4D51F
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1348,7 +1280,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1376,7 +1307,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 4C47DF63
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l24D22E3B_0 = DialogueSFX;
 			if (!audio_is_playing(l24D22E3B_0))
 			{
@@ -1395,7 +1325,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 24D22E3B
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1403,7 +1332,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 1DB53B45
 				/// @DnDParent : 24D22E3B
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1426,7 +1354,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1454,7 +1381,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 029984BE
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l588D9090_0 = DialogueSFX;
 			if (!audio_is_playing(l588D9090_0))
 			{
@@ -1473,7 +1399,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 588D9090
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1481,7 +1406,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 596C14A7
 				/// @DnDParent : 588D9090
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1504,7 +1428,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1532,7 +1455,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 3225AF30
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l6E794226_0 = DialogueSFX;
 			if (!audio_is_playing(l6E794226_0))
 			{
@@ -1551,7 +1473,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 6E794226
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1559,7 +1480,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 1CAF86F9
 				/// @DnDParent : 6E794226
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1582,7 +1502,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1610,7 +1529,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 092BDE3E
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l53AE71A9_0 = DialogueSFX;
 			if (!audio_is_playing(l53AE71A9_0))
 			{
@@ -1629,7 +1547,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 53AE71A9
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1637,7 +1554,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 13FBE3CC
 				/// @DnDParent : 53AE71A9
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
@@ -1660,7 +1576,6 @@ if(InDialogue == 1)
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
 		/// @DnDArgument : "sprite" "janitorProfileShadow"
-		/// @DnDSaveInfo : "sprite" "janitorProfileShadow"
 		draw_sprite_ext(janitorProfileShadow, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
@@ -1688,7 +1603,6 @@ if(InDialogue == 1)
 			/// @DnDParent : 6367E430
 			/// @DnDArgument : "soundid" "DialogueSFX"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "soundid" "DialogueSFX"
 			var l42285188_0 = DialogueSFX;
 			if (!audio_is_playing(l42285188_0))
 			{
@@ -1707,7 +1621,6 @@ if(InDialogue == 1)
 				/// @DnDParent : 42285188
 				/// @DnDArgument : "sound" "DialogueSFX"
 				/// @DnDArgument : "pitch" "RandomPitch"
-				/// @DnDSaveInfo : "sound" "DialogueSFX"
 				audio_sound_pitch(DialogueSFX, RandomPitch);
 			
 				/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -1715,7 +1628,6 @@ if(InDialogue == 1)
 				/// @DnDHash : 49D972AC
 				/// @DnDParent : 42285188
 				/// @DnDArgument : "soundid" "DialogueSFX"
-				/// @DnDSaveInfo : "soundid" "DialogueSFX"
 				audio_play_sound(DialogueSFX, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
