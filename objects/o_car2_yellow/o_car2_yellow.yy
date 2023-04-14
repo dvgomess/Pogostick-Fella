@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_car2_yellow",
   "spriteId": {
     "name": "yellowcar",
     "path": "sprites/yellowcar/yellowcar.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "OutdoorObjects",
     "path": "folders/Objects/Overworld/OutdoorObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_car2_yellow",
-  "tags": [],
-  "resourceType": "GMObject",
 }

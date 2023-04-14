@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oStove",
   "spriteId": {
     "name": "stove",
     "path": "sprites/stove/stove.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Furniture",
     "path": "folders/Objects/Overworld/Furniture.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oStove",
-  "tags": [],
-  "resourceType": "GMObject",
 }

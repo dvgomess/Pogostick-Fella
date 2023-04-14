@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "footstepnoise",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.43,
@@ -17,8 +20,4 @@
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "footstepnoise",
-  "tags": [],
-  "resourceType": "GMSound",
 }

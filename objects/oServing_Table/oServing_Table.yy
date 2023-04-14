@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oServing_Table",
   "spriteId": {
     "name": "serving_table0000",
     "path": "sprites/serving_table0000/serving_table0000.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Furniture",
     "path": "folders/Objects/Overworld/Furniture.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oServing_Table",
-  "tags": [],
-  "resourceType": "GMObject",
 }

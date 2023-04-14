@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oWall_",
   "spriteId": {
     "name": "sCollisionTile_",
     "path": "sprites/sCollisionTile_/sCollisionTile_.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Collision Types",
     "path": "folders/Objects/Collision Types.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oWall_",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oPlant2",
   "spriteId": {
     "name": "pottedplant2",
     "path": "sprites/pottedplant2/pottedplant2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Furniture",
     "path": "folders/Objects/Overworld/Furniture.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oPlant2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

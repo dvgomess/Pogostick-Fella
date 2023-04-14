@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_tree1base",
   "spriteId": {
     "name": "tree1_base",
     "path": "sprites/tree1_base/tree1_base.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "OutdoorObjects",
     "path": "folders/Objects/Overworld/OutdoorObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_tree1base",
-  "tags": [],
-  "resourceType": "GMObject",
 }

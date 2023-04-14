@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_car2_white",
   "spriteId": {
     "name": "car2white",
     "path": "sprites/car2white/car2white.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "OutdoorObjects",
     "path": "folders/Objects/Overworld/OutdoorObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_car2_white",
-  "tags": [],
-  "resourceType": "GMObject",
 }

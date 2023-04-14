@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "OutdoorTileset",
   "spriteId": {
     "name": "outdoorTiles",
     "path": "sprites/outdoorTiles/outdoorTiles.yy",
@@ -239,8 +242,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "OutdoorTileset",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

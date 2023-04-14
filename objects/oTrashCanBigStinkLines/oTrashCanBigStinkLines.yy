@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oTrashCanBigStinkLines",
   "spriteId": {
     "name": "Trashcan_strip8270",
     "path": "sprites/Trashcan_strip8270/Trashcan_strip8270.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Furniture",
     "path": "folders/Objects/Overworld/Furniture.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oTrashCanBigStinkLines",
-  "tags": [],
-  "resourceType": "GMObject",
 }

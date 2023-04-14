@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "School_Game_Dev_Club",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.7,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "School_Game_Dev_Club.mp3",
-  "duration": 198.269318,
+  "duration": 198.26932,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "School_Game_Dev_Club",
-  "tags": [],
-  "resourceType": "GMSound",
 }

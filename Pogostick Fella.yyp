@@ -275,6 +275,7 @@
     {"id":{"name":"sStyleOption2","path":"sprites/sStyleOption2/sStyleOption2.yy",},"order":1,},
     {"id":{"name":"bonk","path":"sounds/bonk/bonk.yy",},"order":2,},
     {"id":{"name":"uglysportscar","path":"sprites/uglysportscar/uglysportscar.yy",},"order":27,},
+    {"id":{"name":"PogoStickAlbumCover","path":"sprites/PogoStickAlbumCover/PogoStickAlbumCover.yy",},"order":13,},
     {"id":{"name":"oBookshelf_short","path":"objects/oBookshelf_short/oBookshelf_short.yy",},"order":23,},
     {"id":{"name":"oCafeteriaTable","path":"objects/oCafeteriaTable/oCafeteriaTable.yy",},"order":8,},
     {"id":{"name":"card","path":"sprites/card/card.yy",},"order":14,},

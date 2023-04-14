@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oDrippyKid",
   "spriteId": {
     "name": "drippykid",
     "path": "sprites/drippykid/drippykid.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "NPCs",
     "path": "folders/Objects/Overworld/NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oDrippyKid",
-  "tags": [],
-  "resourceType": "GMObject",
 }

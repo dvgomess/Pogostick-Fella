@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "GettingDeeperLosingSignal",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "GettingDeeperLosingSignal.ogg",
-  "duration": 120.006531,
+  "duration": 120.00653,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "GettingDeeperLosingSignal",
-  "tags": [],
-  "resourceType": "GMSound",
 }

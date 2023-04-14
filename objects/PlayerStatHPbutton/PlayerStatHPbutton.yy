@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "PlayerStatHPbutton",
   "spriteId": {
     "name": "sHPstat",
     "path": "sprites/sHPstat/sHPstat.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "EditingPlayerStats",
     "path": "folders/Objects/GodModeStuff/EditingPlayerStats.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "PlayerStatHPbutton",
-  "tags": [],
-  "resourceType": "GMObject",
 }
