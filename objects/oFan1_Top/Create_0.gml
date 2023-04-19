@@ -27,7 +27,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""Let my final words be:\n\"I'm still not sorry, Jenna\"""
+/// @DnDArgument : "expr" ""Let my final words be:\n\"I'm still not sorry, Jenna.\"""
 /// @DnDArgument : "expr_1" ""I think I'm about to die.""
 /// @DnDArgument : "expr_2" ""I didn't have time to get\ncoffee this morning.""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
@@ -41,7 +41,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "Let my final words be:\n\"I'm still not sorry, Jenna\"";
+Line1 = "Let my final words be:\n\"I'm still not sorry, Jenna.\"";
 Line2 = "I think I'm about to die.";
 Line3 = "I didn't have time to get\ncoffee this morning.";
 Line4 = "Here is a rotten apple!!!";

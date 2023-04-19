@@ -29,7 +29,7 @@ DrawTextScroll = 0;
 /// @DnDInput : 7
 /// @DnDArgument : "expr" ""You might like what you\nSEE! *hehehehehe*""
 /// @DnDArgument : "expr_1" ""Oh, I am a part of the\nstaring club. You should\ncome by some time.""
-/// @DnDArgument : "expr_2" ""Don't be concerned, I am\npracticing""
+/// @DnDArgument : "expr_2" ""Don't be concerned, I am\npracticing.""
 /// @DnDArgument : "expr_3" ""Hello.""
 /// @DnDArgument : "expr_4" ""What are you doing here? You should be in class.""
 /// @DnDArgument : "expr_5" ""Text line 6""
@@ -43,7 +43,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_6" "Line7"
 Line1 = "You might like what you\nSEE! *hehehehehe*";
 Line2 = "Oh, I am a part of the\nstaring club. You should\ncome by some time.";
-Line3 = "Don't be concerned, I am\npracticing";
+Line3 = "Don't be concerned, I am\npracticing.";
 Line4 = "Hello.";
 Line5 = "What are you doing here? You should be in class.";
 Line6 = "Text line 6";

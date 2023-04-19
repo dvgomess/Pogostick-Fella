@@ -27,7 +27,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 8
-/// @DnDArgument : "expr" ""Remember what you\nlearned from our battle!""
+/// @DnDArgument : "expr" ""Remember what you\nlearned from our battle!\nFind items and save if\nneeded!""
 /// @DnDArgument : "expr_1" ""You might want to go try\nbattling her to see if it'll\nmake her stop.""
 /// @DnDArgument : "expr_2" ""What is going on??""
 /// @DnDArgument : "expr_3" ""........""
@@ -43,7 +43,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
 /// @DnDArgument : "var_7" "Line8"
-Line1 = "Remember what you\nlearned from our battle!";
+Line1 = "Remember what you\nlearned from our battle!\nFind items and save if\nneeded!";
 Line2 = "You might want to go try\nbattling her to see if it'll\nmake her stop.";
 Line3 = "What is going on??";
 Line4 = "........";

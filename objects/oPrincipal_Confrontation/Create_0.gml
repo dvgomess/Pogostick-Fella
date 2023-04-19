@@ -47,7 +47,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_17" ""I know you've struck a deal in order to get the school more funding!""
 /// @DnDArgument : "expr_18" ""What are you talking about?""
 /// @DnDArgument : "expr_19" ""Have you been giving kids and staff food that makes them market products to other students?""
-/// @DnDArgument : "expr_20" ""*Phone Recording BEEP*""
+/// @DnDArgument : "expr_20" ""*Tape recording BEEP*""
 /// @DnDArgument : "expr_21" ""Blast it, Karen! I told you to give me some quiet today!""
 /// @DnDArgument : "expr_22" ""My name is Pogo. I just let myself in.""
 /// @DnDArgument : "expr_23" ""Eh? Who are you, sonny? How did you get in here?""
@@ -97,7 +97,7 @@ Line17 = "I'm here to get you to stop.";
 Line18 = "I know you've struck a deal in order to get the school more funding!";
 Line19 = "What are you talking about?";
 Line20 = "Have you been giving kids and staff food that makes them market products to other students?";
-Line21 = "*Phone Recording BEEP*";
+Line21 = "*Tape recording BEEP*";
 Line22 = "Blast it, Karen! I told you to give me some quiet today!";
 Line23 = "My name is Pogo. I just let myself in.";
 Line24 = "Eh? Who are you, sonny? How did you get in here?";

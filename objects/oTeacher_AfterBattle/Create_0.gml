@@ -32,7 +32,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_2" ""Maybe you should check out the cafeteria after class-""
 /// @DnDArgument : "expr_3" ""He had a milkstache, so I think he drank the same thing.""
 /// @DnDArgument : "expr_4" ""When I first entered the school, some guy started promoting a bunch of random products.""
-/// @DnDArgument : "expr_5" ""I don't think that was just the milk talking""
+/// @DnDArgument : "expr_5" ""I don't think that was just the milk talking.""
 /// @DnDArgument : "expr_6" ""Maybe that school milk wasn't the best thing for my lactose intolerance.""
 /// @DnDArgument : "expr_7" ""Ugggh...""
 /// @DnDArgument : "expr_8" ""Woah, sorry about that - don't know what came over me.""
@@ -72,7 +72,7 @@ Line2 = "Oh, I guess the brawl with the sub was so engaging I lost track of time
 Line3 = "Maybe you should check out the cafeteria after class-";
 Line4 = "He had a milkstache, so I think he drank the same thing.";
 Line5 = "When I first entered the school, some guy started promoting a bunch of random products.";
-Line6 = "I don't think that was just the milk talking";
+Line6 = "I don't think that was just the milk talking.";
 Line7 = "Maybe that school milk wasn't the best thing for my lactose intolerance.";
 Line8 = "Ugggh...";
 Line11 = "Woah, sorry about that - don't know what came over me.";

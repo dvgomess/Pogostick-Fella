@@ -27,7 +27,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""Get back in here.""
+/// @DnDArgument : "expr" ""Get back in here!""
 /// @DnDArgument : "expr_1" ""Where do you think you're\ngoing?""
 /// @DnDArgument : "expr_2" ""WOAH WOAH WOAH!!""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
@@ -41,7 +41,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "Get back in here.";
+Line1 = "Get back in here!";
 Line2 = "Where do you think you're\ngoing?";
 Line3 = "WOAH WOAH WOAH!!";
 Line4 = "Here is a rotten apple!!!";

@@ -24,7 +24,7 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
-/// @DnDArgument : "expr" ""Here is a stick of gum""
+/// @DnDArgument : "expr" ""Here is a stick of gum.""
 /// @DnDArgument : "expr_1" ""Ew! Your breath stinks!""
 /// @DnDArgument : "expr_2" ""....""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
@@ -38,7 +38,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_4" "Line5"
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
-Line1 = "Here is a stick of gum";
+Line1 = "Here is a stick of gum.";
 Line2 = "Ew! Your breath stinks!";
 Line3 = "....";
 Line4 = "Here is a rotten apple!!!";

@@ -36,7 +36,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_6" ""If you manage to present\nall three, you'll win\ninstantly.""
 /// @DnDArgument : "expr_7" ""If you present one of these,\nI will get weaker. ""
 /// @DnDArgument : "expr_8" ""There are three items that\nreally tend to tick me off.""
-/// @DnDArgument : "expr_9" ""You'll also be able to\npresent items to me by\nopening the item menu and\nselecting it.""
+/// @DnDArgument : "expr_9" ""You'll also be able to\npresent items to me by\nopening the item menu and\nselecting them.""
 /// @DnDArgument : "expr_10" ""Your bat has a chance to\nmiss, but if it hits, it will do\nextra damage.""
 /// @DnDArgument : "expr_11" ""Your skateboard hits me\nevery time and does\naverage damage.""
 /// @DnDArgument : "expr_12" ""You'll have two weapons\nto attack me with: your\nskateboard, and your\nbaseball bat.""
@@ -66,7 +66,7 @@ Line6 = "You can obtain all of these\nitems somewhere around\nthe school.";
 Line7 = "If you manage to present\nall three, you'll win\ninstantly.";
 Line8 = "If you present one of these,\nI will get weaker. ";
 Line9 = "There are three items that\nreally tend to tick me off.";
-Line10 = "You'll also be able to\npresent items to me by\nopening the item menu and\nselecting it.";
+Line10 = "You'll also be able to\npresent items to me by\nopening the item menu and\nselecting them.";
 Line11 = "Your bat has a chance to\nmiss, but if it hits, it will do\nextra damage.";
 Line12 = "Your skateboard hits me\nevery time and does\naverage damage.";
 Line13 = "You'll have two weapons\nto attack me with: your\nskateboard, and your\nbaseball bat.";

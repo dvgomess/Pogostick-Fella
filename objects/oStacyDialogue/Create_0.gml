@@ -23,6 +23,7 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDHash : 708F65A4
 	/// @DnDParent : 61717255
 	/// @DnDArgument : "font" "Font1"
+	/// @DnDSaveInfo : "font" "Font1"
 	draw_set_font(Font1);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
@@ -58,9 +59,9 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDInput : 7
 	/// @DnDParent : 61717255
 	/// @DnDArgument : "expr" ""Ugh.""
-	/// @DnDArgument : "expr_1" ""Whatever, Stacy. You need\na vibe check or some'n""
+	/// @DnDArgument : "expr_1" ""Whatever, Stacy. You need\na vibe check or some'n.""
 	/// @DnDArgument : "expr_2" ""I told you to stop calling\nme that! I am your mother!""
-	/// @DnDArgument : "expr_3" ""Yeah, yeah.  \nWhatever, Stacy""
+	/// @DnDArgument : "expr_3" ""Yeah, yeah.  \nWhatever, Stacy.""
 	/// @DnDArgument : "expr_4" ""I didn't even know that\nwas possible.""
 	/// @DnDArgument : "expr_5" "" ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...""
 	/// @DnDArgument : "expr_6" ""Have a great first day at\nyour new school, sweetie!""
@@ -72,9 +73,9 @@ if(global.AlreadyTalkedToStacy == 0)
 	/// @DnDArgument : "var_5" "Line6"
 	/// @DnDArgument : "var_6" "Line7"
 	Line1 = "Ugh.";
-	Line2 = "Whatever, Stacy. You need\na vibe check or some'n";
+	Line2 = "Whatever, Stacy. You need\na vibe check or some'n.";
 	Line3 = "I told you to stop calling\nme that! I am your mother!";
-	Line4 = "Yeah, yeah.  \nWhatever, Stacy";
+	Line4 = "Yeah, yeah.  \nWhatever, Stacy.";
 	Line5 = "I didn't even know that\nwas possible.";
 	Line6 = " ...and try not to get\nexpelled from this one by\npopular vote like you did\nat your previous school...";
 	Line7 = "Have a great first day at\nyour new school, sweetie!";

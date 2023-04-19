@@ -46,8 +46,8 @@ global.CanPlayerMoveRn = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 15
-/// @DnDArgument : "expr" ""Now be on your ways, you\ntwo""
-/// @DnDArgument : "expr_1" ""I sure hope it won't""
+/// @DnDArgument : "expr" ""Now be on your ways, you\ntwo.""
+/// @DnDArgument : "expr_1" ""I sure hope it won't.""
 /// @DnDArgument : "expr_2" ""It won't happen again!""
 /// @DnDArgument : "expr_3" ""Well you don't want me\ncalling your parents, do\nyou?""
 /// @DnDArgument : "expr_4" ""Does it look like I care?""
@@ -76,8 +76,8 @@ global.CanPlayerMoveRn = 0;
 /// @DnDArgument : "var_12" "Line13"
 /// @DnDArgument : "var_13" "Line14"
 /// @DnDArgument : "var_14" "Line15"
-Line1 = "Now be on your ways, you\ntwo";
-Line2 = "I sure hope it won't";
+Line1 = "Now be on your ways, you\ntwo.";
+Line2 = "I sure hope it won't.";
 Line3 = "It won't happen again!";
 Line4 = "Well you don't want me\ncalling your parents, do\nyou?";
 Line5 = "Does it look like I care?";

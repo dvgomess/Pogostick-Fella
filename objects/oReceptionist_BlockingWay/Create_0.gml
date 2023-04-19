@@ -29,7 +29,7 @@ DrawTextScroll = 0;
 /// @DnDInput : 9
 /// @DnDArgument : "expr" ""DON'T DISTURB HIM!""
 /// @DnDArgument : "expr_1" ""Our lord and savior, the\nprincipal, lives down there.""
-/// @DnDArgument : "expr_2" ""Just down the hall""
+/// @DnDArgument : "expr_2" ""Just down the hall.""
 /// @DnDArgument : "expr_3" ""Where do you think you're\ngoing?""
 /// @DnDArgument : "expr_4" ""This dang school doesn't\npay me enough.""
 /// @DnDArgument : "expr_5" ""I need you to do something\nfor me.""
@@ -47,7 +47,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_8" "Line9"
 Line1 = "DON'T DISTURB HIM!";
 Line2 = "Our lord and savior, the\nprincipal, lives down there.";
-Line3 = "Just down the hall";
+Line3 = "Just down the hall.";
 Line4 = "Where do you think you're\ngoing?";
 Line5 = "This dang school doesn't\npay me enough.";
 Line6 = "I need you to do something\nfor me.";

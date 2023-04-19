@@ -28,7 +28,7 @@ DrawTextScroll = 0;
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 7
 /// @DnDArgument : "expr" ""Me and my little Tomathon\neyes could do this for\nhours!""
-/// @DnDArgument : "expr_1" ""Boy, I just looove staring,""
+/// @DnDArgument : "expr_1" ""Boy, I just looove staring.""
 /// @DnDArgument : "expr_2" ""Darkness is the blanket\nthat warms all who are\nlost.""
 /// @DnDArgument : "expr_3" ""Here is a rotten apple!!!""
 /// @DnDArgument : "expr_4" ""Text line 5""
@@ -42,7 +42,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_5" "Line6"
 /// @DnDArgument : "var_6" "Line7"
 Line1 = "Me and my little Tomathon\neyes could do this for\nhours!";
-Line2 = "Boy, I just looove staring,";
+Line2 = "Boy, I just looove staring.";
 Line3 = "Darkness is the blanket\nthat warms all who are\nlost.";
 Line4 = "Here is a rotten apple!!!";
 Line5 = "Text line 5";

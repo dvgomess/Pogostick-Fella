@@ -29,7 +29,7 @@ DrawTextScroll = 0;
 /// @DnDInput : 9
 /// @DnDArgument : "expr" ""Let me know when you got\nsomething.""
 /// @DnDArgument : "expr_1" ""I'll get fired if I get caught\ntrying to steal food again,\nso this is all on you.""
-/// @DnDArgument : "expr_2" ""If you can get me\nsomething to eat, I will let\nyou through""
+/// @DnDArgument : "expr_2" ""If you can get me\nsomething to eat, I will let\nyou through.""
 /// @DnDArgument : "expr_3" ""I can't even afford lunch\nthese days.""
 /// @DnDArgument : "expr_4" ""This dang school doesn't\npay me enough.""
 /// @DnDArgument : "expr_5" ""I need you to do something\nfor me.""
@@ -47,7 +47,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_8" "Line9"
 Line1 = "Let me know when you got\nsomething.";
 Line2 = "I'll get fired if I get caught\ntrying to steal food again,\nso this is all on you.";
-Line3 = "If you can get me\nsomething to eat, I will let\nyou through";
+Line3 = "If you can get me\nsomething to eat, I will let\nyou through.";
 Line4 = "I can't even afford lunch\nthese days.";
 Line5 = "This dang school doesn't\npay me enough.";
 Line6 = "I need you to do something\nfor me.";

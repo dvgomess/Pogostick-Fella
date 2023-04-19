@@ -491,6 +491,7 @@
     {"id":{"name":"oFan1","path":"objects/oFan1/oFan1.yy",},"order":1,},
     {"id":{"name":"electricGuitar","path":"sprites/electricGuitar/electricGuitar.yy",},"order":8,},
     {"id":{"name":"cart","path":"sprites/cart/cart.yy",},"order":15,},
+    {"id":{"name":"officer_grooving","path":"sprites/officer_grooving/officer_grooving.yy",},"order":40,},
     {"id":{"name":"sRoomTransitionsOn","path":"sprites/sRoomTransitionsOn/sRoomTransitionsOn.yy",},"order":0,},
     {"id":{"name":"oReceptionist","path":"objects/oReceptionist/oReceptionist.yy",},"order":79,},
     {"id":{"name":"oStaringClubEnthusiast_confrontingreceptionist","path":"objects/oStaringClubEnthusiast_confrontingreceptionist/oStaringClubEnthusiast_confrontingreceptionist.yy",},"order":80,},

@@ -27,16 +27,16 @@ DrawTextScroll = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13ED29FE
 /// @DnDInput : 14
-/// @DnDArgument : "expr" ""I look forward to\nshattering your self\nesteem""
-/// @DnDArgument : "expr_1" ""I'll be waiting in front of\nthe hallway to the left""
-/// @DnDArgument : "expr_2" ""You're on""
-/// @DnDArgument : "expr_3" ""Absolutely not. I'm willing\nto fight you over this""
+/// @DnDArgument : "expr" ""I look forward to\nshattering your self\nesteem!""
+/// @DnDArgument : "expr_1" ""I'll be waiting in front of\nthe hallway to the left.""
+/// @DnDArgument : "expr_2" ""You're on.""
+/// @DnDArgument : "expr_3" ""Absolutely not. I'm willing\nto fight you over this.""
 /// @DnDArgument : "expr_4" ""I am so much drippier than\nyou.""
 /// @DnDArgument : "expr_5" ""No. This is not ok.""
 /// @DnDArgument : "expr_6" ""I'm just saying..""
-/// @DnDArgument : "expr_7" ""insult my 'fit""
-/// @DnDArgument : "expr_8" ""did you just""
-/// @DnDArgument : "expr_9" ""what did you just say""
+/// @DnDArgument : "expr_7" ""insult my 'fit?""
+/// @DnDArgument : "expr_8" ""Did you just""
+/// @DnDArgument : "expr_9" ""What did you just say?""
 /// @DnDArgument : "expr_10" ""...""
 /// @DnDArgument : "expr_11" ""What's up with that? I\nknow you can do better.""
 /// @DnDArgument : "expr_12" ""By the way, I noticed your\ndrip was a little.. off.""
@@ -55,16 +55,16 @@ DrawTextScroll = 0;
 /// @DnDArgument : "var_11" "Line12"
 /// @DnDArgument : "var_12" "Line13"
 /// @DnDArgument : "var_13" "Line14"
-Line1 = "I look forward to\nshattering your self\nesteem";
-Line2 = "I'll be waiting in front of\nthe hallway to the left";
-Line3 = "You're on";
-Line4 = "Absolutely not. I'm willing\nto fight you over this";
+Line1 = "I look forward to\nshattering your self\nesteem!";
+Line2 = "I'll be waiting in front of\nthe hallway to the left.";
+Line3 = "You're on.";
+Line4 = "Absolutely not. I'm willing\nto fight you over this.";
 Line5 = "I am so much drippier than\nyou.";
 Line6 = "No. This is not ok.";
 Line7 = "I'm just saying..";
-Line8 = "insult my 'fit";
-Line9 = "did you just";
-Line10 = "what did you just say";
+Line8 = "insult my 'fit?";
+Line9 = "Did you just";
+Line10 = "What did you just say?";
 Line11 = "...";
 Line12 = "What's up with that? I\nknow you can do better.";
 Line13 = "By the way, I noticed your\ndrip was a little.. off.";
