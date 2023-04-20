@@ -21,9 +21,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
-		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -113,9 +113,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
-		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -181,9 +181,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
-		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -261,9 +261,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
-		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -341,9 +341,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "silhouette_portrait"
-		/// @DnDSaveInfo : "sprite" "silhouette_portrait"
-		draw_sprite_ext(silhouette_portrait, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1

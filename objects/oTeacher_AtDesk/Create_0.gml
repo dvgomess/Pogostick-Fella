@@ -43,7 +43,7 @@ DrawTextScroll = 0;
 /// @DnDArgument : "expr_13" ""Follow along with me in chapter 17. ""
 /// @DnDArgument : "expr_14" ""Anyways, let's get started.""
 /// @DnDArgument : "expr_15" ""I didn't ask you.""
-/// @DnDArgument : "expr_16" ""Teacher's Pet: Indeed we are, substitute teacher.""
+/// @DnDArgument : "expr_16" ""Indeed we are, substitute teacher.""
 /// @DnDArgument : "expr_17" ""You all were learning about \"The French Revolution's effect on the citrus industry in arid climates\", right? ""
 /// @DnDArgument : "expr_18" ""She left me some notes for today's lesson. ""
 /// @DnDArgument : "expr_19" ""Good. As I was saying before I was rudely interrupted, your teacher isn't here today, so I will be her substitute.""
@@ -87,7 +87,7 @@ Line15 = "\"So, after the French Revolution, there was a massive shortage in mil
 Line16 = "Follow along with me in chapter 17. ";
 Line17 = "Anyways, let's get started.";
 Line18 = "I didn't ask you.";
-Line19 = "Teacher's Pet: Indeed we are, substitute teacher.";
+Line19 = "Indeed we are, substitute teacher.";
 Line20 = "You all were learning about \"The French Revolution's effect on the citrus industry in arid climates\", right? ";
 Line21 = "She left me some notes for today's lesson. ";
 Line22 = "Good. As I was saying before I was rudely interrupted, your teacher isn't here today, so I will be her substitute.";

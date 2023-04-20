@@ -537,6 +537,7 @@
     {"id":{"name":"EarlyVictoryJingle","path":"sounds/EarlyVictoryJingle/EarlyVictoryJingle.yy",},"order":0,},
     {"id":{"name":"PuzzleDemoOrMysteriousTheme","path":"sounds/PuzzleDemoOrMysteriousTheme/PuzzleDemoOrMysteriousTheme.yy",},"order":11,},
     {"id":{"name":"InventoryLeftsideTab2","path":"sprites/InventoryLeftsideTab2/InventoryLeftsideTab2.yy",},"order":10,},
+    {"id":{"name":"teachers_pet","path":"sprites/teachers_pet/teachers_pet.yy",},"order":21,},
     {"id":{"name":"PlayerStatCRITbutton","path":"objects/PlayerStatCRITbutton/PlayerStatCRITbutton.yy",},"order":3,},
     {"id":{"name":"oVendingMachine","path":"objects/oVendingMachine/oVendingMachine.yy",},"order":9,},
     {"id":{"name":"EditingEnemyStatsController","path":"objects/EditingEnemyStatsController/EditingEnemyStatsController.yy",},"order":0,},

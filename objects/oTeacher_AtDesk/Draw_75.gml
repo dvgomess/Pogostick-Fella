@@ -1425,9 +1425,9 @@ if(InDialogue == 1)
 		/// @DnDArgument : "y" "460"
 		/// @DnDArgument : "xscale" "4"
 		/// @DnDArgument : "yscale" "4"
-		/// @DnDArgument : "sprite" "generic"
-		/// @DnDSaveInfo : "sprite" "generic"
-		draw_sprite_ext(generic, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
+		/// @DnDArgument : "sprite" "teachers_pet"
+		/// @DnDSaveInfo : "sprite" "teachers_pet"
+		draw_sprite_ext(teachers_pet, 0, 240, 460, 4, 4, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
