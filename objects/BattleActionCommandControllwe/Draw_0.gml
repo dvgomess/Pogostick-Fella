@@ -22,6 +22,7 @@ if(global.BattleStep == 4)
 		/// @DnDArgument : "xscale" "2"
 		/// @DnDArgument : "yscale" "2"
 		/// @DnDArgument : "sprite" "ActionsCommandBox1"
+		/// @DnDSaveInfo : "sprite" "ActionsCommandBox1"
 		draw_sprite_ext(ActionsCommandBox1, 0, 320, 288-26, 2, 2, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
@@ -33,6 +34,7 @@ if(global.BattleStep == 4)
 		/// @DnDArgument : "xscale" "2"
 		/// @DnDArgument : "yscale" "2"
 		/// @DnDArgument : "sprite" "ActionCommandSlider"
+		/// @DnDSaveInfo : "sprite" "ActionCommandSlider"
 		draw_sprite_ext(ActionCommandSlider, 0, 140 + BatSliderPosition, 288 -26, 2, 2, 0, $FFFFFF & $ffffff, 1);
 	}
 
@@ -51,6 +53,7 @@ if(global.BattleStep == 4)
 		/// @DnDArgument : "x" "320"
 		/// @DnDArgument : "y" "176"
 		/// @DnDArgument : "sprite" "InventoryBase"
+		/// @DnDSaveInfo : "sprite" "InventoryBase"
 		draw_sprite_ext(InventoryBase, 0, 320, 176, 1, 1, 0, $FFFFFF & $ffffff, 1);
 	}
 
@@ -95,11 +98,12 @@ if(global.BattleStep == 4)
 			/// @DnDParent : 1E08298B
 			/// @DnDArgument : "x" "286"
 			/// @DnDArgument : "y" "250"
-			/// @DnDArgument : "xscale" "2*(S/30)"
+			/// @DnDArgument : "xscale" "1.8*(S/30)"
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
 			/// @DnDArgument : "col" "$FF000068"
-			draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FF000068 & $ffffff, 1);
+			/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+			draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FF000068 & $ffffff, 1);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -126,11 +130,12 @@ if(global.BattleStep == 4)
 				/// @DnDParent : 780DF17B
 				/// @DnDArgument : "x" "286"
 				/// @DnDArgument : "y" "250"
-				/// @DnDArgument : "xscale" "2*(S/30)"
+				/// @DnDArgument : "xscale" "1.8*(S/30)"
 				/// @DnDArgument : "yscale" "2"
 				/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
 				/// @DnDArgument : "col" "$FF006BE5"
-				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FF006BE5 & $ffffff, 1);
+				/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FF006BE5 & $ffffff, 1);
 			}
 		}
 	
@@ -158,11 +163,12 @@ if(global.BattleStep == 4)
 				/// @DnDParent : 01DD8525
 				/// @DnDArgument : "x" "286"
 				/// @DnDArgument : "y" "250"
-				/// @DnDArgument : "xscale" "2*(S/30)"
+				/// @DnDArgument : "xscale" "1.8*(S/30)"
 				/// @DnDArgument : "yscale" "2"
 				/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
 				/// @DnDArgument : "col" "$FF00DAE5"
-				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FF00DAE5 & $ffffff, 1);
+				/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FF00DAE5 & $ffffff, 1);
 			}
 		}
 	
@@ -190,11 +196,12 @@ if(global.BattleStep == 4)
 				/// @DnDParent : 29013D90
 				/// @DnDArgument : "x" "286"
 				/// @DnDArgument : "y" "250"
-				/// @DnDArgument : "xscale" "2*(S/30)"
+				/// @DnDArgument : "xscale" "1.8*(S/30)"
 				/// @DnDArgument : "yscale" "2"
 				/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
 				/// @DnDArgument : "col" "$FF28CC30"
-				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FF28CC30 & $ffffff, 1);
+				/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FF28CC30 & $ffffff, 1);
 			}
 		}
 	
@@ -222,11 +229,12 @@ if(global.BattleStep == 4)
 				/// @DnDParent : 0EDFC82F
 				/// @DnDArgument : "x" "286"
 				/// @DnDArgument : "y" "250"
-				/// @DnDArgument : "xscale" "2*(S/30)"
+				/// @DnDArgument : "xscale" "1.8*(S/30)"
 				/// @DnDArgument : "yscale" "2"
 				/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
 				/// @DnDArgument : "col" "$FFFFDD56"
-				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FFFFDD56 & $ffffff, 1);
+				/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+				draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FFFFDD56 & $ffffff, 1);
 			}
 		}
 	
@@ -245,10 +253,11 @@ if(global.BattleStep == 4)
 			/// @DnDParent : 604CFDF0
 			/// @DnDArgument : "x" "286"
 			/// @DnDArgument : "y" "250"
-			/// @DnDArgument : "xscale" "2*(S/30)"
+			/// @DnDArgument : "xscale" "1.8*(S/30)"
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommandBox2Slider"
-			draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 2*(S/30), 2, 0, $FFFFFF & $ffffff, 1);
+			/// @DnDSaveInfo : "sprite" "ActionsCommandBox2Slider"
+			draw_sprite_ext(ActionsCommandBox2Slider, 0, 286, 250, 1.8*(S/30), 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -257,8 +266,8 @@ if(global.BattleStep == 4)
 		/// @DnDParent : 5BE9B655
 		/// @DnDArgument : "var" "S"
 		/// @DnDArgument : "op" "3"
-		/// @DnDArgument : "value" "30"
-		if(S <= 30)
+		/// @DnDArgument : "value" "33.3"
+		if(S <= 33.3)
 		{
 			/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 			/// @DnDVersion : 1
@@ -269,6 +278,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "xscale" "2"
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommandBox2"
+			/// @DnDSaveInfo : "sprite" "ActionsCommandBox2"
 			draw_sprite_ext(ActionsCommandBox2, 0, 280, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
@@ -278,8 +288,8 @@ if(global.BattleStep == 4)
 		/// @DnDParent : 5BE9B655
 		/// @DnDArgument : "var" "S"
 		/// @DnDArgument : "op" "2"
-		/// @DnDArgument : "value" "30"
-		if(S > 30)
+		/// @DnDArgument : "value" "33.3"
+		if(S > 33.3)
 		{
 			/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 			/// @DnDVersion : 1
@@ -291,6 +301,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommandBox2"
 			/// @DnDArgument : "frame" "1"
+			/// @DnDSaveInfo : "sprite" "ActionsCommandBox2"
 			draw_sprite_ext(ActionsCommandBox2, 1, 280, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
@@ -312,6 +323,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommand2Arrow_Left"
 			/// @DnDArgument : "frame" "1"
+			/// @DnDSaveInfo : "sprite" "ActionsCommand2Arrow_Left"
 			draw_sprite_ext(ActionsCommand2Arrow_Left, 1, 200, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
@@ -330,6 +342,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "xscale" "2"
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommand2Arrow_Left"
+			/// @DnDSaveInfo : "sprite" "ActionsCommand2Arrow_Left"
 			draw_sprite_ext(ActionsCommand2Arrow_Left, 0, 200, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
@@ -351,6 +364,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommand2Arrow_Right"
 			/// @DnDArgument : "frame" "1"
+			/// @DnDSaveInfo : "sprite" "ActionsCommand2Arrow_Right"
 			draw_sprite_ext(ActionsCommand2Arrow_Right, 1, 200, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	
@@ -369,6 +383,7 @@ if(global.BattleStep == 4)
 			/// @DnDArgument : "xscale" "2"
 			/// @DnDArgument : "yscale" "2"
 			/// @DnDArgument : "sprite" "ActionsCommand2Arrow_Right"
+			/// @DnDSaveInfo : "sprite" "ActionsCommand2Arrow_Right"
 			draw_sprite_ext(ActionsCommand2Arrow_Right, 0, 200, 250, 2, 2, 0, $FFFFFF & $ffffff, 1);
 		}
 	}

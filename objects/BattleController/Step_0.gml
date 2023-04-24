@@ -645,28 +645,6 @@ if(global.BattleStep == 6)
 	l3A8A6421_0 = keyboard_check_pressed(ord("E"));
 	if (l3A8A6421_0)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 5900F3CC
-		/// @DnDParent : 3A8A6421
-		/// @DnDArgument : "var" "global.InBattle"
-		global.InBattle = 0;
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 0281C5A9
-		/// @DnDParent : 3A8A6421
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "var" "global.SwappingBackgroundMusic"
-		global.SwappingBackgroundMusic = 1;
-	
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 5ED2B332
-		/// @DnDParent : 3A8A6421
-		/// @DnDArgument : "room" "global.CurrentRoom"
-		room_goto(global.CurrentRoom);
-	
 		/// @DnDAction : YoYo Games.Audio.Stop_Audio
 		/// @DnDVersion : 1
 		/// @DnDHash : 5A3A3CF1
@@ -681,6 +659,13 @@ if(global.BattleStep == 6)
 		/// @DnDArgument : "soundid" "EarlyVictoryJingle"
 		/// @DnDSaveInfo : "soundid" "EarlyVictoryJingle"
 		audio_play_sound(EarlyVictoryJingle, 0, 0, 1.0, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 24F759CF
+		/// @DnDParent : 3A8A6421
+		/// @DnDArgument : "steps" "50"
+		alarm_set(0, 50);
 	}
 }
 
