@@ -3019,8 +3019,8 @@ if(InDialogue == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5A7E305E
 		/// @DnDParent : 48A38B0E
-		/// @DnDArgument : "room" "MainMenu"
-		/// @DnDSaveInfo : "room" "MainMenu"
-		room_goto(MainMenu);
+		/// @DnDArgument : "room" "CreditsRoom"
+		/// @DnDSaveInfo : "room" "CreditsRoom"
+		room_goto(CreditsRoom);
 	}
 }
