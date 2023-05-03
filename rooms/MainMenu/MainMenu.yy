@@ -21,6 +21,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6B6D7B4D","properties":[],"isDnd":false,"objectId":{"name":"oFullscreenController","path":"objects/oFullscreenController/oFullscreenController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_582794EA","properties":[],"isDnd":false,"objectId":{"name":"oFadeOutOfBlack","path":"objects/oFadeOutOfBlack/oFadeOutOfBlack.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D8C29AF","properties":[],"isDnd":false,"objectId":{"name":"TestingVariableDisplayer","path":"objects/TestingVariableDisplayer/TestingVariableDisplayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55047155","properties":[],"isDnd":false,"objectId":{"name":"oQuitToMenu","path":"objects/oQuitToMenu/oQuitToMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":160.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_43BF9DDD","spriteId":{"name":"staringclubenthusiast","path":"sprites/staringclubenthusiast/staringclubenthusiast.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":416.0,},
@@ -76,6 +77,7 @@
     {"name":"inst_6B6D7B4D","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"inst_582794EA","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"inst_2D8C29AF","path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"inst_55047155","path":"rooms/MainMenu/MainMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
