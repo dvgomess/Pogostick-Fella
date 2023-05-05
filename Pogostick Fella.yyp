@@ -551,6 +551,7 @@
     {"id":{"name":"gameBus1","path":"sprites/gameBus1/gameBus1.yy",},"order":16,},
     {"id":{"name":"ColorOption4","path":"objects/ColorOption4/ColorOption4.yy",},"order":4,},
     {"id":{"name":"oTeacher_Approach","path":"objects/oTeacher_Approach/oTeacher_Approach.yy",},"order":59,},
+    {"id":{"name":"continue3","path":"sprites/continue3/continue3.yy",},"order":15,},
     {"id":{"name":"RoomTransitionOn","path":"objects/RoomTransitionOn/RoomTransitionOn.yy",},"order":1,},
     {"id":{"name":"HotbarDisplay","path":"objects/HotbarDisplay/HotbarDisplay.yy",},"order":3,},
     {"id":{"name":"WindowLookingOut1","path":"sprites/WindowLookingOut1/WindowLookingOut1.yy",},"order":4,},

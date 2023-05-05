@@ -151,6 +151,15 @@ draw_text(150, 1760 - scroll, string("Garrison Reid - \n") + string("Funding for
 /// @DnDArgument : "var" ""OST by Lars Kahn\nCover art by Joe Maloney""
 draw_text(150, 2050 - scroll, string("Listen to the OST on Spotify!\n\n") + string("OST by Lars Kahn\nCover art by Joe Maloney"));
 
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 30AA6784
+/// @DnDArgument : "x" "150"
+/// @DnDArgument : "y" "2350 - scroll"
+/// @DnDArgument : "caption" ""Join our Discord Server!\n""
+/// @DnDArgument : "var" ""https://discord.gg/cJtUJBTrgA""
+draw_text(150, 2350 - scroll, string("Join our Discord Server!\n") + string("https://discord.gg/cJtUJBTrgA"));
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Line
 /// @DnDVersion : 1
 /// @DnDHash : 4626E663

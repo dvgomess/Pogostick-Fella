@@ -16,6 +16,25 @@ draw_sprite(NewGame, 0, 256, 160);
 /// @DnDSaveInfo : "sprite" "Continue"
 draw_sprite(Continue, 0, 256, 288);
 
+/// @DnDAction : YoYo Games.Files.If_File_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 0549976C
+/// @DnDArgument : "file" ""savedgame.save""
+/// @DnDArgument : "not" "1"
+var l0549976C_0 = file_exists("savedgame.save");
+if(!l0549976C_0)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 0EF35174
+	/// @DnDParent : 0549976C
+	/// @DnDArgument : "x" "256"
+	/// @DnDArgument : "y" "288"
+	/// @DnDArgument : "sprite" "continue3"
+	/// @DnDSaveInfo : "sprite" "continue3"
+	draw_sprite(continue3, 0, 256, 288);
+}
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 115FF3D9
