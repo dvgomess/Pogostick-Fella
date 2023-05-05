@@ -32,9 +32,3 @@ i = 1;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "p"
 p = 1;
-
-/// @DnDAction : YoYo Games.Files.File_Delete
-/// @DnDVersion : 1
-/// @DnDHash : 58A79FDC
-/// @DnDArgument : "file" ""savedgame.save""
-file_delete("savedgame.save");

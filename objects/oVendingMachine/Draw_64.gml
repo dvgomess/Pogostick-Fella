@@ -11,7 +11,7 @@ if(showingsaveicon == 1)
 	/// @DnDParent : 08C3D7C3
 	/// @DnDArgument : "x" "60"
 	/// @DnDArgument : "y" "40"
-	/// @DnDArgument : "sprite" "game_saved_icon"
-	/// @DnDSaveInfo : "sprite" "game_saved_icon"
-	draw_sprite_ext(game_saved_icon, 0, 60, 40, 1, 1, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "sprite" "save"
+	/// @DnDSaveInfo : "sprite" "save"
+	draw_sprite_ext(save, 0, 60, 40, 1, 1, 0, $FFFFFF & $ffffff, 1);
 }

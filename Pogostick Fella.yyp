@@ -19,6 +19,7 @@
     {"id":{"name":"oStaringClubEnthusiast_ConfrontingRecpetionist","path":"objects/oStaringClubEnthusiast_ConfrontingRecpetionist/oStaringClubEnthusiast_ConfrontingRecpetionist.yy",},"order":82,},
     {"id":{"name":"Transition_Cafeteria_Pantry_to_Cafeteria_Kitchen","path":"objects/Transition_Cafeteria_Pantry_to_Cafeteria_Kitchen/Transition_Cafeteria_Pantry_to_Cafeteria_Kitchen.yy",},"order":27,},
     {"id":{"name":"ActionsCommand2Arrow_Left","path":"sprites/ActionsCommand2Arrow_Left/ActionsCommand2Arrow_Left.yy",},"order":19,},
+    {"id":{"name":"save","path":"sprites/save/save.yy",},"order":11,},
     {"id":{"name":"oFan2_Top","path":"objects/oFan2_Top/oFan2_Top.yy",},"order":20,},
     {"id":{"name":"School_Receptionist","path":"rooms/School_Receptionist/School_Receptionist.yy",},"order":11,},
     {"id":{"name":"hotbar","path":"sprites/hotbar/hotbar.yy",},"order":1,},
